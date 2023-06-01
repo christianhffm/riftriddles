@@ -1,14 +1,23 @@
 /* HEADER */
 
 header {
-    background-color: rgba(20, 20, 20, .5);
+    background-position: top;
     height: 57vh;
+}
+
+.backgroundcontainer{
+    background-image: url(gfx/landscape.webp);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%) blur(5px);
+    position: absolute;
+    height: inherit;
+    width: 100%;
 }
 
 .container {
     display: flex;
     position: relative;
-    background-color: rgba(20, 20, 20, .3);
     width: 85%;
     margin: auto;
     height: 110%;
@@ -16,13 +25,12 @@ header {
 }
 
 .leftcontent {
-    background-color: rgba(20, 20, 20, .3);
     width: 40%;
     height: 100%;
 }
 
 .rightcontent {
-    background-image: url();
+    background-image: url(gfx/heimerhigh.jpg);
     background-size: cover;
     background-position: center;
     width: 60%;
@@ -31,11 +39,13 @@ header {
 
 .rightcontentoffset {
     position: relative;
-    border: 1px solid rgba(20, 20, 20, .3);
+    clip-path: polygon(0% 0%, 90% 0%, 100% 20%, 100% 100%, 10% 100%, 0% 80%);
+    border: 1px solid rgba(255, 255, 255,.8);
     left: 1%;
-    top: -1%;
+    top: -1.5%;
     width: 97.5%;
-    height: 102%;
+    height: 102.5%;
+    z-index: 99999;
 }
 
 /* MAIN */
