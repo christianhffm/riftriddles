@@ -1,0 +1,25 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.headerblock {
+    height: 14vh;
+    margin: 3vh 0 3vh 0;
+    text-align: center;
+}
+
+.headerblock h1 {
+    font-style: italic;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 20px;
+    margin: 0 0 auto 0;
+}
+
+main {
+    height: 300vh;
+}

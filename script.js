@@ -10,14 +10,12 @@ function toggleDarkMode() {
     icon.setAttribute("alt", "Light Mode");
     body.style.backgroundColor = "rgb(0, 10, 20)";
     rowContainer.style.background = "linear-gradient(rgb(210, 210, 210), rgb(0, 10, 20))";
-    backgroundContainer.style.filter = "brightness(40%)";
     localStorage.setItem("darkMode", "true");
   } else {
     icon.setAttribute("src", "gfx/moon.png");
     icon.setAttribute("alt", "Dark Mode");
     body.style.backgroundColor = "";
     rowContainer.style.background = "";
-    backgroundContainer.style.filter = "brightness(70%)";
     localStorage.setItem("darkMode", "false");
   }
 }
@@ -35,13 +33,11 @@ document.addEventListener("DOMContentLoaded", function () {
     icon.setAttribute("alt", "Light Mode");
     body.style.backgroundColor = "rgb(0, 10, 20)";
     rowContainer.style.background = "linear-gradient(rgb(210, 210, 210), rgb(0, 10, 20))";
-    backgroundContainer.style.filter = "brightness(40%)";
   } else {
     body.classList.remove("dark-mode");
     icon.setAttribute("src", "gfx/moon.png");
     icon.setAttribute("alt", "Dark Mode");
     body.style.backgroundColor = "";
     rowContainer.style.background = "";
-    backgroundContainer.style.filter = "brightness(70%)";
   }
 });
