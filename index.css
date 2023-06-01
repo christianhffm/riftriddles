@@ -1,0 +1,61 @@
+/* HEADER */
+
+header {
+    background-color: rgba(20, 20, 20, .5);
+    height: 57vh;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    background-color: rgba(20, 20, 20, .3);
+    width: 85%;
+    margin: auto;
+    height: 110%;
+    top: 7vh;
+}
+
+.leftcontent {
+    background-color: rgba(20, 20, 20, .3);
+    width: 40%;
+    height: 100%;
+}
+
+.rightcontent {
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 100%;
+}
+
+.rightcontentoffset {
+    position: relative;
+    border: 1px solid rgba(20, 20, 20, .3);
+    left: 1%;
+    top: -1%;
+    width: 97.5%;
+    height: 102%;
+}
+
+/* MAIN */
+
+main {
+    height: 300vh;
+}
+
+.rowcontainer{
+    display: flex;
+    background-color: rgba(20,20,20,.3);
+    padding: 20vh 0 0 0;
+    height: 10%;
+    justify-content: center;
+    width: 100%;
+}
+
+.smallcontent{
+    background-color: rgba(255,255,255,.5);
+    height: 80%;
+    margin: 0 2.5% 0 2.5%;
+    width: 25%;
+}
