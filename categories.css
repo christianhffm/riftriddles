@@ -19,16 +19,29 @@
     display: flex;
 }
 
-.block {
+.categoryblocks a{
+    width: 100%;
+    display: flex;
+}
+
+.block{
+    position: relative;
     color: white;
-    margin: 0 2vw 0 0;
-    background-color: rgb(13,24,28);
+    background-color: rgb(6, 28, 37);
     height: 10vw;
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
     background-size: cover;
+    transition: 0.25s;
+}
+
+#block1{
+    margin: 0 .5vw 0 0;
+}
+#block2{
+    margin: 0 0 0 .5vw;
 }
 
 h2 {
@@ -43,10 +56,52 @@ p {
     margin: 0 0 auto 0;
 }
 
-.block:last-child {
-    margin: 0 0 0 0;
+
+/* Fancy Borders */
+
+#block1::before,
+#block1::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(150, 150, 150);
 }
 
+#block1::before {
+  top: -1vh;
+  left: .5vw;
+  width: 60%;
+  height: 1px;
+}
+
+#block1::after {
+  top: -1vh;
+  left: .5vw;
+  width: 1px;
+  height: 60%;
+}
+
+#block2::before,
+#block2::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(180, 180, 180);
+}
+
+#block2::before {
+  bottom: -1vh;
+  right: .5vw;
+  width: 60%;
+  height: 1px;
+}
+
+#block2::after {
+  bottom: -1vh;
+  right: .5vw;
+  width: 1px;
+  height: 60%;
+}
+
+/* GRID */
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -60,6 +115,19 @@ p {
     aspect-ratio: calc(0.9);
     margin: 0 auto;
     background-size: cover;
+    transition: 0.25s;
+}
+
+/* HOVER EFFECTS */
+
+.block:hover{
+    transform: scale(1.02);
+    background-color: rgb(10, 44, 58);
+}
+
+.category:hover{
+    transform: scale(1.02);
+    background-color: rgb(10, 44, 58);
 }
 
 .categoryheading {
@@ -116,11 +184,11 @@ p {
 }
 
 #categorypicture6 {
-    background-image: url(pictures/);
+    background-image: url(pictures/runeterra-targon-01.jpg);
 }
 
 #categorypicture7 {
-    background-image: url(pictures/runeterra-targon-01.jpg);
+    background-image: url(gfx/legacy.jpg);
     background-position: top right ;
 }
 
@@ -129,9 +197,5 @@ p {
 }
 
 #categorypicture9 {
-    background-image: url(pictures/);
-}
-
-#categorypicture10 {
     background-image: url(pictures/tft-board.jpg);
 }

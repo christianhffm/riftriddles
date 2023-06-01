@@ -27,13 +27,9 @@ header {
 .leftcontent {
     background-color: rgba(0, 10, 20, .5);
     width: 40%;
-    height: 56%;
+    height: auto;
     text-align: center;
     margin: 5% 3% 0 0;
-}
-
-.leftcontent img {
-    margin: 5% 0 5% 0;
 }
 
 
@@ -43,6 +39,11 @@ header {
     background-position: center;
     width: 60%;
     height: 100%;
+    transition: .25s;
+}
+
+.rightcontent:hover{
+    transform: scale(1.01);
 }
 
 .contentoffset {
@@ -60,7 +61,7 @@ header {
     background-color: rgba(0, 10, 20, .5);
     position: absolute;
     height: 25%;
-    width: 58.2%;
+    width: 49vw;
     bottom: 0;
 }
 
