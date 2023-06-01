@@ -1,29 +1,64 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "FF Mark W05", Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
 }
 
 nav {
-    background-color: rgba(255, 255, 255, 1);
-    height: calc(40px + 4vh);
+    background-color: rgba(20, 20, 20, 1);
+    color: rgba(255, 255, 255, 1);
+    height: calc(40px + 3vh);
     position: sticky;
     top: 0;
     display: flex;
+    z-index: 1;
+
+    /* Font */
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
 }
 
-.navleft{
-    background-color: rgba(200,200,200,1);
+.navleft {
     width: 50%;
+    display: flex;
+    align-items: center;
 }
 
-.navright{
+.navleft a {
+    margin: 0 0 0 3vw;
+}
+
+.navright {
+    align-items: center;
+    height: 100%;
     position: relative;
     margin: 0 0 0 auto;
-    background-color: rgba(200,200,200,1);
     width: 20%;
+    display: flex;
+    justify-content: end;
 }
 
-footer{
-    background-color: rgba(20,20,20,1);
+.navright a {
+    margin: 0 2vw 0 0;
+}
+
+/*
+https://www.flaticon.com/free-icon/brightness_6714944?related_id=6714944&origin=pack
+https://www.flaticon.com/free-icon/dark-mode_6714978?related_id=6714978&origin=pack
+https://www.flaticon.com/free-icon/earth_8567303?term=globe&page=2&position=11&origin=search&related_id=8567303
+*/
+.navright img{
+    height: 24px;
+}
+
+footer {
+    background-color: rgba(20, 20, 20, 1);
     height: 5vh;
 }
