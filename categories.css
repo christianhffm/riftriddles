@@ -1,0 +1,30 @@
+.headerblock{
+    background-color: rgba(20,20,20,.5);
+    height: calc(30px + 10vh);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2vw;
+    width: min-content;
+    margin: 5vh auto;
+}
+
+.category{
+    background-color: rgba(20,20,20,.3);
+    height: 17vw;
+    aspect-ratio:calc(1);
+    margin: 0 auto;
+}
+
+.categoryheading{
+    background-color: rgba(20,20,20,.3);
+    height: 25%;
+}
+
+.categorypicture{
+    background-color: rgba(20,20,20,.5);
+    height: 75%;
+}
+
+/* INDIVIDUAL CATEGORIES */

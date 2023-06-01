@@ -5,7 +5,7 @@
 
 nav {
     background-color: rgba(20, 20, 20, 1);
-    height: 8vh;
+    height: calc(40px + 4vh);
     position: sticky;
     top: 0;
 }
