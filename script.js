@@ -11,19 +11,19 @@ function toggleDarkMode() {
     body.style.backgroundColor = "rgb(0, 10, 20)";
     rowContainer.style.background = "linear-gradient(rgb(210, 210, 210), rgb(0, 10, 20))";
     backgroundContainer.style.filter = "brightness(40%)";
-    sessionStorage.setItem("darkMode", "true");
+    localStorage.setItem("darkMode", "true");
   } else {
     icon.setAttribute("src", "gfx/moon.png");
     icon.setAttribute("alt", "Dark Mode");
     body.style.backgroundColor = "";
     rowContainer.style.background = "";
     backgroundContainer.style.filter = "brightness(70%)";
-    sessionStorage.setItem("darkMode", "false");
+    localStorage.setItem("darkMode", "false");
   }
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  var darkMode = sessionStorage.getItem("darkMode");
+  var darkMode = localStorage.getItem("darkMode");
   var body = document.body;
   var icon = document.getElementById("mode-icon");
   var rowContainer = document.querySelector(".rowcontainer");

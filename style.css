@@ -67,7 +67,7 @@ nav {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
+    background-color: rgb(160, 160, 160);
     left: 50%;
     /* Position the menu at the horizontal center */
     transform: translateX(-50%);
