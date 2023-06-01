@@ -1,18 +1,41 @@
+.container{
+    background-color: rgba(20,20,20,.3);
+    width: 80%;
+    margin: 0 auto;
+}
+
 .headerblock{
     background-color: rgba(20,20,20,.5);
     height: calc(30px + 10vh);
 }
-.container{
+
+.categoryblocks{
+    margin: 2vw 0 0 0;
+    display: flex;
+    
+}
+
+.block{
+    margin: 0 2vw 0 0;
+    background-color: rgba(20,20,20,.3);
+    height: 10vw;
+    width: 50%;
+}
+
+.block:last-child{
+    margin: 0 0 0 0;
+}
+
+.grid{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 2vw;
-    width: min-content;
-    margin: 5vh auto;
+    width: 100%;
+    margin: 2vw 0;
 }
 
 .category{
     background-color: rgba(20,20,20,.3);
-    height: 17vw;
     aspect-ratio:calc(1);
     margin: 0 auto;
 }
