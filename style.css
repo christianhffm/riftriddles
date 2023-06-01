@@ -1,8 +1,16 @@
 * {
     margin: 0;
     padding: 0;
-    color: rgba(255, 255, 255, 1);
 }
+
+body {
+    color: black;
+}
+
+body.dark-mode {
+    color: white;
+}
+
 
 a {
     text-decoration: none;
@@ -11,7 +19,6 @@ a {
 
 nav {
     background-color: rgba(20, 20, 20, 1);
-    color: rgba(255, 255, 255, 1);
     height: calc(40px + 3vh);
     position: sticky;
     top: 0;
@@ -19,11 +26,13 @@ nav {
     z-index: 1;
 
     /* Font */
+    color: rgba(255, 255, 255, 1);
     font-family: "FF Mark W05", Arial, sans-serif;
     font-size: 13px;
     font-weight: 600;
     letter-spacing: .08em;
     text-transform: uppercase;
+
 }
 
 .navleft {
@@ -50,7 +59,7 @@ nav {
     margin: 0 2vw 0 0;
 }
 
-.navright span{
+.navright span {
     margin: 0 2vw 0 0;
 }
 
@@ -60,12 +69,12 @@ https://www.flaticon.com/free-icon/dark-mode_6714978?related_id=6714978&origin=p
 https://www.flaticon.com/free-icon/earth_8567303?term=globe&page=2&position=11&origin=search&related_id=8567303
 https://www.flaticon.com/free-icon/bug_784558?term=bug&page=1&position=2&origin=search&related_id=784558
 */
-.navright img{
+.navright img {
     height: 24px;
 }
 
-.navright span img{
-    height: 32px;
+.navright span img {
+    height: 30px;
 }
 
 footer {

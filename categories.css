@@ -1,13 +1,23 @@
 .container{
-    background-color: rgba(20,20,20,.3);
     width: 80%;
     margin: 0 auto;
 }
 
 .headerblock{
-    background-color: rgba(20,20,20,.5);
     height: calc(30px + 10vh);
 }
+
+.headerblock h1 {
+    font-size: calc(20px + 3vh);
+    text-transform: uppercase;
+    font-style: oblique;
+    padding: 3% 0 1% 0;
+}
+
+.headerblock p {
+    font-size: 20px;
+}
+
 
 .categoryblocks{
     margin: 2vw 0 0 0;
