@@ -32,12 +32,22 @@
             </a>
         </div>
         <div class="navright">
-            <a href="#"><img src="gfx/earth.png" alt="Language"></a>
+            <div class="language-dropdown">
+              <button class="dropdown-button"><img src="gfx/earth.png" alt="Languages"></button>
+              <div class="dropdown-content">
+                <a href="#">English</a>
+                <a href="#">German</a>
+                <a href="#">Spanish</a>
+                <a href="#">French</a>
+                <!-- Add more language options -->
+              </div>
+            </div>
             <span id="mode-toggle" onclick="toggleDarkMode()">
                 <img src="gfx/moon.png" alt="Dark Mode" id="mode-icon">
             </span>
-            <a href="#"><img src="gfx/bug.png" alt="Bug"></a>
+            <a href="#"><img src="gfx/bug (2).png" alt="Bug" id="bug-report"></a>
         </div>
+    </div>
     </nav>
     <main>
         <section class="container">
@@ -49,7 +59,7 @@
             <section class="categoryblocks">
                 <a href="#"><div class="block" id="block1">
                     <h2>All Categories</h2>
-                    <p>Get a mix out of everything.</p>
+                    <p>Get a mix of everything.</p>
                 </div></a>
                 <a href="#"><div class="block" id="block2">
                     <h2>Customize</h2>

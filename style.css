@@ -55,7 +55,46 @@ nav {
     justify-content: end;
 }
 
-.navright a {
+.language-dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0 2vw 0 0;
+    z-index: 1;
+    text-align: center;
+    /* Center the text horizontally */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    /* Position the menu at the horizontal center */
+    transform: translateX(-50%);
+    /* Adjust to center the menu */
+    z-index: 2;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 4px 8px;
+    color: black;
+}
+
+.dropdown-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.language-dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+#bug-report{
     margin: 0 2vw 0 0;
 }
 
@@ -67,14 +106,15 @@ nav {
 https://www.flaticon.com/free-icon/brightness_6714944?related_id=6714944&origin=pack
 https://www.flaticon.com/free-icon/dark-mode_6714978?related_id=6714978&origin=pack
 https://www.flaticon.com/free-icon/earth_8567303?term=globe&page=2&position=11&origin=search&related_id=8567303
-https://www.flaticon.com/free-icon/bug_784558?term=bug&page=1&position=2&origin=search&related_id=784558
+https://www.flaticon.com/free-icon/bug_25646?term=bug&page=1&position=10&origin=search&related_id=25646
 */
 .navright img {
-    height: 24px;
+    height: 26px;
 }
 
 .navright span img {
     height: 30px;
+    cursor: pointer;
 }
 
 footer {
