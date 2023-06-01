@@ -1,63 +1,137 @@
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
 }
 
-.headerblock{
-    height: calc(30px + 10vh);
+.headerblock {
+    height: 14vh;
+    margin: 3% 0 3% 0;
+    text-align: center;
 }
 
 .headerblock h1 {
-    font-size: calc(20px + 3vh);
+    font-style: italic;
+    font-size: 70px;
     text-transform: uppercase;
-    font-style: oblique;
-    padding: 3% 0 1% 0;
 }
 
-.headerblock p {
-    font-size: 20px;
-}
-
-
-.categoryblocks{
-    margin: 2vw 0 0 0;
+.categoryblocks {
     display: flex;
-    
 }
 
-.block{
+.block {
+    color: white;
     margin: 0 2vw 0 0;
-    background-color: rgba(20,20,20,.3);
+    background-color: rgb(13,24,28);
     height: 10vw;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-size: cover;
 }
 
-.block:last-child{
+h2 {
+    margin: auto 0 0 0;
+    font-size: 40px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 20px;
+    margin: 0 0 auto 0;
+}
+
+.block:last-child {
     margin: 0 0 0 0;
 }
 
-.grid{
+.grid {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 2vw;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1vw;
     width: 100%;
     margin: 2vw 0;
 }
 
-.category{
-    background-color: rgba(20,20,20,.3);
-    aspect-ratio:calc(1);
+.category {
+    background-color: rgb(6, 28, 37);
+    aspect-ratio: calc(0.9);
     margin: 0 auto;
+    background-size: cover;
 }
 
-.categoryheading{
-    background-color: rgba(20,20,20,.3);
-    height: 25%;
+.categoryheading {
+    font-style: italic;
+    font-weight: bold;
+    height: 3vw;
+    line-height: 3vw;
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
-.categorypicture{
-    background-color: rgba(20,20,20,.5);
-    height: 75%;
+.categorypicture {
+    background-color: rgba(20, 20, 20, .5);
+    height: 85%;
+    background-position: center;
+    background-size: cover;
 }
 
 /* INDIVIDUAL CATEGORIES */
+
+#block1 {
+    background-image: url();
+
+}
+
+#block2 {
+    background-image: url();
+}
+
+#categorypicture1 {
+    background-image: url(pictures/champion-jarvanIV-splash.jpg);
+    background-position: right;
+}
+
+#categorypicture2 {
+    background-image: url(pictures/ionia-lor-14.jpg);
+    background-position: center ;
+}
+
+#categorypicture3 {
+    background-image: url(pictures/runeterra-piltover-01.jpg);
+    background-position: center ;
+}
+
+#categorypicture4 {
+    background-image: url(pictures/2018-poolparty-group-splash.jpg);
+    background-position: left;
+}
+
+#categorypicture5 {
+    background-image: url(pictures/champion-teemo-badger-splash.jpg);
+    background-position: right ;
+}
+
+#categorypicture6 {
+    background-image: url(pictures/);
+}
+
+#categorypicture7 {
+    background-image: url(pictures/runeterra-targon-01.jpg);
+    background-position: top right ;
+}
+
+#categorypicture8 {
+    background-image: url(pictures/esports-season1-fnatic-splash.jpg);
+}
+
+#categorypicture9 {
+    background-image: url(pictures/);
+}
+
+#categorypicture10 {
+    background-image: url(pictures/tft-board.jpg);
+}
