@@ -2,13 +2,14 @@
 
 header {
     height: 57vh;
+    border-bottom: 1px solid white;
 }
 
 .backgroundcontainer {
     background-image: url(gfx/landscape.webp);
     background-size: cover;
     background-position: center;
-    filter: brightness(70%);
+    filter: brightness(80%);
     position: absolute;
     height: inherit;
     width: 100%;
@@ -82,7 +83,7 @@ main {
 }
 
 .rowcontainer {
-    background: linear-gradient(rgba(20, 20, 20, .2), white);
+    background: linear-gradient(rgb(210,210,210), white);
     display: flex;
     padding: 20vh 0 0 0;
     height: 10%;
@@ -91,7 +92,8 @@ main {
 }
 
 .smallcontent {
-    background-color: rgba(20, 20, 20, 0.3);
+    background-color: white;
+    border: 1px solid black;
     height: 80%;
     margin: 0 2.5% 0 2.5%;
     width: 25%;

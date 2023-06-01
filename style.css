@@ -50,13 +50,22 @@ nav {
     margin: 0 2vw 0 0;
 }
 
+.navright span{
+    margin: 0 2vw 0 0;
+}
+
 /*
 https://www.flaticon.com/free-icon/brightness_6714944?related_id=6714944&origin=pack
 https://www.flaticon.com/free-icon/dark-mode_6714978?related_id=6714978&origin=pack
 https://www.flaticon.com/free-icon/earth_8567303?term=globe&page=2&position=11&origin=search&related_id=8567303
+https://www.flaticon.com/free-icon/bug_784558?term=bug&page=1&position=2&origin=search&related_id=784558
 */
 .navright img{
     height: 24px;
+}
+
+.navright span img{
+    height: 32px;
 }
 
 footer {
