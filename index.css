@@ -27,7 +27,7 @@ header {
 .leftcontent {
     background-color: rgba(0, 10, 20, .5);
     width: 40%;
-    height: auto;
+    height: 80%;
     text-align: center;
     margin: 5% 3% 0 0;
 }

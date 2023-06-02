@@ -1,22 +1,3 @@
-/* LANGUAGE SELECT */
-
-document.addEventListener("DOMContentLoaded", function () {
-  var dropdownButton = document.querySelector(".dropdown-button");
-  var dropdownContent = document.querySelector(".dropdown-content");
-
-  dropdownButton.addEventListener("click", function (event) {
-    event.stopPropagation(); // Prevent click event from propagating to document
-    dropdownContent.style.display = dropdownContent.style.display === "none" ? "flex" : "none";
-  });
-
-  document.addEventListener("click", function (event) {
-    if (!dropdownButton.contains(event.target)) {
-      dropdownContent.style.display = "none";
-    }
-  });
-});
-
-
 /* DARK MDOE */
 
 function toggleDarkMode() {
