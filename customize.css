@@ -94,7 +94,7 @@ h2 {
 .playblockoffset{
     position: absolute;
     clip-path: polygon(0% 0%, 70% 0%, 100% 20%, 100% 100%, 30% 100%, 0% 80%);
-    border: 1px solid rgba(255, 255, 255, 1);
+    border: 1px solid rgb(150, 150, 150);
     left: 1%;
     top: -6%;
     width: 97.8%;
