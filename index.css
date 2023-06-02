@@ -1,8 +1,7 @@
 /* HEADER */
-
 header {
     height: 57vh;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
 }
 
 .backgroundcontainer {
@@ -16,6 +15,7 @@ header {
 }
 
 .container {
+    color: white;
     display: flex;
     position: relative;
     width: 85%;
@@ -25,13 +25,25 @@ header {
 }
 
 .leftcontent {
-    background-color: rgba(0, 10, 20, .5);
+    background-color: rgba(6, 28, 37,.6);
     width: 40%;
-    height: 80%;
+    height: 60%;
     text-align: center;
-    margin: 5% 3% 0 0;
+    margin: 3% 3% 0 0;
 }
 
+.realcontent{
+    position: absolute;
+    width: 29%;
+    height: 48%;
+    top: 11%;
+    left: 5%;
+    z-index: 1;
+}
+
+.realcontent p{
+    margin: 5% 0;
+}
 
 .rightcontent {
     background-image: url(gfx/heimerhigh.jpg);
@@ -58,21 +70,21 @@ header {
 
 .imagetitle {
     text-align: center;
-    background-color: rgba(0, 10, 20, .5);
+    background-color: rgba(0, 10, 20, .6);
     position: absolute;
     height: 25%;
     width: 49vw;
     bottom: 0;
 }
 
-.imagetitle h1 {
+h1 {
     font-size: calc(20px + 3vh);
     text-transform: uppercase;
     font-style: oblique;
     padding: 3% 0 1% 0;
 }
 
-.imagetitle p {
+p {
     font-size: 18px;
 }
 
@@ -83,11 +95,29 @@ main {
     height: 300vh;
 }
 
-.rowcontainer {
+.featurecontent{
+    height: 60vh;
     background: linear-gradient(rgb(210,210,210), whitesmoke);
+}
+
+.featured{
+    padding: 2vh 0 0 0;
     display: flex;
-    padding: 20vh 0 0 0;
-    height: 10%;
+    height: 18vh;
+    position: relative;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 8%;
+    height: 14vh;
+    line-height: 14vh;
+    color: rgb(0, 10, 20);
+}
+
+.rowcontainer {
+    display: flex;
+    height: 65%;
     justify-content: center;
     width: 100%;
 }
@@ -96,6 +126,6 @@ main {
     background-color: white;
     border: 1px solid black;
     height: 80%;
-    margin: 0 2.5% 0 2.5%;
+    margin: 2% 2.5% 0 2.5%;
     width: 25%;
 }

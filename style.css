@@ -24,7 +24,7 @@ nav {
     position: sticky;
     top: 0;
     display: flex;
-    z-index: 1;
+    z-index: 100;
 
     /* Font */
     color: rgba(255, 255, 255, 1);
