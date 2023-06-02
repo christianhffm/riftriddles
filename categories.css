@@ -185,11 +185,11 @@ p {
 
 #categorypicture6 {
     background-image: url(pictures/runeterra-targon-01.jpg);
+    background-position: top right ;
 }
 
 #categorypicture7 {
     background-image: url(gfx/legacy.jpg);
-    background-position: top right ;
 }
 
 #categorypicture8 {
