@@ -1,9 +1,8 @@
-/* DARK MDOE */
-
 function toggleDarkMode() {
   var body = document.body;
   var icon = document.getElementById("mode-icon");
   var rowContainer = document.querySelector(".rowcontainer");
+  var backgroundContainer = document.querySelector(".backgroundcontainer");
 
   body.classList.toggle("dark-mode");
   if (body.classList.contains("dark-mode")) {
@@ -26,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var body = document.body;
   var icon = document.getElementById("mode-icon");
   var rowContainer = document.querySelector(".rowcontainer");
+  var backgroundContainer = document.querySelector(".backgroundcontainer");
 
   if (darkMode === "true") {
     body.classList.add("dark-mode");
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     icon.setAttribute("alt", "Light Mode");
     body.style.backgroundColor = "rgb(0, 10, 20)";
     rowContainer.style.background = "linear-gradient(rgb(210, 210, 210), rgb(0, 10, 20))";
-  } else if (darkMode === "false") {
+  } else {
     body.classList.remove("dark-mode");
     icon.setAttribute("src", "gfx/moon.png");
     icon.setAttribute("alt", "Dark Mode");
