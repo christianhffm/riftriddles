@@ -1,0 +1,102 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.headerblock {
+    height: 14vh;
+    margin: 2vh 0 2vh 0;
+    text-align: center;
+}
+
+.headerblock h1 {
+    font-style: italic;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 20px;
+    margin: 0 0 auto 0;
+}
+
+.contentblock {
+    height: 55vh;
+    width: 50%;
+    margin: 0 auto 2.75vh auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: (5, 1fr);
+    gap: 5%;
+    overflow: hidden;
+}
+
+.griditem {
+    display: flex;
+    background-color: rgb(6, 28, 37);
+    text-align: center;
+    height: 100%;
+}
+
+.griditem:hover{
+    transform: scale(1.02);
+    background-color: rgb(10, 44, 58);
+}
+
+h2 {
+    color: white;
+    margin: auto 0 auto 0;
+    font-size: 30px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.griditemleft h2{
+    margin: auto 0 auto 10%;
+}
+
+.griditemright h2{
+    margin: auto 10% auto 0;
+}
+
+.griditem input[type="checkbox"]{
+    transform: scale(2);
+}
+
+.griditemleft input[type="checkbox"]{
+    margin: auto 10% auto auto;
+}
+
+.griditemright input[type="checkbox"]{
+    margin: auto auto auto 10%;
+}
+
+.playblock{
+    position: relative;
+    background-color: rgb(6, 28, 37);
+    width: 50%;
+    height: 12vh;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 12vh;
+}
+
+.playblock:hover{
+    transform: scale(1.02);
+    background-color: rgb(10, 44, 58);
+}
+
+.playblock h2{
+    font-size: 50px;
+}
+
+.playblockoffset{
+    position: absolute;
+    clip-path: polygon(0% 0%, 70% 0%, 100% 20%, 100% 100%, 30% 100%, 0% 80%);
+    border: 1px solid rgba(255, 255, 255, 1);
+    left: 1%;
+    top: -6%;
+    width: 97.8%;
+    height: 110%;
+}
