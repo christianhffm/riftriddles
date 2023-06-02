@@ -1,3 +1,24 @@
+/* LANGUAGE SELECT */
+
+document.addEventListener("DOMContentLoaded", function () {
+  var dropdownButton = document.querySelector(".dropdown-button");
+  var dropdownContent = document.querySelector(".dropdown-content");
+
+  dropdownButton.addEventListener("click", function (event) {
+    event.stopPropagation(); // Prevent click event from propagating to document
+    dropdownContent.style.display = dropdownContent.style.display === "none" ? "flex" : "none";
+  });
+
+  document.addEventListener("click", function (event) {
+    if (!dropdownButton.contains(event.target)) {
+      dropdownContent.style.display = "none";
+    }
+  });
+});
+
+
+/* DARK MDOE */
+
 function toggleDarkMode() {
   var body = document.body;
   var icon = document.getElementById("mode-icon");
@@ -31,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
     icon.setAttribute("alt", "Light Mode");
     body.style.backgroundColor = "rgb(0, 10, 20)";
     rowContainer.style.background = "linear-gradient(rgb(210, 210, 210), rgb(0, 10, 20))";
-  } else {
+  } else if (darkMode === "false") {
     body.classList.remove("dark-mode");
     icon.setAttribute("src", "gfx/moon.png");
     icon.setAttribute("alt", "Dark Mode");
