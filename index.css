@@ -84,7 +84,7 @@ main {
 }
 
 .rowcontainer {
-    background: linear-gradient(rgb(210,210,210), white);
+    background: linear-gradient(rgb(210,210,210), whitesmoke);
     display: flex;
     padding: 20vh 0 0 0;
     height: 10%;
