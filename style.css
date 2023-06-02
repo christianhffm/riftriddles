@@ -19,7 +19,7 @@ a {
 
 nav {
     background-color: rgba(20, 20, 20, 1);
-    height: calc(40px + 3vh);
+    height: 8vh;
     position: sticky;
     top: 0;
     display: flex;

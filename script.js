@@ -2,7 +2,6 @@ function toggleDarkMode() {
   var body = document.body;
   var icon = document.getElementById("mode-icon");
   var rowContainer = document.querySelector(".rowcontainer");
-  var backgroundContainer = document.querySelector(".backgroundcontainer");
 
   body.classList.toggle("dark-mode");
   if (body.classList.contains("dark-mode")) {
@@ -25,7 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
   var body = document.body;
   var icon = document.getElementById("mode-icon");
   var rowContainer = document.querySelector(".rowcontainer");
-  var backgroundContainer = document.querySelector(".backgroundcontainer");
 
   if (darkMode === "true") {
     body.classList.add("dark-mode");
