@@ -101,7 +101,7 @@ main {
 }
 
 .featured{
-    padding: 2vh 0 0 0;
+    padding: 2vh 0 0 8vw;
     display: flex;
     height: 18vh;
     position: relative;
@@ -109,7 +109,6 @@ main {
     font-style: italic;
     font-weight: bold;
     text-transform: uppercase;
-    left: 8%;
     height: 14vh;
     line-height: 14vh;
     color: rgb(0, 10, 20);
@@ -122,10 +121,60 @@ main {
     width: 100%;
 }
 
-.smallcontent {
+.smallcontent{
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid white;
     height: 80%;
     margin: 2% 2.5% 0 2.5%;
-    width: 25%;
+    width: 25%;    
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.smalltitle{
+    color: white;
+    overflow: hidden;
+    padding: 2% 0 0 5%;
+    position: relative;
+    height: 25%;
+    top: 75%;
+    background-color: rgba(6, 28, 37,.6);
+}
+
+.smalltitle h2{
+    text-transform: uppercase;
+    font-style: italic;
+}
+.link{
+    position: absolute;
+    top: 85.3vh;
+    height: 31.5vh;
+    width: 25vw;
+    z-index: 1;
+}
+
+#link1{
+    left:7.3vw;
+}
+
+#link2{
+    left:37.2vw;
+}
+
+#link3{
+    left:67vw;
+}
+
+#smallcontent1{
+    background-image: url(pictures/frel-lor-35.jpg);
+}
+
+#smallcontent2{
+    background-image: url(pictures/khazix.jpg);
+}
+
+#smallcontent3{
+    background-image: url(pictures/icon-rainbow-flufts.jpg);
 }
