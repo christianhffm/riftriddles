@@ -1,11 +1,11 @@
 .container {
     width: 80%;
     margin: 0 auto;
-    height: 100vh;
+    height: 90vh;
 }
 
 .headerblock {
-    height: 14vh;
+    height: 10vh;
     margin: 2vh 0 2vh 0;
     text-align: center;
 }
@@ -16,19 +16,24 @@
     text-transform: uppercase;
 }
 
-p {
-    font-size: 20px;
-    margin: 0 0 auto 0;
+.selectallblock{
+    width: 50%;
+    margin: 0 auto;
+    height: 8vh;
+}
+
+.selectallblock h2{
+    margin: auto;
 }
 
 .contentblock {
-    height: 55vh;
+    height: 50vh;
     width: 50%;
-    margin: 0 auto 2.75vh auto;
+    margin: 2vh auto 2vh auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: (5, 1fr);
-    gap: 5%;
+    gap: 2vh;
 }
 
 .griditem {
@@ -36,7 +41,7 @@ p {
     display: flex;
     background-color: rgb(6, 28, 37);
     text-align: center;
-    height: 100%;
+    height: 8vh;
 }
 
 .griditem:hover{

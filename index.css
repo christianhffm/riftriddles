@@ -5,13 +5,13 @@ header {
 }
 
 .backgroundcontainer {
-    background-image: url(gfx/landscape.webp);
+    background-image: url();
     background-size: cover;
     background-position: center;
-    filter: brightness(80%);
     position: absolute;
     height: inherit;
     width: 100%;
+    overflow: hidden;
 }
 
 .container {
