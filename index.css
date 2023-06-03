@@ -1,61 +1,49 @@
 /* HEADER */
 header {
-    height: 57vh;
-    border-bottom: 2px solid white;
-}
-
-.backgroundcontainer {
     background-image: url();
+    background-position: top;
     background-size: cover;
-    background-position: center;
-    position: absolute;
-    height: inherit;
-    width: 100%;
-    overflow: hidden;
+    height: 70vh;
 }
 
 .container {
     color: white;
     display: flex;
+    flex-direction: row;
     position: relative;
-    width: 85%;
+    width: min-content;
     margin: auto;
-    height: 110%;
-    top: 7vh;
-}
-
-.leftcontent {
-    background-color: rgba(6, 28, 37,.6);
-    width: 40%;
-    height: 60%;
-    text-align: center;
-    margin: 3% 3% 0 0;
-}
-
-.realcontent{
-    position: absolute;
-    width: 29%;
-    height: 48%;
-    top: 11%;
-    left: 5%;
+    height: 60vh;
+    top: 5vh;
     z-index: 1;
 }
 
-.realcontent p{
-    margin: 5% 0;
+.leftcontent {
+    height: 95%;
+    width: 30vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .rightcontent {
-    background-image: url(gfx/heimerhigh.jpg);
+    background-image: url(pictures/heimerhigh.jpg);
     background-size: cover;
     background-position: center;
-    width: 60%;
-    height: 100%;
+    width: 45vw;
+    height: 95%;
     transition: .25s;
+    position: relative;
 }
 
-.rightcontent:hover{
-    transform: scale(1.01);
+.imagetitle {
+    text-align: center;
+    background-color: rgba(0, 10, 20, .6);
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    bottom: 0;
 }
 
 .contentoffset {
@@ -68,14 +56,6 @@ header {
     height: 102.5%;
 }
 
-.imagetitle {
-    text-align: center;
-    background-color: rgba(0, 10, 20, .6);
-    position: absolute;
-    height: 25%;
-    width: 49vw;
-    bottom: 0;
-}
 
 h1 {
     font-size: calc(20px + 3vh);
@@ -95,86 +75,73 @@ main {
     height: 300vh;
 }
 
-.featurecontent{
-    height: 60vh;
-    background: linear-gradient(rgb(210,210,210), whitesmoke);
+.featurecontent {
+    position: relative;
+    height: 44vh;
+    background: linear-gradient(rgb(210, 210, 210), whitesmoke);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    top: -15vh;
 }
 
-.featured{
-    padding: 2vh 0 0 8vw;
+.featuredheadline {
+    padding: 0 0 0 10vw;
     display: flex;
-    height: 18vh;
     position: relative;
     font-size: 80px;
     font-style: italic;
     font-weight: bold;
     text-transform: uppercase;
-    height: 14vh;
-    line-height: 14vh;
+    height: 20vh;
+    line-height: 20vh;
     color: rgb(0, 10, 20);
+    width: 100vw;
 }
 
 .rowcontainer {
     display: flex;
-    height: 65%;
-    justify-content: center;
-    width: 100%;
+    height: 30vh;
+    width: 80vw;
+    justify-content: space-between;
 }
 
-.smallcontent{
-    background-color: white;
+.smallcontent {
     border: 1px solid white;
-    height: 80%;
-    margin: 2% 2.5% 0 2.5%;
-    width: 25%;    
+    height: 100%;
+    width: 25vw;
     position: relative;
     background-position: center;
     background-size: cover;
     overflow: hidden;
 }
 
-.smalltitle{
+.smalltitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: white;
     overflow: hidden;
-    padding: 2% 0 0 5%;
     position: relative;
     height: 25%;
     top: 75%;
-    background-color: rgba(6, 28, 37,.6);
+    padding:0 0 0 1vw;
+    background-color: rgba(6, 28, 37, .6);
 }
 
-.smalltitle h2{
+.smalltitle h2 {
     text-transform: uppercase;
     font-style: italic;
 }
-.link{
-    position: absolute;
-    top: 85.3vh;
-    height: 31.5vh;
-    width: 25vw;
-    z-index: 1;
-}
 
-#link1{
-    left:7.3vw;
-}
-
-#link2{
-    left:37.2vw;
-}
-
-#link3{
-    left:67vw;
-}
-
-#smallcontent1{
+#smallcontent1 {
     background-image: url(pictures/frel-lor-35.jpg);
 }
 
-#smallcontent2{
+#smallcontent2 {
     background-image: url(pictures/khazix.jpg);
 }
 
-#smallcontent3{
+#smallcontent3 {
     background-image: url(pictures/icon-rainbow-flufts.jpg);
 }

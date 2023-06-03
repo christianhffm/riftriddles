@@ -39,3 +39,15 @@ document.addEventListener("DOMContentLoaded", function () {
     featureContent.style.background = "";
   }
 });
+
+// Get the button element and attach a click event listener
+var checkAllButton = document.getElementById("checkAllButton");
+checkAllButton.addEventListener("click", function() {
+  // Get all checkboxes within the content block
+  var checkboxes = document.querySelectorAll(".contentblock input[type='checkbox']");
+  
+  // Loop through each checkbox and set the 'checked' property to true
+  checkboxes.forEach(function(checkbox) {
+    checkbox.checked = true;
+  });
+});
