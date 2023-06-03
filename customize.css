@@ -2,6 +2,9 @@
     width: 80%;
     margin: 0 auto;
     height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .headerblock {
@@ -16,23 +19,27 @@
     text-transform: uppercase;
 }
 
-.selectallblock{
+.container button {
+    font-family: 'BeaufortforLOL';
     width: 50%;
-    margin: 0 auto;
-    height: 8vh;
+    height: 4vh;
+    border: 1px solid rgb(150, 150, 150);
+    background-color: rgb(6, 28, 37);
+    margin: 2vh 0 0 0;
 }
 
-.selectallblock h2{
-    margin: auto;
+.container button:hover{
+    transform: scale(1.02);
+    background-color: rgb(10, 44, 58);
 }
 
 .contentblock {
-    height: 50vh;
+    height: min-content;
     width: 50%;
     margin: 2vh auto 2vh auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: (5, 1fr);
+    grid-template-rows: (4, 1fr);
     gap: 2vh;
 }
 
@@ -44,7 +51,7 @@
     height: 8vh;
 }
 
-.griditem:hover{
+.griditem:hover {
     transform: scale(1.02);
     background-color: rgb(10, 44, 58);
 }
@@ -57,46 +64,46 @@ h2 {
     text-transform: uppercase;
 }
 
-.griditemleft h2{
+.griditemleft h2 {
     margin: auto 0 auto 10%;
 }
 
-.griditemright h2{
+.griditemright h2 {
     margin: auto 10% auto 0;
 }
 
-.griditem input[type="checkbox"]{
+.griditem input[type="checkbox"] {
     transform: scale(2);
 }
 
-.griditemleft input[type="checkbox"]{
+.griditemleft input[type="checkbox"] {
     margin: auto 10% auto auto;
 }
 
-.griditemright input[type="checkbox"]{
+.griditemright input[type="checkbox"] {
     margin: auto auto auto 10%;
 }
 
-.playblock{
+.playblock {
     position: relative;
     background-color: rgb(6, 28, 37);
-    width: 50%;
+    width: 40vw;
     height: 12vh;
     margin: 0 auto;
     text-align: center;
     line-height: 12vh;
 }
 
-.playblock:hover{
+.playblock:hover {
     transform: scale(1.02);
     background-color: rgb(10, 44, 58);
 }
 
-.playblock h2{
+.playblock h2 {
     font-size: 50px;
 }
 
-.playblockoffset{
+.playblockoffset {
     position: absolute;
     clip-path: polygon(0% 0%, 70% 0%, 100% 20%, 100% 100%, 30% 100%, 0% 80%);
     border: 1px solid rgb(150, 150, 150);

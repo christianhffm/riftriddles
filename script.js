@@ -40,14 +40,30 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// Get the button element and attach a click event listener
+// Get the button elements and attach click event listeners
 var checkAllButton = document.getElementById("checkAllButton");
+var clearButton = document.getElementById("clearButton");
+
 checkAllButton.addEventListener("click", function() {
   // Get all checkboxes within the content block
   var checkboxes = document.querySelectorAll(".contentblock input[type='checkbox']");
   
-  // Loop through each checkbox and set the 'checked' property to true
+  // Loop through each checkbox and check the unchecked ones
   checkboxes.forEach(function(checkbox) {
-    checkbox.checked = true;
+    if (!checkbox.checked) {
+      checkbox.checked = true; // Check the unchecked checkboxes
+    }
+  });
+});
+
+clearButton.addEventListener("click", function() {
+  // Get all checkboxes within the content block
+  var checkboxes = document.querySelectorAll(".contentblock input[type='checkbox']");
+  
+  // Loop through each checkbox and uncheck the checked ones
+  checkboxes.forEach(function(checkbox) {
+    if (checkbox.checked) {
+      checkbox.checked = false; // Uncheck the checked checkboxes
+    }
   });
 });
