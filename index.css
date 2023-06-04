@@ -1,6 +1,6 @@
 /* HEADER */
 header {
-    background-image: url(pictures/lol-star-guardian-dark-premonition-4k-wallpaper-uhdpaper.com-916@1@h.jpg);
+    background-image: url(pictures/lol-star-guardian.jpg);
     background-position: 0 -22vh;
     background-size: cover;
     height: 60vh;
@@ -15,7 +15,6 @@ header {
     margin: auto;
     height: 50vh;
     top: 5vh;
-    z-index: 1;
 }
 
 .leftcontent {
@@ -36,6 +35,7 @@ header {
     transition: .25s;
     position: relative;
     top: 5vh;
+    z-index: 1;
 }
 
 .rightcontent:hover{
