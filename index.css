@@ -87,7 +87,7 @@ p {
 /* MAIN */
 
 main {
-    height: 300vh;
+    height: 200vh;
 }
 
 .featurecontent {
@@ -101,7 +101,7 @@ main {
 }
 
 .featuredheadline {
-    padding: 0 0 0 7vw;
+    padding: 1vh 0 0 7vw;
     display: flex;
     position: relative;
     text-transform: uppercase;
