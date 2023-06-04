@@ -183,7 +183,7 @@ p {
 
 #categorypicture6 {
     background-image: url(pictures/runeterra-targon-01.jpg);
-    background-position: top right ;
+    background-position: top right;
 }
 
 #categorypicture7 {
@@ -192,8 +192,4 @@ p {
 
 #categorypicture8 {
     background-image: url(pictures/esports-season1-fnatic-splash.jpg);
-}
-
-#categorypicture9 {
-    background-image: url(pictures/tft-board.jpg);
 }

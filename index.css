@@ -1,9 +1,9 @@
 /* HEADER */
 header {
-    background-image: url();
+    background-image: url(pictures/aurelion-sol-lol-finality-mountain-stars-scenery-4k-wallpaper-uhdpaper.com-837@1@j.jpg);
     background-position: top;
     background-size: cover;
-    height: 70vh;
+    height: 60vh;
 }
 
 .container {
@@ -31,8 +31,8 @@ header {
     background-image: url(pictures/heimerhigh.jpg);
     background-size: cover;
     background-position: center;
-    width: 45vw;
-    height: 95%;
+    width: 42vw;
+    height: 80%;
     transition: .25s;
     position: relative;
 }
@@ -68,11 +68,16 @@ header {
 }
 
 
-h1 {
-    font-size: calc(20px + 3vh);
+h1{
+    font-size: 8vh;
     text-transform: uppercase;
-    font-style: oblique;
+    font-style: italic;
 }
+
+.rightcontent h1{
+    font-size: 6vh;
+}
+
 
 p {
     font-size: 18px;
@@ -87,8 +92,8 @@ main {
 
 .featurecontent {
     position: relative;
-    height: 44vh;
-    background: linear-gradient(rgb(210, 210, 210), whitesmoke);
+    height: 50vh;
+    background: linear-gradient(rgb(230, 230, 230), white);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -96,30 +101,28 @@ main {
 }
 
 .featuredheadline {
-    padding: 0 0 0 10vw;
+    padding: 0 0 0 7vw;
     display: flex;
     position: relative;
-    font-size: 80px;
-    font-style: italic;
-    font-weight: bold;
     text-transform: uppercase;
-    height: 20vh;
-    line-height: 20vh;
+    height: 15vh;
+    line-height: 15vh;
     color: rgb(6, 28, 37);
     width: 100vw;
 }
 
 .rowcontainer {
+    position: relative;
     display: flex;
     height: 30vh;
-    width: 80vw;
+    width: 85vw;
     justify-content: space-between;
 }
 
 .smallcontent {
     border: 1px solid rgb(150, 150, 150);
-    height: 100%;
-    width: 25vw;
+    height: 80%;
+    width: 20vw;
     position: relative;
     background-position: center;
     background-size: cover;
@@ -163,4 +166,9 @@ main {
 
 #smallcontent3 {
     background-image: url(pictures/icon-rainbow-flufts.jpg);
+}
+
+#smallcontent4{
+    background-image: url(pictures/riotpr-mar2023-social-twitch-1920x1080-03-17-2023.png);
+    background-position: top;
 }
