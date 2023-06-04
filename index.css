@@ -37,19 +37,30 @@ header {
     position: relative;
 }
 
+.rightcontent:hover{
+    transform: scale(1.02);
+}
+
+.rightcontent:hover .imagetitle {
+    background-color: rgba(10, 44, 58,.6);
+}
+
 .imagetitle {
-    text-align: center;
-    background-color: rgba(0, 10, 20, .6);
+    background-color: rgba(6, 28, 37,.6);
     position: absolute;
     height: 25%;
     width: 100%;
     bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contentoffset {
     position: relative;
     clip-path: polygon(0% 0%, 90% 0%, 100% 20%, 100% 100%, 10% 100%, 0% 80%);
-    border: 1px solid rgba(255, 255, 255, 1);
+    border: 1px solid rgb(150, 150, 150);
     left: 1%;
     top: -1.5%;
     width: 97.5%;
@@ -61,7 +72,6 @@ h1 {
     font-size: calc(20px + 3vh);
     text-transform: uppercase;
     font-style: oblique;
-    padding: 3% 0 1% 0;
 }
 
 p {
@@ -95,7 +105,7 @@ main {
     text-transform: uppercase;
     height: 20vh;
     line-height: 20vh;
-    color: rgb(0, 10, 20);
+    color: rgb(6, 28, 37);
     width: 100vw;
 }
 
@@ -107,13 +117,22 @@ main {
 }
 
 .smallcontent {
-    border: 1px solid white;
+    border: 1px solid rgb(150, 150, 150);
     height: 100%;
     width: 25vw;
     position: relative;
     background-position: center;
     background-size: cover;
     overflow: hidden;
+    transition: .25s;
+}
+
+.smallcontent:hover{
+    transform: scale(1.02);
+}
+
+.smallcontent:hover .smalltitle{
+    background-color: rgba(10, 44, 58,.6);
 }
 
 .smalltitle {

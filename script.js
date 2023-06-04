@@ -67,3 +67,14 @@ clearButton.addEventListener("click", function() {
     }
   });
 });
+
+// Get all grid item elements
+var gridItems = document.querySelectorAll(".contentblock .griditem");
+
+// Attach click event listeners to the grid items
+gridItems.forEach(function(gridItem) {
+  var checkbox = gridItem.querySelector("input[type='checkbox']");
+  gridItem.addEventListener("click", function() {
+    checkbox.checked = !checkbox.checked; // Toggle checkbox state
+  });
+});
