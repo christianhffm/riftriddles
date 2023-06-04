@@ -1,6 +1,6 @@
 /* HEADER */
 header {
-    background-image: url(pictures/aurelion-sol-lol-finality-mountain-stars-scenery-4k-wallpaper-uhdpaper.com-837@1@j.jpg);
+    background-image: url(pictures/nightskymountain.jpg);
     background-position: top;
     background-size: cover;
     height: 60vh;
@@ -13,7 +13,7 @@ header {
     position: relative;
     width: min-content;
     margin: auto;
-    height: 60vh;
+    height: 50vh;
     top: 5vh;
     z-index: 1;
 }
@@ -31,10 +31,11 @@ header {
     background-image: url(pictures/heimerhigh.jpg);
     background-size: cover;
     background-position: center;
-    width: 42vw;
+    width: 35vw;
     height: 80%;
     transition: .25s;
     position: relative;
+    top: 5vh;
 }
 
 .rightcontent:hover{
@@ -60,7 +61,7 @@ header {
 .contentoffset {
     position: relative;
     clip-path: polygon(0% 0%, 90% 0%, 100% 20%, 100% 100%, 10% 100%, 0% 80%);
-    border: 1px solid rgb(150, 150, 150);
+    border: 1px solid white;
     left: 1%;
     top: -1.5%;
     width: 97.5%;
@@ -120,7 +121,7 @@ main {
 }
 
 .smallcontent {
-    border: 1px solid rgb(150, 150, 150);
+    border: 1px solid white;
     height: 80%;
     width: 20vw;
     position: relative;
