@@ -50,6 +50,11 @@ function checkAnswer() {
   const userAnswer = answerElement.value.trim().toLowerCase();
   const correctAnswer = questions[currentQuestionIndex].answer.toLowerCase();
 
+  if (!championNames.includes(userAnswer)) {
+    resultElement.textContent = 'Invalid answer! Please enter a valid champion name.';
+    return; // Stop further processing
+  }
+
   if (userAnswer === correctAnswer) {
     resultElement.textContent = 'Correct answer!';
     currentQuestionIndex++;
@@ -70,12 +75,21 @@ function checkAnswer() {
   answerElement.value = '';
 }
 
+function capitalizeChampionName(championName) {
+  const championNameParts = championName.split(/[\s-']/);
+  const capitalizedChampion = championNameParts.map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
+  return capitalizedChampion;
+}
+
 function displayAttemptedChampions() {
   attemptedChampionsListElement.innerHTML = '';
 
   for (const champion of attemptedChampions) {
+    const championNameParts = champion.split(/[\s-]/);
+    const capitalizedChampion = championNameParts.map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
+
     const championItem = document.createElement('li');
-    championItem.textContent = champion;
+    championItem.textContent = capitalizedChampion.replace(/'/g, "\'");
     attemptedChampionsListElement.appendChild(championItem);
   }
 }
@@ -85,13 +99,17 @@ function showFilteredChampions(champions) {
 
   const enteredText = answerElement.value.trim().toLowerCase();
 
+  if (enteredText === '') {
+    return; // Do not display the list if there is no input
+  }
+
   for (const champion of champions) {
     const championNameParts = champion.split(' ');
     const firstPart = championNameParts[0].toLowerCase();
 
     if (firstPart.startsWith(enteredText) || champion.toLowerCase().includes(` ${enteredText}`)) {
       const capitalizedParts = championNameParts.map(part => part.charAt(0).toUpperCase() + part.slice(1));
-      const capitalizedChampionName = capitalizedParts.join(' ');
+      const capitalizedChampionName = capitalizedParts.join(' ').replace(/'/g, "\'");
 
       const championItem = document.createElement('li');
       championItem.textContent = capitalizedChampionName;
@@ -103,6 +121,7 @@ function showFilteredChampions(champions) {
     }
   }
 }
+
 
 answerElement.addEventListener('input', () => {
   const enteredText = answerElement.value.trim().toLowerCase();
