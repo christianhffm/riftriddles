@@ -1,6 +1,5 @@
 const questionElement = document.getElementById('question');
 const answerElement = document.getElementById('answer');
-const resultElement = document.getElementById('result');
 const championListElement = document.getElementById('champion-list');
 const attemptedChampionsListElement = document.getElementById('attempted-champions-list');
 
@@ -18,7 +17,7 @@ function initializeQuestions() {
         championNames.push(championName);
         for (const abilityKey in champion) {
           if (abilityKey !== "Champion") {
-            const question = `Guess the champion for the ability: ${champion[abilityKey]}`;
+            const question = `"${champion[abilityKey]}"`;
             questions.push({ question, answer: championName });
           }
         }
@@ -41,7 +40,6 @@ function shuffleQuestions() {
 function displayQuestion() {
   questionElement.textContent = questions[currentQuestionIndex].question;
   answerElement.value = '';
-  resultElement.textContent = '';
   championListElement.innerHTML = '';
   attemptedChampionsListElement.innerHTML = '';
 }
@@ -51,12 +49,10 @@ function checkAnswer() {
   const correctAnswer = questions[currentQuestionIndex].answer.toLowerCase();
 
   if (!championNames.includes(userAnswer)) {
-    resultElement.textContent = 'Invalid answer! Please enter a valid champion name.';
     return; // Stop further processing
   }
 
   if (userAnswer === correctAnswer) {
-    resultElement.textContent = 'Correct answer!';
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
       displayQuestion();
@@ -67,57 +63,63 @@ function checkAnswer() {
     }
     attemptedChampions = [];
   } else {
-    resultElement.textContent = 'Wrong answer! Try again.';
     attemptedChampions.push(userAnswer);
     displayAttemptedChampions();
   }
 
   answerElement.value = '';
+  showFilteredChampions();
 }
 
-function capitalizeChampionName(championName) {
-  const championNameParts = championName.split(/[\s-']/);
-  const capitalizedChampion = championNameParts.map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
-  return capitalizedChampion;
+function capitalizeChampionName(champion) {
+  if (champion.toLowerCase() === "jarvan iv") {
+    return "Jarvan IV";
+  }
+  if (champion.includes("'")) {
+    const championNameParts = champion.split("'");
+    const capitalizedParts = championNameParts.map(part => part.charAt(0).toUpperCase() + part.slice(1));
+    return capitalizedParts.join("'");
+  } else {
+    const championNameParts = champion.split(" ");
+    const capitalizedParts = championNameParts.map(part => part.charAt(0).toUpperCase() + part.slice(1));
+    return capitalizedParts.join(" ");
+  }
 }
 
 function displayAttemptedChampions() {
   attemptedChampionsListElement.innerHTML = '';
 
   for (const champion of attemptedChampions) {
-    const championNameParts = champion.split(/[\s-]/);
-    const capitalizedChampion = championNameParts.map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
+    const capitalizedChampion = capitalizeChampionName(champion);
 
     const championItem = document.createElement('li');
-    championItem.textContent = capitalizedChampion.replace(/'/g, "\'");
+    championItem.textContent = capitalizedChampion;
     attemptedChampionsListElement.appendChild(championItem);
   }
 }
 
-function showFilteredChampions(champions) {
-  championListElement.innerHTML = '';
+function showFilteredChampions() {
+  championListElement.innerHTML = ''; // Clear the champion list
 
   const enteredText = answerElement.value.trim().toLowerCase();
 
   if (enteredText === '') {
-    return; // Do not display the list if there is no input
+    return; // Stop further processing if no text entered
   }
 
-  for (const champion of champions) {
-    const championNameParts = champion.split(' ');
-    const firstPart = championNameParts[0].toLowerCase();
+  for (const champion of championNames) {
+    if (!attemptedChampions.includes(champion)) {
+      const capitalizedChampionName = capitalizeChampionName(champion);
 
-    if (firstPart.startsWith(enteredText) || champion.toLowerCase().includes(` ${enteredText}`)) {
-      const capitalizedParts = championNameParts.map(part => part.charAt(0).toUpperCase() + part.slice(1));
-      const capitalizedChampionName = capitalizedParts.join(' ').replace(/'/g, "\'");
-
-      const championItem = document.createElement('li');
-      championItem.textContent = capitalizedChampionName;
-      championItem.addEventListener('click', () => {
-        answerElement.value = champion;
-        championListElement.innerHTML = '';
-      });
-      championListElement.appendChild(championItem);
+      if (capitalizedChampionName.toLowerCase().startsWith(enteredText) || champion.toLowerCase().includes(` ${enteredText}`)) {
+        const championItem = document.createElement('li');
+        championItem.textContent = capitalizedChampionName;
+        championItem.addEventListener('click', () => {
+          answerElement.value = capitalizeChampionName(champion);
+          championListElement.innerHTML = '';
+        });
+        championListElement.appendChild(championItem);
+      }
     }
   }
 }
@@ -129,6 +131,7 @@ answerElement.addEventListener('input', () => {
 
   showFilteredChampions(filteredChampions);
 });
+
 
 answerElement.addEventListener('keydown', (event) => {
   if (event.key === 'Enter') {
