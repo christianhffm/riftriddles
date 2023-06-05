@@ -1,0 +1,1306 @@
+[
+    {
+        "Champion": "Aatrox",
+        "PASSIVE": "Deathbringer Stance",
+        "Q": "The Darkin Blade",
+        "W": "Infernal Chains",
+        "E": "Umbral Dash",
+        "R": "World Ender"
+    },
+    {
+        "Champion": "Ahri",
+        "PASSIVE": "Essence Theft",
+        "Q": "Orb of Deception",
+        "W": "Fox-Fire",
+        "E": "Charm",
+        "R": "Spirit Rush"
+    },
+    {
+        "Champion": "Akali",
+        "PASSIVE": "Assassin's Mark",
+        "Q": "Five Point Strike",
+        "W": "Twilight Shroud",
+        "E": "Shuriken Flip",
+        "R": "Perfect Execution"
+    },
+    {
+        "Champion": "Akshan",
+        "PASSIVE": "Dirty Fighting",
+        "Q": "Avengerang",
+        "W": "Going Rogue",
+        "E": "Heroic Swing",
+        "R": "Comeuppance"
+    },
+    {
+        "Champion": "Alistar",
+        "PASSIVE": "Triumphant Roar",
+        "Q": "Pulverize",
+        "W": "Headbutt",
+        "E": "Trample",
+        "R": "Unbreakable Will"
+    },
+    {
+        "Champion": "Amumu",
+        "PASSIVE": "Cursed Touch",
+        "Q": "Bandage Toss",
+        "W": "Despair",
+        "E": "tantrum",
+        "R": "Curse of the Sad Mummy"
+    },
+    {
+        "Champion": "Anivia",
+        "PASSIVE": "Rebirth",
+        "Q": "Flash Frost",
+        "W": "Crystallize",
+        "E": "Frostbite",
+        "R": "Glacial Storm"
+    },
+    {
+        "Champion": "Annie",
+        "PASSIVE": "Pyromania",
+        "Q": "Disintegrate",
+        "W": "Incinerate",
+        "E": "Molten Shield",
+        "R": "Summon: Tibbers"
+    },
+    {
+        "Champion": "Aphelios",
+        "PASSIVE": "The Hitman and The Seer",
+        "Q": "Weapons of the Faithful",
+        "W": "Phase",
+        "E": "Weapon Queue System",
+        "R": "Moonlight Virgil"
+    },
+    {
+        "Champion": "Ashe",
+        "PASSIVE": "Frost Shot",
+        "Q": "Ranger's Focus",
+        "W": "Volley",
+        "E": "Hawkshot",
+        "R": "Enchanted Crystal Arrow"
+    },
+    {
+        "Champion": "Aurelion Sol",
+        "PASSIVE": "Cosmic Creator",
+        "Q": "Breath of Light",
+        "W": "Astral Flight",
+        "E": "Singularity",
+        "R": "Falling Star/The Skies Descend"
+    },
+    {
+        "Champion": "Azir",
+        "PASSIVE": "Shurima's Legacy",
+        "Q": "Conquering Sands",
+        "W": "Arise!",
+        "E": "Shifting Sands",
+        "R": "Emperor's Divide"
+    },
+    {
+        "Champion": "Bard",
+        "PASSIVE": "Traveler's Call",
+        "Q": "Cosmic Binding",
+        "W": "Caretaker's Shrine",
+        "E": "Magical Journey",
+        "R": "Tempered Fate"
+    },
+    {
+        "Champion": "Bel'Veth",
+        "PASSIVE": "Death in Lavender",
+        "Q": "Void Surge",
+        "W": "Above and Below",
+        "E": "Royal Maelstrom",
+        "R": "Endless Banquet"
+    },
+    {
+        "Champion": "Blitzcrank",
+        "PASSIVE": "Mana Barrier",
+        "Q": "Rocket Grab",
+        "W": "Overdrive",
+        "E": "Power Fist",
+        "R": "Static Field"
+    },
+    {
+        "Champion": "Brand",
+        "PASSIVE": "Blaze",
+        "Q": "Sear",
+        "W": "Pillar of Flame",
+        "E": "Conflagration",
+        "R": "Pyroclasm"
+    },
+    {
+        "Champion": "Braum",
+        "PASSIVE": "Concussive Blows",
+        "Q": "Winter's Bite",
+        "W": "Stand Behind Me",
+        "E": "Unbreakable",
+        "R": "Glacial Fissure"
+    },
+    {
+        "Champion": "Caitlyn",
+        "PASSIVE": "Headshot",
+        "Q": "Piltover Peacemaker",
+        "W": "Yordle Snare Trap",
+        "E": "90 Caliber Net",
+        "R": "Ace in the Hole"
+    },
+    {
+        "Champion": "Camille",
+        "PASSIVE": "Adaptive Defenses",
+        "Q": "Precision Protocol",
+        "W": "Tactical Sweep",
+        "E": "Hookshot/Walldive",
+        "R": "The Hextech Ultimatum"
+    },
+    {
+        "Champion": "Cassiopeia",
+        "PASSIVE": "Serpentine Grace",
+        "Q": "Noxious Blast",
+        "W": "Miasma",
+        "E": "Twin Fang",
+        "R": "Petrifying Gaze"
+    },
+    {
+        "Champion": "Cho'Gath",
+        "PASSIVE": "Carnivore",
+        "Q": "Rupture",
+        "W": "Feral Scream",
+        "E": "Vorpal Spikes",
+        "R": "Feast"
+    },
+    {
+        "Champion": "Corki",
+        "PASSIVE": "Hextech Munitions",
+        "Q": "Phosphorus Bomb",
+        "W": "Valkyrie/Special Delivery",
+        "E": "Gatling Gun",
+        "R": "Missile Barrage"
+    },
+    {
+        "Champion": "Darius",
+        "PASSIVE": "Hemorrhage",
+        "Q": "Decimate",
+        "W": "Crippling Strike",
+        "E": "Apprehend",
+        "R": "Noxian Guillotine"
+    },
+    {
+        "Champion": "Diana",
+        "PASSIVE": "Moonsilver Blade",
+        "Q": "Crescent Strike",
+        "W": "Pale Cascade",
+        "E": "Lunar Rush",
+        "R": "Moonfall"
+    },
+    {
+        "Champion": "Dr. Mundo",
+        "PASSIVE": "Goes Where He Pleases",
+        "Q": "Infected Bonesaw",
+        "W": "Heart Zapper",
+        "E": "Blunt Force Trauma",
+        "R": "Maximum Dosage"
+    },
+    {
+        "Champion": "Draven",
+        "PASSIVE": "League of Draven",
+        "Q": "Spinning Axe",
+        "W": "Blood Rush",
+        "E": "Stand Aside",
+        "R": "Whirling Death"
+    },
+    {
+        "Champion": "Ekko",
+        "PASSIVE": "Z-Drive Resonance",
+        "Q": "Timewinder",
+        "W": "Parallel Convergence",
+        "E": "Phase Dive",
+        "R": "Chronobreak"
+    },
+    {
+        "Champion": "Elise",
+        "PASSIVE": "Spider Queen",
+        "Q": "Neurotoxin/Venomous Bite",
+        "W": "Volatile Spiderling/Skittering Frenzy",
+        "E": "Cocoon/Rappel",
+        "R": "Spider Form/Human Form"
+    },
+    {
+        "Champion": "Evelynn",
+        "PASSIVE": "Demon Shade",
+        "Q": "Hate Spike",
+        "W": "Allure",
+        "E": "Whiplash/Empowered Whiplash",
+        "R": "Last Caress"
+    },
+    {
+        "Champion": "Ezreal",
+        "PASSIVE": "Rising Spell Force",
+        "Q": "Mystic Shot",
+        "W": "Essence Flux",
+        "E": "Arcane Shift",
+        "R": "Trueshot Barrage"
+    },
+    {
+        "Champion": "Fiddlesticks",
+        "PASSIVE": "A Harmless Scarecrow",
+        "Q": "Terrify",
+        "W": "Bountiful Harvest",
+        "E": "Reap",
+        "R": "Crowstorm"
+    },
+    {
+        "Champion": "Fiora",
+        "PASSIVE": "Duelist's Dance",
+        "Q": "Lunge",
+        "W": "Riposte",
+        "E": "Bladework",
+        "R": "Grand Challenge"
+    },
+    {
+        "Champion": "Fizz",
+        "PASSIVE": "Nimble Fighter",
+        "Q": "Urchin Strike",
+        "W": "Seastone Trident",
+        "E": "Playful/Trickster",
+        "R": "Chum the Waters"
+    },
+    {
+        "Champion": "Galio",
+        "PASSIVE": "Colossal Smash",
+        "Q": "Winds of War",
+        "W": "Shield of Durand",
+        "E": "Justice Punch",
+        "R": "Hero's Entrance"
+    },
+    {
+        "Champion": "Gangplank",
+        "PASSIVE": "Trial by Fire",
+        "Q": "Parrrley",
+        "W": "Remove Scurvy",
+        "E": "Powder Keg",
+        "R": "Cannon Barrage"
+    },
+    {
+        "Champion": "Garen",
+        "PASSIVE": "Perseverance",
+        "Q": "Decisive Strike",
+        "W": "Courage",
+        "E": "Judgement",
+        "R": "Demacian Justice"
+    },
+    {
+        "Champion": "Gnar",
+        "PASSIVE": "Rage Gene",
+        "Q": "Boomerang Throw/Boulder Toss",
+        "W": "Hyper/Wallop",
+        "E": "Hop/Crunch",
+        "R": "GNAR!"
+    },
+    {
+        "Champion": "Gragas",
+        "PASSIVE": "Happy Hour",
+        "Q": "Barrel Roll",
+        "W": "Drunken Rage",
+        "E": "Body Slam",
+        "R": "Explosive Cask"
+    },
+    {
+        "Champion": "Graves",
+        "PASSIVE": "New Destiny",
+        "Q": "End of the Line",
+        "W": "Smoke Screen",
+        "E": "Quickdraw",
+        "R": "Collateral Damage"
+    },
+    {
+        "Champion": "Gwen",
+        "PASSIVE": "Thousand Cuts",
+        "Q": "Snip Snip!",
+        "W": "Hallowed Mist",
+        "E": "Skip 'n Slash",
+        "R": "Needlework"
+    },
+    {
+        "Champion": "Hecarim",
+        "PASSIVE": "Warpath",
+        "Q": "Rampage",
+        "W": "Spirit of Dread",
+        "E": "Devastating Charge",
+        "R": "Onslaught of Shadows"
+    },
+    {
+        "Champion": "Heimerdinger",
+        "PASSIVE": "Hextech Affinity",
+        "Q": "H-28G Evolution Turret/H-28Q Apex Turret",
+        "W": "Hextech Micro-Rockets/Hextech Rocket Swarm",
+        "E": "CH-2 Electron Storm Grenade/CH-3X Lightning Grenade",
+        "R": "UPGRADE!!!"
+    },
+    {
+        "Champion": "Illaoi",
+        "PASSIVE": "Prophet of an Elder God",
+        "Q": "Tentacle Smash",
+        "W": "Harsh Lesson",
+        "E": "Test of Spirit",
+        "R": "Leap of Faith"
+    },
+    {
+        "Champion": "Irelia",
+        "PASSIVE": "Ionian Fervor",
+        "Q": "Bladesurge",
+        "W": "Defiant Dance",
+        "E": "Flawless Duet",
+        "R": "Vanguard's Edge"
+    },
+    {
+        "Champion": "Ivern",
+        "PASSIVE": "Friend of the Forest",
+        "Q": "Rootcaller",
+        "W": "Brushmaker",
+        "E": "Triggerseed",
+        "R": "Daisy!"
+    },
+    {
+        "Champion": "Janna",
+        "PASSIVE": "Tailwind",
+        "Q": "Howling Gale",
+        "W": "Zephyr",
+        "E": "Eye of the Storm",
+        "R": "Monsoon"
+    },
+    {
+        "Champion": "Jarvan IV",
+        "PASSIVE": "Martial Cadence",
+        "Q": "Dragon Strike",
+        "W": "Golden Aegis",
+        "E": "Demacian Standard",
+        "R": "Cataclysm"
+    },
+    {
+        "Champion": "Jax",
+        "PASSIVE": "Relentless Assault",
+        "Q": "Leap Strike",
+        "W": "Empower",
+        "E": "Counter Strike",
+        "R": "Grandmaster-At-Arms"
+    },
+    {
+        "Champion": "Jayce",
+        "PASSIVE": "Hextech Capacitor",
+        "Q": "To the Skies!/Shock Blast",
+        "W": "Lightning Field/Hyper Charge",
+        "E": "Thundering Blow/Acceleration Gate",
+        "R": "Transform Mercury Cannon/Transform Mercury Hammer"
+    },
+    {
+        "Champion": "Jhin",
+        "PASSIVE": "Whisper",
+        "Q": "Dancing Grenade",
+        "W": "Deadly Flourish",
+        "E": "Captive Audience",
+        "R": "Curtain Call"
+    },
+    {
+        "Champion": "Jinx",
+        "PASSIVE": "Get Excited!",
+        "Q": "Switcheroo!",
+        "W": "Zap!",
+        "E": "Flame Chompers!",
+        "R": "Super Mega Death Rocket!"
+    },
+    {
+        "Champion": "K'Sante",
+        "PASSIVE": "Dauntless Instinct",
+        "Q": "Ntofo Strikes",
+        "W": "Path Maker",
+        "E": "Footwork",
+        "R": "All Out"
+    },
+    {
+        "Champion": "Kai'Sa",
+        "PASSIVE": "Second Skin",
+        "Q": "Icathian Rain",
+        "W": "Void Seeker",
+        "E": "Supercharge",
+        "R": "Killer Instinct"
+    },
+    {
+        "Champion": "Kalista",
+        "PASSIVE": "Martial Poise",
+        "Q": "Pierce",
+        "W": "Sentinel",
+        "E": "Rend",
+        "R": "Fate's Call"
+    },
+    {
+        "Champion": "Karma",
+        "PASSIVE": "Gathering Fire",
+        "Q": "Inner Flame/Soulflare",
+        "W": "Focused Resolve/Renewal",
+        "E": "Inspire/Defiance",
+        "R": "Mantra"
+    },
+    {
+        "Champion": "Karthus",
+        "PASSIVE": "Death Defied",
+        "Q": "Lay Waste",
+        "W": "Wall of Pain",
+        "E": "Defile",
+        "R": "Requiem"
+    },
+    {
+        "Champion": "Kassadin",
+        "PASSIVE": "Void Stone",
+        "Q": "Null Sphere",
+        "W": "Nether Blade",
+        "E": "Force Pulse",
+        "R": "Riftwalk"
+    },
+    {
+        "Champion": "Katarina",
+        "PASSIVE": "Voracity",
+        "Q": "Bouncing Blade",
+        "W": "Preparation",
+        "E": "Shunpo",
+        "R": "Death Lotus"
+    },
+    {
+        "Champion": "Kayle",
+        "PASSIVE": "Divine Ascent",
+        "Q": "Radiant Blast",
+        "W": "Celestial Blessing",
+        "E": "Starfire Spellblade",
+        "R": "Divine Judgement"
+    },
+    {
+        "Champion": "Kayn",
+        "PASSIVE": "The Darkin Scythe",
+        "Q": "Reaping Slash",
+        "W": "Blade's Reach",
+        "E": "Shadow Step",
+        "R": "Umbral Trespass"
+    },
+    {
+        "Champion": "Kennen",
+        "PASSIVE": "Mark of the Storm",
+        "Q": "Thundering Shuriken",
+        "W": "Electrical Surge",
+        "E": "Lightning Rush",
+        "R": "Slicing Maelstrom"
+    },
+    {
+        "Champion": "Kha'Zix",
+        "PASSIVE": "Unseen Threat",
+        "Q": "Taste Their Fear",
+        "W": "Void Spike",
+        "E": "Leap",
+        "R": "Void Assault"
+    },
+    {
+        "Champion": "Kindred",
+        "PASSIVE": "Mark of the Kindred",
+        "Q": "Dance of Arrows",
+        "W": "Wolf's Frenzy",
+        "E": "Mounting Dread",
+        "R": "Lamb's Respite"
+    },
+    {
+        "Champion": "Kled",
+        "PASSIVE": "Skaarl, the Cowardly Lizard",
+        "Q": "Bear Trap on a Rope",
+        "W": "Violent Tendencies",
+        "E": "Jousting",
+        "R": "Chaaaaaaaarge!!!"
+    },
+    {
+        "Champion": "Kog'Maw",
+        "PASSIVE": "Icathian Surprise",
+        "Q": "Caustic Spittle",
+        "W": "Bio-Arcane Barrage",
+        "E": "Void Ooze",
+        "R": "Living Artillery"
+    },
+    {
+        "Champion": "LeBlanc",
+        "PASSIVE": "Mirror Image",
+        "Q": "Sigil of Malice",
+        "W": "Distortion",
+        "E": "Ethereal Chains",
+        "R": "Mimic"
+    },
+    {
+        "Champion": "Lee Sin",
+        "PASSIVE": "Flurry",
+        "Q": "Sonic Wave/Resonating Strike",
+        "W": "Safeguard/ Iron Will",
+        "E": "Tempest/Cripple",
+        "R": "Dragon's Rage"
+    },
+    {
+        "Champion": "Leona",
+        "PASSIVE": "Sunlight",
+        "Q": "Shield of Daybreak",
+        "W": "Eclipse",
+        "E": "Zenith Blade",
+        "R": "Solar Flare"
+    },
+    {
+        "Champion": "Lillia",
+        "PASSIVE": "Dream-Laden Bough",
+        "Q": "Blooming Blows",
+        "W": "Watch Out! Eep!",
+        "E": "Swirlseed",
+        "R": "Lilting Lullaby"
+    },
+    {
+        "Champion": "Lissandra",
+        "PASSIVE": "Iceborn Subjugation",
+        "Q": "Ice Shard",
+        "W": "Ring of Frost",
+        "E": "Glacial Path",
+        "R": "Frozen Tomb"
+    },
+    {
+        "Champion": "Lucian",
+        "PASSIVE": "Lightslinger",
+        "Q": "Piercing Light",
+        "W": "Ardent Blaze",
+        "E": "Relentless Pursuit",
+        "R": "The Culling"
+    },
+    {
+        "Champion": "Lulu",
+        "PASSIVE": "Pix, Faerie Companion",
+        "Q": "Glitterlance",
+        "W": "Whimsy",
+        "E": "Help, Pix!",
+        "R": "Wild Growth"
+    },
+    {
+        "Champion": "Lux",
+        "PASSIVE": "Illumination",
+        "Q": "Light Binding",
+        "W": "Prismatic Barrier",
+        "E": "Lucent Singularity",
+        "R": "Final Spark"
+    },
+    {
+        "Champion": "Malphite",
+        "PASSIVE": "Granite Shield",
+        "Q": "Seismic Shard",
+        "W": "Thunderclap",
+        "E": "Ground Slam",
+        "R": "Unstoppable Force"
+    },
+    {
+        "Champion": "Malzahar",
+        "PASSIVE": "Void Shift",
+        "Q": "Call of the Void",
+        "W": "Void Swarm",
+        "E": "Malefic Visions",
+        "R": "Nether Grasp"
+    },
+    {
+        "Champion": "Maokai",
+        "PASSIVE": "Sap Magic",
+        "Q": "Bramble Smash",
+        "W": "Twisted Advance",
+        "E": "Sapling Toss",
+        "R": "Nature's Grasp"
+    },
+    {
+        "Champion": "Master Yi",
+        "PASSIVE": "Double Strike",
+        "Q": "Alpha Strike",
+        "W": "Meditate",
+        "E": "Wuju Style",
+        "R": "Highlander"
+    },
+    {
+        "Champion": "Milio",
+        "PASSIVE": "Fired Up!",
+        "Q": "Ultra Mega Fire Kick",
+        "W": "Cozy Campfire",
+        "E": "Warm Hugs",
+        "R": "Breath of Life"
+    },
+    {
+        "Champion": "Miss Fortune",
+        "PASSIVE": "Love Tap",
+        "Q": "Double Up",
+        "W": "Strut",
+        "E": "Make it Rain",
+        "R": "Bullet Time"
+    },
+    {
+        "Champion": "Mordekaiser",
+        "PASSIVE": "Darkness Rise",
+        "Q": "Obliterate",
+        "W": "Indestructible",
+        "E": "Death's Grasp",
+        "R": "Realm of Death"
+    },
+    {
+        "Champion": "Morgana",
+        "PASSIVE": "Soul Siphon",
+        "Q": "Dark Binding",
+        "W": "Tormented Shadow",
+        "E": "Black Shield",
+        "R": "Soul Shackles"
+    },
+    {
+        "Champion": "Nami",
+        "PASSIVE": "Surging Tides",
+        "Q": "Aqua Prison",
+        "W": "Ebb and Flow",
+        "E": "Tidecaller's Blessing",
+        "R": "Tidal Wave"
+    },
+    {
+        "Champion": "Nasus",
+        "PASSIVE": "Soul Eater",
+        "Q": "Siphoning Strike",
+        "W": "Wither",
+        "E": "Spirit Fire",
+        "R": "Fury of the Sands"
+    },
+    {
+        "Champion": "Nautilus",
+        "PASSIVE": "Staggering Blow",
+        "Q": "Dredge Line",
+        "W": "Titan's Wrath",
+        "E": "Riptide",
+        "R": "Depth Charge"
+    },
+    {
+        "Champion": "Neeko",
+        "PASSIVE": "Inherent Glamour",
+        "Q": "Blooming Burst",
+        "W": "Shape Splitter",
+        "E": "Tangle-Barbs",
+        "R": "Pop Blossom"
+    },
+    {
+        "Champion": "Nidalee",
+        "PASSIVE": "Prowl",
+        "Q": "Javelin Toss/Takedown",
+        "W": "Bushwhack/Pounce",
+        "E": "Primal Surge/Swipe",
+        "R": "Aspect of the Cougar"
+    },
+    {
+        "Champion": "Nilah",
+        "PASSIVE": "Joy Unending",
+        "Q": "Formless Blade",
+        "W": "Jubilant Veil",
+        "E": "Slipstream",
+        "R": "Apotheosis"
+    },
+    {
+        "Champion": "Nocturne",
+        "PASSIVE": "Umbra Blades",
+        "Q": "Duskbringer",
+        "W": "Shroud of Darkness",
+        "E": "Unspeakable Horror",
+        "R": "Paranoia"
+    },
+    {
+        "Champion": "Nunu & Willump",
+        "PASSIVE": "Call of the Freljord",
+        "Q": "Consume",
+        "W": "Biggest Snowball Ever!",
+        "E": "Snowball Barrage",
+        "R": "Absolute Zero"
+    },
+    {
+        "Champion": "Olaf",
+        "PASSIVE": "Berserker Rage",
+        "Q": "Undertow",
+        "W": "Tough It Out",
+        "E": "Reckless Swing",
+        "R": "Ragnarok"
+    },
+    {
+        "Champion": "Orianna",
+        "PASSIVE": "Clockwork Windup",
+        "Q": "Command: Attack",
+        "W": "Command: Dissonance",
+        "E": "Command: Protect",
+        "R": "Command: Shockwave"
+    },
+    {
+        "Champion": "Ornn",
+        "PASSIVE": "Living Forge",
+        "Q": "Volcanic Rupture",
+        "W": "Bellows Breath",
+        "E": "Searing Charge",
+        "R": "Call of the Forge God"
+    },
+    {
+        "Champion": "Pantheon",
+        "PASSIVE": "Mortal Will",
+        "Q": "Cosmet Spear",
+        "W": "Shield Vault",
+        "E": "Aegis Assault",
+        "R": "Grand Starfall"
+    },
+    {
+        "Champion": "Poppy",
+        "PASSIVE": "Iron Ambassador",
+        "Q": "Hammer Shock",
+        "W": "Steadfast Presence",
+        "E": "Heroic Charge",
+        "R": "Keeper's Verdict"
+    },
+    {
+        "Champion": "Pyke",
+        "PASSIVE": "Gift of the Drowned Ones",
+        "Q": "Bone Skewer",
+        "W": "Ghostwater Dive",
+        "E": "Phantom Undertow",
+        "R": "Death from Below"
+    },
+    {
+        "Champion": "Qiyana",
+        "PASSIVE": "Royal Privilege",
+        "Q": "Edge of Ixtal/Elemental Wraith",
+        "W": "Terrashape",
+        "E": "Audacity",
+        "R": "Supreme Display of Talent"
+    },
+    {
+        "Champion": "Quinn",
+        "PASSIVE": "Harrier",
+        "Q": "Blinding Assault",
+        "W": "Heightened Senses",
+        "E": "Vault",
+        "R": "Behind Enemy Lines/Skystrike"
+    },
+    {
+        "Champion": "Rakan",
+        "PASSIVE": "Fey Feathers",
+        "Q": "Gleaming Quill",
+        "W": "Grand Entrance",
+        "E": "Battle Dance",
+        "R": "The Quickness"
+    },
+    {
+        "Champion": "Rammus",
+        "PASSIVE": "Spiked Shell",
+        "Q": "Powerball",
+        "W": "Defensive Ball Curl",
+        "E": "Frenzying Taunt",
+        "R": "Soaring Slam"
+    },
+    {
+        "Champion": "Rek'Sai",
+        "PASSIVE": "Fury of the Xer'Sai",
+        "Q": "Queen's Wrath",
+        "W": "Burrow",
+        "E": "Furious Bite",
+        "R": "Void Rush"
+    },
+    {
+        "Champion": "Rell",
+        "PASSIVE": "Break the Mold",
+        "Q": "Shattering Strike",
+        "W": "Ferromancy: Crash Down/Ferromancy: Mount Up",
+        "E": "Attract and Repel",
+        "R": "Magnet Storm"
+    },
+    {
+        "Champion": "Renata Glasc",
+        "PASSIVE": "Leverage",
+        "Q": "Handshake",
+        "W": "Bailout",
+        "E": "Loyalty Program",
+        "R": "Hostile Takeover"
+    },
+    {
+        "Champion": "Renekton",
+        "PASSIVE": "Reign of Anger",
+        "Q": "Cull the Meek",
+        "W": "Ruthless Predator",
+        "E": "Slice/Dice",
+        "R": "Dominus"
+    },
+    {
+        "Champion": "Rengar",
+        "PASSIVE": "Unseen Predator",
+        "Q": "Savagery",
+        "W": "Battle Roar",
+        "E": "Bola Strike",
+        "R": "Thrill of the Hunt"
+    },
+    {
+        "Champion": "Riven",
+        "PASSIVE": "Runic Blade",
+        "Q": "Broken Wings",
+        "W": "Ki Burst",
+        "E": "Valor",
+        "R": "Blade of the Exile/Wind Slash"
+    },
+    {
+        "Champion": "Rumble",
+        "PASSIVE": "Junkyard Titan",
+        "Q": "Flamespitter",
+        "W": "Scrap Shield",
+        "E": "Electro Harpoon",
+        "R": "The Equalizer"
+    },
+    {
+        "Champion": "Ryze",
+        "PASSIVE": "Arcane Mastery",
+        "Q": "Overload",
+        "W": "Rune Prison",
+        "E": "Spell Flux",
+        "R": "Realm Warp"
+    },
+    {
+        "Champion": "Samira",
+        "PASSIVE": "Daredevil Impulse",
+        "Q": "Flair",
+        "W": "Blade Whirl",
+        "E": "Wild Rush",
+        "R": "Inferno Trigger"
+    },
+    {
+        "Champion": "Sejuani",
+        "PASSIVE": "Fury of the North",
+        "Q": "Arctic Assault",
+        "W": "Winter's Wrath",
+        "E": "Permafrost",
+        "R": "Glacial Prison"
+    },
+    {
+        "Champion": "Senna",
+        "PASSIVE": "Absolution",
+        "Q": "Piercing Darkness",
+        "W": "Last Embrace",
+        "E": "Curse of the Black Mist",
+        "R": "Dawning Shadow"
+    },
+    {
+        "Champion": "Seraphine",
+        "PASSIVE": "Stage Presence",
+        "Q": "High Note",
+        "W": "Surround Sound",
+        "E": "Beat Drop",
+        "R": "Encore"
+    },
+    {
+        "Champion": "Sett",
+        "PASSIVE": "Pit Grit",
+        "Q": "Knuckle Down",
+        "W": "Haymaker",
+        "E": "Facebreaker",
+        "R": "The Show Stopper"
+    },
+    {
+        "Champion": "Shaco",
+        "PASSIVE": "Backstab",
+        "Q": "Deceive",
+        "W": "Jack in the Box",
+        "E": "Two-Shiv Poison",
+        "R": "Hallucinate"
+    },
+    {
+        "Champion": "Shen",
+        "PASSIVE": "Ki Barrier",
+        "Q": "Twilight Assault",
+        "W": "Spirit's Refuge",
+        "E": "Shadow Dash",
+        "R": "Stand United"
+    },
+    {
+        "Champion": "Shyvana",
+        "PASSIVE": "Fury of the Dragonborn",
+        "Q": "Twin Bite",
+        "W": "Burnout",
+        "E": "Flame Breath",
+        "R": "Dragon's Descent"
+    },
+    {
+        "Champion": "Singed",
+        "PASSIVE": "Noxious Slipstream",
+        "Q": "Poison Trail",
+        "W": "Mega Adhesive",
+        "E": "Fling",
+        "R": "Insanity Potion"
+    },
+    {
+        "Champion": "Sion",
+        "PASSIVE": "Glory in Death",
+        "Q": "Decimating Smash",
+        "W": "Soul Furnace",
+        "E": "Roar of the Slayer",
+        "R": "Unstoppable Onslaught"
+    },
+    {
+        "Champion": "Sivir",
+        "PASSIVE": "Fleet of Foot",
+        "Q": "Boomerang Blade",
+        "W": "Ricochet",
+        "E": "Spell Shield",
+        "R": "On the Hunt"
+    },
+    {
+        "Champion": "Skarner",
+        "PASSIVE": "Crystal Spires",
+        "Q": "Crystal Slash",
+        "W": "Crystalline Exoskeleton",
+        "E": "Fracture",
+        "R": "Impale"
+    },
+    {
+        "Champion": "Sona",
+        "PASSIVE": "Power Chord",
+        "Q": "Hymn of Valor",
+        "W": "Aria of Perseverance",
+        "E": "Song of Celerity",
+        "R": "Crescendo"
+    },
+    {
+        "Champion": "Soraka",
+        "PASSIVE": "Salvation",
+        "Q": "Starcall",
+        "W": "Astral Infusion",
+        "E": "Equinox",
+        "R": "Wish"
+    },
+    {
+        "Champion": "Swain",
+        "PASSIVE": "Ravenous Flock",
+        "Q": "Death's Hand",
+        "W": "Vision of Empire",
+        "E": "Nevermove",
+        "R": "Demonic Ascension"
+    },
+    {
+        "Champion": "Sylas",
+        "PASSIVE": "Petricite Burst",
+        "Q": "Chain Lash",
+        "W": "King Slayer",
+        "E": "Abscond/Abduct",
+        "R": "Hijack"
+    },
+    {
+        "Champion": "Syndra",
+        "PASSIVE": "Transcendent",
+        "Q": "Dark Sphere",
+        "W": "Force of WIll",
+        "E": "Scatter the Weak",
+        "R": "Unleashed Power"
+    },
+    {
+        "Champion": "Tahm Kench",
+        "PASSIVE": "An Acquired Taste",
+        "Q": "Tongue Lash",
+        "W": "Abyssal Dive",
+        "E": "Thick Skin",
+        "R": "Devour"
+    },
+    {
+        "Champion": "Taliyah",
+        "PASSIVE": "Rock Surfing",
+        "Q": "Threaded Volley",
+        "W": "Seismic Shove",
+        "E": "Unraveled Earth",
+        "R": "Weaver's Wall"
+    },
+    {
+        "Champion": "Talon",
+        "PASSIVE": "Blade's End",
+        "Q": "Noxian Diplomacy",
+        "W": "Rake",
+        "E": "Assassin's Path",
+        "R": "Shadow Assault"
+    },
+    {
+        "Champion": "Taric",
+        "PASSIVE": "Bravado",
+        "Q": "Starlight's Touch",
+        "W": "Bastion",
+        "E": "Dazzle",
+        "R": "Cosmic Radiance"
+    },
+    {
+        "Champion": "Teemo",
+        "PASSIVE": "Guerilla Warfare",
+        "Q": "Blinding Dart",
+        "W": "Move Quick",
+        "E": "Toxic Shot",
+        "R": "Noxious Trap"
+    },
+    {
+        "Champion": "Thresh",
+        "PASSIVE": "Damnation",
+        "Q": "Death Sentence",
+        "W": "Dark Passage",
+        "E": "Flay",
+        "R": "The Box"
+    },
+    {
+        "Champion": "Tristana",
+        "PASSIVE": "Draw a Bead",
+        "Q": "Rapid Fire",
+        "W": "Rocket Jump",
+        "E": "Explosive Charge",
+        "R": "Buster Shot"
+    },
+    {
+        "Champion": "Trundle",
+        "PASSIVE": "King's Tribute",
+        "Q": "Chomp",
+        "W": "Frozen Domain",
+        "E": "Pillar of Ice",
+        "R": "Subjugate"
+    },
+    {
+        "Champion": "Tryndamere",
+        "PASSIVE": "Battle Fury",
+        "Q": "Bloodlust",
+        "W": "Mocking Shout",
+        "E": "Spinning Slash",
+        "R": "Undying Rage"
+    },
+    {
+        "Champion": "Twisted Fate",
+        "PASSIVE": "Loaded Dice",
+        "Q": "Wild Cards",
+        "W": "Pick a Card",
+        "E": "Stacked Deck",
+        "R": "Destiny"
+    },
+    {
+        "Champion": "Twitch",
+        "PASSIVE": "Deadly Venom",
+        "Q": "Ambush",
+        "W": "Venom Cask",
+        "E": "Contaminate",
+        "R": "Spray and Pray"
+    },
+    {
+        "Champion": "Udyr",
+        "PASSIVE": "Bridge Between",
+        "Q": "Wilding Claw",
+        "W": "Iron Mantle",
+        "E": "Blazing Stampede",
+        "R": "Wingborne Storm"
+    },
+    {
+        "Champion": "Urgot",
+        "PASSIVE": "Echoing Flames",
+        "Q": "Corrosive Charge",
+        "W": "Purge",
+        "E": "Disdain",
+        "R": "Fear Beyond Death"
+    },
+    {
+        "Champion": "Varus",
+        "PASSIVE": "Living Vengeance",
+        "Q": "Piercing Arrow",
+        "W": "Blighted Quiver",
+        "E": "Hail of Arrows",
+        "R": "Chain of Corruption"
+    },
+    {
+        "Champion": "Vayne",
+        "PASSIVE": "Night Hunter",
+        "Q": "Tumble",
+        "W": "Silver Bolts",
+        "E": "Condemn",
+        "R": "Final Hour"
+    },
+    {
+        "Champion": "Veigar",
+        "PASSIVE": "Phenomenal Evil Power",
+        "Q": "Baleful Strike",
+        "W": "Dark Matter",
+        "E": "Event Horizon",
+        "R": "Primordial Burst"
+    },
+    {
+        "Champion": "Vel'Koz",
+        "PASSIVE": "Organic Deconstruction",
+        "Q": "Plasma Fission",
+        "W": "Void Rift",
+        "E": "Tectonic Disruption",
+        "R": "Life Form Disintegration ray"
+    },
+    {
+        "Champion": "Vex",
+        "PASSIVE": "Doom 'n Gloom",
+        "Q": "Mistral Bolt",
+        "W": "Personal Space",
+        "E": "Looming Darkness",
+        "R": "Shadow Surge"
+    },
+    {
+        "Champion": "Vi",
+        "PASSIVE": "Blast Shield",
+        "Q": "Vault Breaker",
+        "W": "Denting Blows",
+        "E": "Relentless Force",
+        "R": "Cease and Desist"
+    },
+    {
+        "Champion": "Viego",
+        "PASSIVE": "Sovereign's Domination",
+        "Q": "Blade of the Ruined King",
+        "W": "Spectral Maw",
+        "E": "Harrowed Path",
+        "R": "Heartbreaker"
+    },
+    {
+        "Champion": "Viktor",
+        "PASSIVE": "Glorious Evolution",
+        "Q": "Siphon Power",
+        "W": "Gravity Field",
+        "E": "Death Ray",
+        "R": "Chaos Storm"
+    },
+    {
+        "Champion": "Vladimir",
+        "PASSIVE": "Crimson Pact",
+        "Q": "Transfusion",
+        "W": "Sanguine Pool",
+        "E": "Tides of Blood",
+        "R": "Hemoplague"
+    },
+    {
+        "Champion": "Volibear",
+        "PASSIVE": "The Relentless Storm",
+        "Q": "Thundering Smash",
+        "W": "Frenzied Maul",
+        "E": "Sky Splitter",
+        "R": "Stormbringer"
+    },
+    {
+        "Champion": "Warwick",
+        "PASSIVE": "Eternal Hunger",
+        "Q": "Jaws of the Beast",
+        "W": "Blood Hunt",
+        "E": "Primal Howl",
+        "R": "Infinite Duress"
+    },
+    {
+        "Champion": "Wukong",
+        "PASSIVE": "Stone Skin",
+        "Q": "Crushing Blow",
+        "W": "Warrior Trickster",
+        "E": "Nimbus Strike",
+        "R": "Cyclone"
+    },
+    {
+        "Champion": "Xayah",
+        "PASSIVE": "Clean Cuts",
+        "Q": "Double Daggers",
+        "W": "Deadly Plumage",
+        "E": "Bladecaller",
+        "R": "Featherstorm"
+    },
+    {
+        "Champion": "Xerath",
+        "PASSIVE": "Mana Surge",
+        "Q": "Arcanopulse",
+        "W": "Eye of Destruction",
+        "E": "Shocking Orb",
+        "R": "Rite of the Arcane"
+    },
+    {
+        "Champion": "Xin Zhao",
+        "PASSIVE": "Determination",
+        "Q": "Three Talon Strike",
+        "W": "Wind Becomes Lightning",
+        "E": "Audacious Charge",
+        "R": "Crescent Guard"
+    },
+    {
+        "Champion": "Yasuo",
+        "PASSIVE": "Way of the Wanderer",
+        "Q": "Steel Tempest",
+        "W": "Wind Wall",
+        "E": "Sweeping Blade",
+        "R": "Last Breath"
+    },
+    {
+        "Champion": "Yone",
+        "PASSIVE": "Way of the Hunter",
+        "Q": "Mortal Steel",
+        "W": "Spirit Cleave",
+        "E": "Soul Unbound",
+        "R": "Fate Sealed"
+    },
+    {
+        "Champion": "Yorick",
+        "PASSIVE": "Shepherd of Souls",
+        "Q": "Last Rites/Awakening",
+        "W": "Dark Procession",
+        "E": "Mourning Mist",
+        "R": "Eulogy of the Isles"
+    },
+    {
+        "Champion": "Yuumi",
+        "PASSIVE": "Feline Friendship",
+        "Q": "Prowling Projectile",
+        "W": "You and Me!",
+        "E": "Zoomies",
+        "R": "Final Chapter"
+    },
+    {
+        "Champion": "Zac",
+        "PASSIVE": "Cell DIvision",
+        "Q": "Stretching Strikes",
+        "W": "Unstable Matter",
+        "E": "Elastic Slingshot",
+        "R": "Let's Bounce!"
+    },
+    {
+        "Champion": "Zed",
+        "PASSIVE": "Contempt for the Weak",
+        "Q": "Razor Shuriken",
+        "W": "Living Shadow",
+        "E": "Shadow Slash",
+        "R": "Death Mark"
+    },
+    {
+        "Champion": "Zeri",
+        "PASSIVE": "Living Battery",
+        "Q": "Burst FIre",
+        "W": "Ultrashock Laser",
+        "E": "Spark Surge",
+        "R": "Lightning Crash"
+    },
+    {
+        "Champion": "Ziggs",
+        "PASSIVE": "Short Fuse",
+        "Q": "Bouncing Bomb",
+        "W": "Satchel Charge",
+        "E": "Hexplosive Minefield",
+        "R": "Mega Inferno bomb"
+    },
+    {
+        "Champion": "Zilean",
+        "PASSIVE": "Time in a Bottle",
+        "Q": "Time Bomb",
+        "W": "Rewind",
+        "E": "Time Warp",
+        "R": "Chronoshift"
+    },
+    {
+        "Champion": "Zoe",
+        "PASSIVE": "More Sparkles!",
+        "Q": "Paddle Star",
+        "W": "Spell Thief",
+        "E": "Sleepy Trouble Bubble",
+        "R": "Portal Jump"
+    },
+    {
+        "Champion": "Zyra",
+        "PASSIVE": "Garden of Thorns",
+        "Q": "Deadly Spines",
+        "W": "Rampant Growth",
+        "E": "Grasping Roots",
+        "R": "Stranglethorns"
+    }
+]
