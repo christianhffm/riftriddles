@@ -7,6 +7,7 @@ let questions = [];
 let currentQuestionIndex = 0;
 let championNames = [];
 let attemptedChampions = [];
+let selectedChampionIndex = 0;
 
 function initializeQuestions() {
   fetch('champions.json')
@@ -100,6 +101,7 @@ function displayAttemptedChampions() {
 
 function showFilteredChampions() {
   championListElement.innerHTML = ''; // Clear the champion list
+  selectedChampionIndex = -1; // Reset the selected champion index
 
   const enteredText = answerElement.value.trim().toLowerCase();
 
@@ -132,12 +134,70 @@ answerElement.addEventListener('input', () => {
   showFilteredChampions(filteredChampions);
 });
 
-
 answerElement.addEventListener('keydown', (event) => {
   if (event.key === 'Enter') {
     checkAnswer();
   }
 });
+
+answerElement.addEventListener('keydown', (event) => {
+  const enteredText = answerElement.value.trim().toLowerCase();
+
+  if (event.key === 'Tab') {
+    // Prevent default tab behavior
+    event.preventDefault();
+
+    if (event.shiftKey) {
+      // Shift+Tab: Navigate backwards through the list
+      if (selectedChampionIndex > 0) {
+        selectedChampionIndex--;
+      } else {
+        selectedChampionIndex = championListElement.children.length - 1;
+      }
+    } else {
+      // Tab: Navigate forward through the list
+      if (selectedChampionIndex < championListElement.children.length - 1) {
+        selectedChampionIndex++;
+      } else {
+        selectedChampionIndex = 0;
+      }
+    }
+
+    highlightSelectedChampion();
+
+    const selectedChampion = championListElement.children[selectedChampionIndex].textContent;
+    answerElement.value = selectedChampion;
+  }
+});
+
+document.addEventListener('click', function(event) {
+  const clickedElement = event.target;
+
+  if (clickedElement === answerElement) {
+    // Clicked inside the entry text field
+    const enteredText = answerElement.value.trim().toLowerCase();
+
+    if (enteredText !== '') {
+      // Show the filtered champion list
+      showFilteredChampions();
+    }
+  } else if (!championListElement.contains(clickedElement)) {
+    // Clicked outside the entry text field and champion list
+    championListElement.innerHTML = ''; // Hide the champion list
+  }
+});
+
+function highlightSelectedChampion() {
+  const championItems = championListElement.getElementsByTagName('li');
+
+  for (let i = 0; i < championItems.length; i++) {
+    if (i === selectedChampionIndex) {
+      championItems[i].classList.add('selected');
+    } else {
+      championItems[i].classList.remove('selected');
+    }
+  }
+}
 
 initializeQuestions();
 displayQuestion();
