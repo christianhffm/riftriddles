@@ -83,14 +83,24 @@ function displayAttemptedChampions() {
 function showFilteredChampions(champions) {
   championListElement.innerHTML = '';
 
+  const enteredText = answerElement.value.trim().toLowerCase();
+
   for (const champion of champions) {
-    const championItem = document.createElement('li');
-    championItem.textContent = champion;
-    championItem.addEventListener('click', () => {
-      answerElement.value = champion;
-      championListElement.innerHTML = '';
-    });
-    championListElement.appendChild(championItem);
+    const championNameParts = champion.split(' ');
+    const firstPart = championNameParts[0].toLowerCase();
+
+    if (firstPart.startsWith(enteredText) || champion.toLowerCase().includes(` ${enteredText}`)) {
+      const capitalizedParts = championNameParts.map(part => part.charAt(0).toUpperCase() + part.slice(1));
+      const capitalizedChampionName = capitalizedParts.join(' ');
+
+      const championItem = document.createElement('li');
+      championItem.textContent = capitalizedChampionName;
+      championItem.addEventListener('click', () => {
+        answerElement.value = champion;
+        championListElement.innerHTML = '';
+      });
+      championListElement.appendChild(championItem);
+    }
   }
 }
 
@@ -99,6 +109,12 @@ answerElement.addEventListener('input', () => {
   const filteredChampions = championNames.filter(champion => champion.includes(enteredText));
 
   showFilteredChampions(filteredChampions);
+});
+
+answerElement.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter') {
+    checkAnswer();
+  }
 });
 
 initializeQuestions();
