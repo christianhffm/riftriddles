@@ -1,5 +1,32 @@
 /* DARK MODE */
 
+document.addEventListener("DOMContentLoaded", function () {
+  setTimeout(function () {
+    var darkMode = localStorage.getItem("darkMode");
+    var body = document.body;
+    var icon = document.getElementById("mode-icon");
+    var featureContent = document.querySelector(".featurecontent");
+
+    if (darkMode === "true" || (darkMode === null && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+      body.classList.add("dark-mode");
+      icon.setAttribute("src", "../icons/sun.png");
+      icon.setAttribute("alt", "Light Mode");
+      body.style.backgroundColor = "rgb(0, 10, 20)";
+      featureContent.style.background = "linear-gradient(rgb(210, 210, 210), rgb(0, 10, 20))";
+      body.style.color = "white"; // Set text color to white
+      localStorage.setItem("darkMode", "true");
+    } else {
+      body.classList.remove("dark-mode");
+      icon.setAttribute("src", "../icons/moon.png");
+      icon.setAttribute("alt", "Dark Mode");
+      body.style.backgroundColor = "";
+      featureContent.style.background = "";
+      body.style.color = "black"; // Set text color to black
+      localStorage.setItem("darkMode", "false");
+    }
+  }, 100);
+});
+
 function toggleDarkMode() {
   var body = document.body;
   var icon = document.getElementById("mode-icon");
@@ -11,36 +38,17 @@ function toggleDarkMode() {
     icon.setAttribute("alt", "Light Mode");
     body.style.backgroundColor = "rgb(0, 10, 20)";
     featureContent.style.background = "linear-gradient(rgb(210, 210, 210), rgb(0, 10, 20))";
+    body.style.color = "white"; // Set text color to white
     localStorage.setItem("darkMode", "true");
   } else {
     icon.setAttribute("src", "../icons/moon.png");
     icon.setAttribute("alt", "Dark Mode");
     body.style.backgroundColor = "";
     featureContent.style.background = "";
+    body.style.color = "black"; // Set text color to black
     localStorage.setItem("darkMode", "false");
   }
 }
-
-document.addEventListener("DOMContentLoaded", function () {
-  var darkMode = localStorage.getItem("darkMode");
-  var body = document.body;
-  var icon = document.getElementById("mode-icon");
-  var featureContent = document.querySelector(".featurecontent");
-
-  if (darkMode === "true") {
-    body.classList.add("dark-mode");
-    icon.setAttribute("src", "../icons/sun.png");
-    icon.setAttribute("alt", "Light Mode");
-    body.style.backgroundColor = "rgb(0, 10, 20)";
-    featureContent.style.background = "linear-gradient(rgb(210, 210, 210), rgb(0, 10, 20))";
-  } else {
-    body.classList.remove("dark-mode");
-    icon.setAttribute("src", "../icons/moon.png");
-    icon.setAttribute("alt", "Dark Mode");
-    body.style.backgroundColor = "";
-    featureContent.style.background = "";
-  }
-});
 
 /* CHECK ALL BUTTON / CLEAR BUTTON */
 
