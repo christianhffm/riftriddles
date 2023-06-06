@@ -65,11 +65,11 @@
 
 #champion-list{
     list-style-type: none;
-    background-color: rgb(6, 28, 37);
     position: absolute;
     z-index: 1;
     top: 3.9vh;
     width: 75.8%;
+    background-color: gray;
 }
 
 #attempted-champions-list{
