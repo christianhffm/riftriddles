@@ -1,54 +1,29 @@
-/* DARK MODE */
+/* LIGHT MODE */
 
-document.addEventListener("DOMContentLoaded", function () {
-  var darkMode = localStorage.getItem("darkMode");
+function toggleLightMode() {
   var body = document.body;
   var icon = document.getElementById("mode-icon");
   var featureContent = document.querySelector(".featurecontent");
 
-  if (darkMode === "false") {
-    body.classList.add("dark-mode");
-    icon.setAttribute("src", "../icons/sun.png");
-    icon.setAttribute("alt", "Light Mode");
-    body.style.backgroundColor = "rgb(0, 10, 20)";
-    featureContent.style.background = "linear-gradient(rgb(210, 210, 210), rgb(0, 10, 20))";
-    body.style.color = "white"; // Set text color to white
-    localStorage.setItem("darkMode", "true");
-  } else {
-    body.classList.remove("dark-mode");
+  body.classList.toggle("light-mode");
+  if (body.classList.contains("light-mode")) {
     icon.setAttribute("src", "../icons/moon.png");
     icon.setAttribute("alt", "Dark Mode");
-    body.style.backgroundColor = "";
-    featureContent.style.background = "";
-    body.style.color = "black"; // Set text color to black
-    localStorage.setItem("darkMode", "false");
-  }
-});
-
-
-function toggleDarkMode() {
-  var body = document.body;
-  var icon = document.getElementById("mode-icon");
-  var featureContent = document.querySelector(".featurecontent");
-
-  body.classList.toggle("dark-mode");
-  if (body.classList.contains("dark-mode")) {
+    body.style.backgroundColor = "white";
+    featureContent.style.background = "linear-gradient(rgb(230, 230, 230), white)";
+    body.style.color = "black"; // Set text color to white
+    localStorage.setItem("lightMode", "true");
+    
+  } else {
     icon.setAttribute("src", "../icons/sun.png");
     icon.setAttribute("alt", "Light Mode");
-    body.style.backgroundColor = "rgb(0, 10, 20)";
-    featureContent.style.background = "linear-gradient(rgb(210, 210, 210), rgb(0, 10, 20))";
-    body.style.color = "white"; // Set text color to white
-    localStorage.setItem("darkMode", "true");
-  } else {
-    icon.setAttribute("src", "../icons/moon.png");
-    icon.setAttribute("alt", "Dark Mode");
     body.style.backgroundColor = "";
-    featureContent.style.background = "";
+    featureContent.style.background = "linear-gradient(rgb(210, 210, 210), rgb(0, 10, 20))";
     body.style.color = "black"; // Set text color to black
-    localStorage.setItem("darkMode", "false");
+    localStorage.setItem("lightMode", "false");
+    checkCurrentMode()
   }
 }
-
 
 /* CHECK ALL BUTTON / CLEAR BUTTON */
 

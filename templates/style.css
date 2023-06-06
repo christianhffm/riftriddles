@@ -5,11 +5,13 @@
 
 body {
     font-family: 'BeaufortforLOL';
-    color: black;
+    color: white;
+    background-color: rgb(0,10,20);
 }
 
-body.dark-mode {
-    color: white;
+.light-mode {
+    color: black;
+    background-color: whitesmoke;
 }
 
 a {

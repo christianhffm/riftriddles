@@ -88,8 +88,8 @@ main {
 .featurecontent {
     position: relative;
     height: 50vh;
-    background: linear-gradient(rgb(230, 230, 230), white);
     display: flex;
+    background: linear-gradient(rgb(210, 210, 210), rgb(0, 10, 20));
     flex-wrap: wrap;
     justify-content: center;
     top: -15vh;
