@@ -10,7 +10,7 @@ function convertXlsxToJson() {
   const jsonData = XLSX.utils.sheet_to_json(worksheet);
 
   // Write the JSON data to a file
-  fs.writeFile('champions.json', JSON.stringify(jsonData, null, 4), (err) => {
+  fs.writeFile('data/champions.json', JSON.stringify(jsonData, null, 4), (err) => {
     if (err) {
       console.error('Error writing JSON file:', err);
     } else {
