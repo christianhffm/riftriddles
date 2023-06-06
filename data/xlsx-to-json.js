@@ -5,7 +5,7 @@ const chokidar = require('chokidar');
 // Function to convert XLSX to JSON
 function convertXlsxToJson() {
   // Read the Excel file
-  const workbook = XLSX.readFile('champions.xlsx');
+  const workbook = XLSX.readFile('data/champions.xlsx');
   const worksheet = workbook.Sheets[workbook.SheetNames[0]];
   const jsonData = XLSX.utils.sheet_to_json(worksheet);
 
@@ -20,7 +20,7 @@ function convertXlsxToJson() {
 }
 
 // Watch for changes in the XLSX file
-const watcher = chokidar.watch('champions.xlsx');
+const watcher = chokidar.watch('data/champions.xlsx');
 watcher.on('change', () => {
   convertXlsxToJson();
 });

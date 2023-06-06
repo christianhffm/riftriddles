@@ -157,39 +157,39 @@ p {
 }
 
 #categorypicture1 {
-    background-image: url(pictures/champion-jarvanIV-splash.jpg);
+    background-image: url(../pictures/champion-jarvanIV-splash.jpg);
     background-position: right;
 }
 
 #categorypicture2 {
-    background-image: url(pictures/ionia-lor-14.jpg);
+    background-image: url(../pictures/ionia-lor-14.jpg);
     background-position: center ;
 }
 
 #categorypicture3 {
-    background-image: url(pictures/runeterra-piltover-01.jpg);
+    background-image: url(../pictures/runeterra-piltover-01.jpg);
     background-position: center ;
 }
 
 #categorypicture4 {
-    background-image: url(pictures/2018-poolparty-group-splash.jpg);
+    background-image: url(../pictures/2018-poolparty-group-splash.jpg);
     background-position: left;
 }
 
 #categorypicture5 {
-    background-image: url(pictures/champion-teemo-badger-splash.jpg);
+    background-image: url(../pictures/champion-teemo-badger-splash.jpg);
     background-position: right ;
 }
 
 #categorypicture6 {
-    background-image: url(pictures/runeterra-targon-01.jpg);
+    background-image: url(../pictures/runeterra-targon-01.jpg);
     background-position: top right;
 }
 
 #categorypicture7 {
-    background-image: url(pictures/legacy.jpg);
+    background-image: url(../pictures/legacy.jpg);
 }
 
 #categorypicture8 {
-    background-image: url(pictures/esports-season1-fnatic-splash.jpg);
+    background-image: url(../pictures/esports-season1-fnatic-splash.jpg);
 }

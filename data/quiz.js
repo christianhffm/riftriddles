@@ -10,7 +10,7 @@ let attemptedChampions = [];
 let selectedChampionIndex = 0;
 
 function initializeQuestions() {
-  fetch('champions.json')
+  fetch('data/champions.json')
     .then(response => response.json())
     .then(data => {
       for (const champion of data) {

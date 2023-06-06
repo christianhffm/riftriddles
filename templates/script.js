@@ -7,13 +7,13 @@ function toggleDarkMode() {
 
   body.classList.toggle("dark-mode");
   if (body.classList.contains("dark-mode")) {
-    icon.setAttribute("src", "gfx/sun.png");
+    icon.setAttribute("src", "../icons/sun.png");
     icon.setAttribute("alt", "Light Mode");
     body.style.backgroundColor = "rgb(0, 10, 20)";
     featureContent.style.background = "linear-gradient(rgb(210, 210, 210), rgb(0, 10, 20))";
     localStorage.setItem("darkMode", "true");
   } else {
-    icon.setAttribute("src", "gfx/moon.png");
+    icon.setAttribute("src", "../icons/moon.png");
     icon.setAttribute("alt", "Dark Mode");
     body.style.backgroundColor = "";
     featureContent.style.background = "";
@@ -29,13 +29,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (darkMode === "true") {
     body.classList.add("dark-mode");
-    icon.setAttribute("src", "gfx/sun.png");
+    icon.setAttribute("src", "../icons/sun.png");
     icon.setAttribute("alt", "Light Mode");
     body.style.backgroundColor = "rgb(0, 10, 20)";
     featureContent.style.background = "linear-gradient(rgb(210, 210, 210), rgb(0, 10, 20))";
   } else {
     body.classList.remove("dark-mode");
-    icon.setAttribute("src", "gfx/moon.png");
+    icon.setAttribute("src", "../icons/moon.png");
     icon.setAttribute("alt", "Dark Mode");
     body.style.backgroundColor = "";
     featureContent.style.background = "";

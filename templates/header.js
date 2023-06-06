@@ -4,7 +4,7 @@ var headerPlaceholder = document.getElementById('header-placeholder');
 // Check if the header content already exists in the placeholder
 if (!headerPlaceholder.innerHTML) {
   // Fetch the header.html file
-  fetch('templates/header.html')
+  fetch('../templates/header.html')
     .then(response => response.text())
     .then(data => {
       // Set the fetched HTML as the content of the placeholder element

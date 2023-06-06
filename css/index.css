@@ -1,5 +1,5 @@
 .container {
-    background-image: url(pictures/lol-star-guardian.jpg);
+    background-image: url(../pictures/lol-star-guardian.jpg);
     background-position: center;
     background-size: cover;
     color: white;
@@ -21,7 +21,7 @@
 }
 
 .rightcontent {
-    background-image: url(pictures/heimerhigh.jpg);
+    background-image: url(../pictures/heimerhigh.jpg);
     background-size: cover;
     background-position: center;
     width: 35vw;
@@ -152,18 +152,18 @@ main {
 }
 
 #smallcontent1 {
-    background-image: url(pictures/frel-lor-35.jpg);
+    background-image: url(../pictures/frel-lor-35.jpg);
 }
 
 #smallcontent2 {
-    background-image: url(pictures/khazix.jpg);
+    background-image: url(../pictures/khazix.jpg);
 }
 
 #smallcontent3 {
-    background-image: url(pictures/icon-rainbow-flufts.jpg);
+    background-image: url(../pictures/icon-rainbow-flufts.jpg);
 }
 
 #smallcontent4{
-    background-image: url(pictures/riotpr-mar2023-social-twitch-1920x1080-03-17-2023.png);
+    background-image: url(../pictures/riotpr-mar2023-social-twitch-1920x1080-03-17-2023.png);
     background-position: top;
 }
