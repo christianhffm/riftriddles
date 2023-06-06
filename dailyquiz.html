@@ -5,44 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dailyquiz</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="templates/style.css">
+    <link rel="stylesheet" href="templates/fonts/fonts.css">
     <link rel="stylesheet" href="dailyquiz.css">
-    <link rel="stylesheet" href="fonts/fonts.css">
-    <script src="script.js"></script>
 </head>
 <body>
-    <nav>
-        <div class="navleft">
-            <a href="index.html">
-                <div>Home</div>
-            </a>
-            <a href="#">
-                <div>News</div>
-            </a>
-            <a href="categories.html">
-                <div>Categories</div>
-            </a>
-            <a href="dailyquiz.html">
-                <div>Daily Quiz</div>
-            </a>
-            <a href="#">
-                <div>About</div>
-            </a>
-        </div>
-        <div class="navright">
-            <div class="language-dropdown">
-                <button class="dropdown-button"><img src="gfx/earth.png" alt="Languages"></button>
-                <div class="dropdown-content">
-                    <a href="#">English</a>
-                </div>
-            </div>
-            <span id="mode-toggle" onclick="toggleDarkMode()">
-                <img src="gfx/moon.png" alt="Dark Mode" id="mode-icon">
-            </span>
-            <a href="#"><img src="gfx/bug.png" alt="Bug" id="bug-report"></a>
-        </div>
-        </div>
-    </nav>
+    <header>
+        <div id="header-placeholder"></div>
+    </header>
+
     <main>
         <section class="container">
             <div class="headerblock">Daily Quiz<div class="quizcontainer"></div>
@@ -50,5 +21,8 @@
         </section>
     </main>
     <footer></footer>
+
+    <script src="templates/script.js"></script>
+    <script src="templates/header.js"></script>
 </body>
 </html>

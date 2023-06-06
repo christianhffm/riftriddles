@@ -1,25 +1,19 @@
-/* HEADER */
-header {
-    background-image: url(pictures/lol-star-guardian.jpg);
-    background-position: 0 -22vh;
-    background-size: cover;
-    height: 60vh;
-}
-
 .container {
+    background-image: url(pictures/lol-star-guardian.jpg);
+    background-position: center;
+    background-size: cover;
     color: white;
     display: flex;
     flex-direction: row;
     position: relative;
-    width: min-content;
+    width: 100%;
     margin: auto;
-    height: 50vh;
-    top: 5vh;
+    height: 60vh;
 }
 
 .leftcontent {
     height: 95%;
-    width: 30vw;
+    width: 45vw;
     text-align: center;
     display: flex;
     flex-direction: column;

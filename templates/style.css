@@ -13,19 +13,22 @@ body.dark-mode {
     color: white;
 }
 
-
 a {
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
 }
 
-nav {
-    background-color: rgba(20, 20, 20, 1);
+header{
     height: 8vh;
     position: sticky;
     top: 0;
-    display: flex;
     z-index: 100;
+}
+
+nav {
+    background-color: rgba(20, 20, 20, 1);
+    height: 8vh;
+    display: flex;
 
     /* Font */
     color: rgba(255, 255, 255, 1);
