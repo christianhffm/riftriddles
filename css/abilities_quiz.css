@@ -84,7 +84,7 @@
     z-index: 1;
     top: 3.9vh;
     width: 75.8%;
-    background-color: gray;
+    background-color: rgb(10,28,36);
 }
 
 #attempted-champions-list{
@@ -97,15 +97,12 @@ ul{
     margin: 2vh 0 0 0;
 }
 
-#attempted-champions-list li{
+li{
     display: flex;
     align-items: center;
     margin: 0 0 1vh 0 ;
     padding: 1vh;
-    background-color: rgb(122, 21, 21);
     font-size: 3vh;
-    border: 1px solid white;
-    border-radius: 5px;
 }
 
 li img{

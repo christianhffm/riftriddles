@@ -109,7 +109,6 @@ function displayAttemptedChampions() {
   }
 }
 
-
 function showFilteredChampions() {
   championListElement.innerHTML = ''; // Clear the champion list
   selectedChampionIndex = -1; // Reset the selected champion index
@@ -126,17 +125,28 @@ function showFilteredChampions() {
 
       if (capitalizedChampionName.toLowerCase().startsWith(enteredText) || champion.toLowerCase().includes(` ${enteredText}`)) {
         const championItem = document.createElement('li');
-        championItem.textContent = capitalizedChampionName;
+        const championImage = document.createElement('img');
+
+        const imageName = champion.toLowerCase().replace(/\s/g, ''); // Convert champion name to lowercase and remove spaces
+        const imageUrl = `../icons/champion-images/${imageName}.png`; // Update image URL based on the champion's name
+        championImage.src = imageUrl;
+        championImage.alt = capitalizedChampionName;
+        championItem.appendChild(championImage);
+
+        const championText = document.createElement('span');
+        championText.textContent = capitalizedChampionName;
+        championItem.appendChild(championText);
+
         championItem.addEventListener('click', () => {
           answerElement.value = capitalizeChampionName(champion);
           championListElement.innerHTML = '';
         });
+
         championListElement.appendChild(championItem);
       }
     }
   }
 }
-
 
 answerElement.addEventListener('input', () => {
   const enteredText = answerElement.value.trim().toLowerCase();
