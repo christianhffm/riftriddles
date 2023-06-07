@@ -9,6 +9,25 @@ let championNames = [];
 let attemptedChampions = [];
 let selectedChampionIndex = 0;
 
+function displayQuestion() {
+  const question = questions[currentQuestionIndex].question;
+  questionElement.textContent = question;
+  
+  const abilityName = question.replace(/"/g, ''); // Remove the double quotes from the ability name
+  findChampionByAbility(abilityName);
+  
+  answerElement.value = '';
+  championListElement.innerHTML = '';
+  attemptedChampionsListElement.innerHTML = '';
+}
+
+function shuffleQuestions() {
+  for (let i = questions.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [questions[i], questions[j]] = [questions[j], questions[i]];
+  }
+}
+
 function initializeQuestions() {
   fetch('../data/abilities.json')
     .then(response => response.json())
@@ -31,24 +50,6 @@ function initializeQuestions() {
     });
 }
 
-function shuffleQuestions() {
-  for (let i = questions.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [questions[i], questions[j]] = [questions[j], questions[i]];
-  }
-}
-
-function displayQuestion() {
-  const question = questions[currentQuestionIndex].question;
-  questionElement.textContent = question;
-  
-  const abilityName = question.replace(/"/g, ''); // Remove the double quotes from the ability name
-  findChampionByAbility(abilityName);
-  
-  answerElement.value = '';
-  championListElement.innerHTML = '';
-  attemptedChampionsListElement.innerHTML = '';
-}
 
 
 function checkAnswer() {
