@@ -92,3 +92,23 @@
     font-size: 22px;
     list-style-type: none;
 }
+
+ul{
+    margin: 2vh 0 0 0;
+}
+
+#attempted-champions-list li{
+    display: flex;
+    align-items: center;
+    margin: 0 0 1vh 0 ;
+    padding: 1vh;
+    background-color: rgb(122, 21, 21);
+    font-size: 3vh;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+li img{
+    height: 4vh;
+    margin: 0 1vw 0 0;
+}

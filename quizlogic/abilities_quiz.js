@@ -90,14 +90,25 @@ function capitalizeChampionName(champion) {
 function displayAttemptedChampions() {
   attemptedChampionsListElement.innerHTML = '';
 
-  for (const champion of attemptedChampions) {
+  // Reverse the order of attemptedChampions array
+  const reversedChampions = attemptedChampions.slice().reverse();
+
+  for (const champion of reversedChampions) {
     const capitalizedChampion = capitalizeChampionName(champion);
 
     const championItem = document.createElement('li');
-    championItem.textContent = capitalizedChampion;
+    const championImage = document.createElement('img');
+
+    const imageName = champion.toLowerCase().replace(/\s/g, ''); // Convert champion name to lowercase and remove spaces
+    const imageUrl = `../icons/champion-images/${imageName}.png`; // Update image URL based on the champion's name
+    championImage.src = imageUrl;
+    championImage.alt = capitalizedChampion;
+    championItem.appendChild(championImage);
+    championItem.appendChild(document.createTextNode(capitalizedChampion));
     attemptedChampionsListElement.appendChild(championItem);
   }
 }
+
 
 function showFilteredChampions() {
   championListElement.innerHTML = ''; // Clear the champion list
