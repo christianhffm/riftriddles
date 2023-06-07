@@ -39,11 +39,17 @@ function shuffleQuestions() {
 }
 
 function displayQuestion() {
-  questionElement.textContent = questions[currentQuestionIndex].question;
+  const question = questions[currentQuestionIndex].question;
+  questionElement.textContent = question;
+  
+  const abilityName = question.replace(/"/g, ''); // Remove the double quotes from the ability name
+  findChampionByAbility(abilityName);
+  
   answerElement.value = '';
   championListElement.innerHTML = '';
   attemptedChampionsListElement.innerHTML = '';
 }
+
 
 function checkAnswer() {
   const userAnswer = answerElement.value.trim().toLowerCase();
@@ -225,3 +231,53 @@ displayQuestion();
 
 const submitButton = document.getElementById('submit');
 submitButton.onclick = checkAnswer;
+
+function findChampionByAbility(ability) {
+  return new Promise((resolve, reject) => {
+    fetch('../data/abilities.json')
+      .then(response => response.json())
+      .then(data => {
+        let championName = null;
+        let abilityTag = null;
+
+        for (const champion of data) {
+          for (const abilityKey in champion) {
+            if (champion[abilityKey] === ability) {
+              championName = champion.Champion;
+              abilityTag = abilityKey;
+              break; // Found the ability, exit the loop
+            }
+          }
+          if (championName !== null && abilityTag !== null) {
+            break; // Found the ability and champion, exit the loop
+          }
+        }
+
+        if (championName !== null && abilityTag !== null) {
+          console.log(`Ability "${ability}" belongs to champion "${championName}".`);
+          console.log(`The ability tag is "${abilityTag}".`);
+          const result = {
+            championName: championName,
+            abilityTag: abilityTag
+          };
+          resolve(result);
+        } else {
+          reject(new Error(`Unable to find the champion for ability "${ability}".`));
+        }
+      })
+      .catch(error => {
+        reject(new Error('An error occurred while fetching champions data:', error));
+      });
+  });
+}
+
+// Example usage
+findChampionByAbility('Fireball')
+  .then(result => {
+    const championName = result.championName;
+    const abilityTag = result.abilityTag;
+    // Save championName and abilityTag in variables here
+  })
+  .catch(error => {
+    console.log(error);
+  });
