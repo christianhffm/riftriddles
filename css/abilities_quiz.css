@@ -9,9 +9,6 @@
     height: 10vh;
     text-align: center;
     text-justify: center;
-}
-
-.headerblock{
     margin: 2vh 0 2vh 0;
     font-style: italic;
     font-weight: bold;
@@ -38,10 +35,6 @@
 
 #question{
     font-size: 32px;
-}
-
-.quizcontainer{
-    height: min-content;
 }
 
 .questionheader{

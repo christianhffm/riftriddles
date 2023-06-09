@@ -12,14 +12,33 @@ let selectedChampionIndex = 0;
 function displayQuestion() {
   const question = questions[currentQuestionIndex].question;
   questionElement.textContent = question;
-  
+
   const abilityName = question.replace(/"/g, ''); // Remove the double quotes from the ability name
-  findChampionByAbility(abilityName);
-  
+  findChampionByAbility(abilityName)
+    .then(result => {
+      const championName = result.championName;
+      const abilityTag = result.abilityTag;
+      
+      const imageName = `${championName}${abilityTag}.png`; // Combine the champion name and ability tag
+      const imageUrl = `../icons/ability-images/${imageName}`; // Update image URL based on the champion's name and ability tag
+
+      const imageElement = document.createElement('img');
+      imageElement.src = imageUrl;
+      imageElement.alt = abilityName;
+
+      const imageContainer = document.querySelector('.imagecontainer');
+      imageContainer.innerHTML = ''; // Clear the image container
+      imageContainer.appendChild(imageElement);
+    })
+    .catch(error => {
+      console.log(error);
+    });
+
   answerElement.value = '';
   championListElement.innerHTML = '';
   attemptedChampionsListElement.innerHTML = '';
 }
+
 
 function shuffleQuestions() {
   for (let i = questions.length - 1; i > 0; i--) {
@@ -271,14 +290,3 @@ function findChampionByAbility(ability) {
       });
   });
 }
-
-// Example usage
-findChampionByAbility('Fireball')
-  .then(result => {
-    const championName = result.championName;
-    const abilityTag = result.abilityTag;
-    // Save championName and abilityTag in variables here
-  })
-  .catch(error => {
-    console.log(error);
-  });
