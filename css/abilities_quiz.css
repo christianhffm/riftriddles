@@ -26,25 +26,18 @@
 }
 
 .questionheader{
-    margin: 10vh 0 2vh 0;
     height: 5vh;
     width: 20vw;
     font-size: 28px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh;
 }
 
 #question{
     font-size: 32px;
-}
-
-.questionheader{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10vh 0 4vh 0;
-}
-
-#question{
     margin: 2vh 0;
 }
 
