@@ -1,7 +1,7 @@
 .container {
     width: 100%;
-    height: 300vh;
     margin: 0 auto;
+    min-height: 92vh;
     font-size: 28px;
 }
 
@@ -16,19 +16,21 @@
     text-transform: uppercase;
 }
 
-.quizcontainer{
-    height: 70vh;
+.quizcontainer {
+    font-family: "FF Mark W05", Arial, sans-serif;
+    font-size: 20px;
     width: 100%;
     margin: 0vh auto 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
-.questionheader{
+.questionheader {
     height: 5vh;
     width: 20vw;
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -36,19 +38,19 @@
     margin: 2vh 0 4vh 0;
 }
 
-.imagecontainer{
+.imagecontainer {
     height: 64px;
 }
 
-#question{
+#question {
     height: 40px;
-    font-size: 32px;
-    margin: 2vh 0;
+    font-size: 24px;
+    margin: 4vh 0;
 }
 
-.subrow{
+.subrow {
     position: relative;
-    margin: 2vh 0;
+    margin: 0 0 4vh 0;
     display: flex;
     flex-direction: row;
     height: 4vh;
@@ -57,42 +59,56 @@
     justify-content: space-between;
 }
 
-#answer{
+#answer {
     text-transform: capitalize;
     height: 90%;
-    width: 75%;
-    font-size: 24px;
+    width: 80%;
+    font-size: 18px;
 }
 
-#submit{
+#submit {
+    background-color: rgb(10, 28, 36);
     height: 100%;
-    width: 20%;
+    width: 15%;
 }
 
-#champion-list{
+button img{
+    height: 100%;
+    margin: 0 0 0 5%;
+}
+
+#champion-list {
     list-style-type: none;
     position: absolute;
     z-index: 1;
-    top: 3.9vh;
-    width: 75.8%;
-    max-height: 24vh;
+    top: 4.1vh;
+    width: 80.9%;
+    max-height: 30vh;
     overflow-y: auto;
-    background-color: rgb(10,28,36);
+    background-color: rgb(10, 28, 36);
 }
 
-ul{
-    margin: 2vh 0 0 0;
-    font-size: 22px;
+ul {
+    color: white;
+    font-size: 18px;
     list-style-type: none;
+    width: 100%;
 }
 
-li{
+li {
     display: flex;
     align-items: center;
     padding: 1vh;
 }
 
-li img{
+li img {
     height: 4vh;
     margin: 0 1vw 0 0;
+}
+
+#attempted-champions-list li{
+    background-color: rgb(141, 41, 41);
+    margin: 1vh auto;
+    width: 15%;
+    border-radius: 5px;
 }
