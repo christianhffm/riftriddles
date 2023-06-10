@@ -36,7 +36,12 @@
     margin: 2vh 0 4vh 0;
 }
 
+.imagecontainer{
+    height: 64px;
+}
+
 #question{
+    height: 40px;
     font-size: 32px;
     margin: 2vh 0;
 }
