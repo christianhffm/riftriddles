@@ -7,7 +7,7 @@ function toggleLightMode() {
   
     body.classList.toggle("light-mode");
     if (body.classList.contains("light-mode")) {
-      icon.setAttribute("src", "../icons/moon.png");
+      icon.setAttribute("src", "../icons/header-icons/moon.png");
       icon.setAttribute("alt", "Dark Mode");
       body.style.backgroundColor = "white";
       featureContent.style.background = "linear-gradient(rgb(230, 230, 230), white)";
