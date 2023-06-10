@@ -15,7 +15,7 @@ function toggleLightMode() {
       localStorage.setItem("lightMode", "true");
       
     } else {
-      icon.setAttribute("src", "../icons/sun.png");
+      icon.setAttribute("src", "../icons/header-icons/sun.png");
       icon.setAttribute("alt", "Light Mode");
       body.style.backgroundColor = "";
       featureContent.style.background = "linear-gradient(rgb(210, 210, 210), rgb(0, 10, 20))";
