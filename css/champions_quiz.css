@@ -1,0 +1,115 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 92vh;
+    font-size: 28px;
+}
+
+.headerblock {
+    height: 10vh;
+    text-align: center;
+    text-justify: center;
+    margin: 2vh 0 2vh 0;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.quizcontainer {
+    font-family: "FF Mark W05", Arial, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    margin: 0vh auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.questionheader {
+    height: 5vh;
+    width: 20vw;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh 0 4vh 0;
+}
+
+#skinDiv {
+    height: 239px;
+    width: 405px;
+}
+
+#question {
+    height: 40px;
+    font-size: 24px;
+    margin: 4vh 0;
+}
+
+.subrow {
+    position: relative;
+    margin: 0 0 4vh 0;
+    display: flex;
+    flex-direction: row;
+    height: 4vh;
+    width: 20vw;
+    align-items: end;
+    justify-content: space-between;
+}
+
+#answer {
+    text-transform: capitalize;
+    height: 90%;
+    width: 80%;
+    font-size: 18px;
+}
+
+#submit {
+    background-color: rgb(10, 28, 36);
+    height: 100%;
+    width: 15%;
+}
+
+button img{
+    height: 100%;
+    margin: 0 0 0 5%;
+}
+
+#champion-list {
+    list-style-type: none;
+    position: absolute;
+    z-index: 1;
+    top: 4.1vh;
+    width: 80.9%;
+    max-height: 30vh;
+    overflow-y: auto;
+    background-color: rgb(10, 28, 36);
+}
+
+ul {
+    color: white;
+    font-size: 18px;
+    list-style-type: none;
+    width: 100%;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 1vh;
+}
+
+li img {
+    height: 4vh;
+    margin: 0 1vw 0 0;
+}
+
+#attempted-champions-list li{
+    background-color: rgb(141, 41, 41);
+    margin: 1vh auto;
+    width: 15%;
+    border-radius: 5px;
+}
