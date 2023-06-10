@@ -69,8 +69,6 @@ function initializeQuestions() {
     });
 }
 
-
-
 function checkAnswer() {
   const userAnswer = answerElement.value.trim().toLowerCase();
   const correctAnswer = questions[currentQuestionIndex].answer.toLowerCase();
@@ -214,6 +212,21 @@ answerElement.addEventListener('keydown', (event) => {
 
     const selectedChampion = championListElement.children[selectedChampionIndex].textContent;
     answerElement.value = selectedChampion;
+  }
+});
+
+answerElement.addEventListener('keydown', (event) => {
+  const filteredChampions = championListElement.getElementsByTagName('li');
+  const selectedChampion = filteredChampions[selectedChampionIndex]?.textContent;
+
+  if (event.key === 'Enter') {
+    if (selectedChampion) {
+      answerElement.value = selectedChampion;
+    } else if (filteredChampions.length > 0) {
+      answerElement.value = filteredChampions[0].textContent;
+    }
+
+    checkAnswer();
   }
 });
 
