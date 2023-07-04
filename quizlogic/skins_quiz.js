@@ -96,12 +96,17 @@ function displayQuestion() {
   currentSkinName = randomSkin.name;
   currentSkinNumber = randomSkin.number;
 
-  const imageName = `${currentChampionName.replace(/[\s'\\.]/g, '')}_${randomSkin.number}`;
-const imageUrl = `url(../splashes/${imageName}.jpg)`;
+  const imageName = `${currentChampionName.replace(/[\s'\\.&]/g, '')}_${randomSkin.number}`;
+  const imageUrl = `../splashes/${imageName}.jpg`;
 
-  
+  const imageElement = document.createElement('img');
+  imageElement.src = imageUrl;
+  imageElement.alt = `${currentChampionName} - ${currentSkinName}`;
+  imageElement.classList.add('custom-image'); // Add a class to the image element  
+
   const imageContainer = document.querySelector('.imagecontainer');
-  imageContainer.style.backgroundImage = imageUrl;
+  imageContainer.innerHTML = '';
+  imageContainer.appendChild(imageElement);
 
   answerElement.value = '';
   championListElement.innerHTML = '';

@@ -9,7 +9,7 @@
     height: 10vh;
     text-align: center;
     text-justify: center;
-    margin: 2vh 0 2vh 0;
+    margin: 2vh 0 4vh 0;
     font-style: italic;
     font-weight: bold;
     font-size: 70px;
@@ -20,41 +20,28 @@
     font-family: "FF Mark W05", Arial, sans-serif;
     font-size: 20px;
     width: 100%;
-    margin: 0vh auto 0 auto;
+    margin: 0vh auto 0vh auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.questionheader {
-    height: 5vh;
-    width: 20vw;
-    font-size: 20px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2vh 0 4vh 0;
-}
-
 .imagecontainer {
-    height: 287px;
-    width: 486px;
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
     overflow: hidden;
+    margin: 0 0 4vh 0;
 }
 
-#question {
-    height: 40px;
-    font-size: 24px;
-    margin: 4vh 0;
+.custom-image {
+    width: 30vw;
 }
 
 .subrow {
     position: relative;
-    margin: 0 0 4vh 0;
+    margin: 0 0 2vh 0;
     display: flex;
     flex-direction: row;
     height: 4vh;
