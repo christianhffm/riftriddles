@@ -28,13 +28,13 @@
 }
 
 .imagecontainer {
-    height: 40vh;
+    height: 30vh;
     margin: 0 0 6vh 0;
     overflow: hidden;
 }
 
 .custom-image {
-    height: 40vh;
+    height: 100%;
 }
 
 .subrow {

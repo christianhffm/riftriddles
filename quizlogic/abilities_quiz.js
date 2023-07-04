@@ -87,13 +87,16 @@ function checkAnswer() {
     }
     attemptedChampions = [];
   } else {
-    attemptedChampions.push(userAnswer);
-    displayAttemptedChampions();
+    if (!attemptedChampions.includes(userAnswer)) { // Check if the champion guess is not already in the attempted list
+      attemptedChampions.push(userAnswer);
+      displayAttemptedChampions();
+    }
   }
 
   answerElement.value = '';
   showFilteredChampions();
 }
+
 
 function capitalizeChampionName(champion) {
   if (champion.toLowerCase() === "jarvan iv") {

@@ -99,7 +99,7 @@ function displayQuestion() {
   currentSkinNumber = randomSkin.number;
 
   const imageName = `${currentChampionName.replace(/[\s'\\.&]/g, '')}_${randomSkin.number}`;
-  const imageUrl = `../splashes/${imageName}.jpg`;
+  const imageUrl = `../centered/${imageName}.jpg`;
 
   const imageElement = document.createElement('img');
   imageElement.src = imageUrl;
@@ -115,14 +115,14 @@ function displayQuestion() {
   attemptedChampionsListElement.innerHTML = '';
   
 
-  imageElement.style.transform = 'scale(300%)';
+  imageElement.style.transform = 'scale(500%)';
 
   function zoomOutImage() {
     if (wrongTries >= 11) {
       attemptedChampionsListElement.removeEventListener('DOMNodeInserted', zoomOutImage); // Remove the DOMNodeInserted event listener after 5 wrong tries
       return;
     }
-    const zoomLevel = 300 - wrongTries * 20; // Calculate zoom level based on wrong tries
+    const zoomLevel = 500 - wrongTries * 40; // Calculate zoom level based on wrong tries
 
     imageElement.style.transform = `scale(${zoomLevel}%)`;
   }
@@ -155,13 +155,16 @@ function checkAnswer() {
     }
     attemptedChampions = [];
   } else {
-    attemptedChampions.push(userAnswer);
-    displayAttemptedChampions();
+    if (!attemptedChampions.includes(userAnswer)) { // Check if the champion guess is not already in the attempted list
+      attemptedChampions.push(userAnswer);
+      displayAttemptedChampions();
+    }
   }
 
   answerElement.value = '';
   showFilteredChampions();
 }
+
 
 function capitalizeChampionName(champion) {
   if (champion.toLowerCase() === "jarvan iv") {
