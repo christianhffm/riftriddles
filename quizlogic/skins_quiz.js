@@ -167,6 +167,7 @@ function checkAnswer() {
       displayQuestion();
     }
     attemptedChampions = [];
+    playCorrectSound();
   } else {
     if (!attemptedChampions.includes(userAnswer)) { // Check if the champion guess is not already in the attempted list
       attemptedChampions.push(userAnswer);
@@ -178,6 +179,12 @@ function checkAnswer() {
   showFilteredChampions();
 }
 
+function playCorrectSound() {
+  const correctSound = document.getElementById('correctSound');
+  correctSound.play().catch(error => {
+    console.log('Error playing correct sound:', error);
+  });
+}
 
 function capitalizeChampionName(champion) {
   if (champion.toLowerCase() === "jarvan iv") {
