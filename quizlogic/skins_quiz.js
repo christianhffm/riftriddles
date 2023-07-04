@@ -204,25 +204,48 @@ function capitalizeChampionName(champion) {
 function displayAttemptedChampions() {
   attemptedChampionsListElement.innerHTML = '';
 
-  // Reverse the order of attemptedChampions array
   const reversedChampions = attemptedChampions.slice().reverse();
 
-  for (const champion of reversedChampions) {
-    const capitalizedChampion = capitalizeChampionName(champion);
+  let columnCount = Math.ceil(reversedChampions.length / 5); // Calculate the number of columns based on the number of items
 
-    const championItem = document.createElement('li');
-    const championImage = document.createElement('img');
+  columnCount = 6; // Limit the number of columns to 5 if it exceeds that value
 
-    const imageName = champion.toLowerCase().replace(/\s/g, ''); // Convert champion name to lowercase and remove spaces
-    const imageUrl = `../gfx/icons/champion-icons/${imageName}.png`; // Update image URL based on the champion's name
-    championImage.src = imageUrl;
-    championImage.alt = capitalizedChampion;
-    championItem.appendChild(championImage);
-    championItem.appendChild(document.createTextNode(capitalizedChampion));
-    attemptedChampionsListElement.appendChild(championItem);
+  let championIndex = 0;
+
+  for (let i = 0; i < columnCount; i++) {
+    const column = document.createElement('ul');
+    column.classList.add('column');
+
+    const itemsPerColumn = (columnCount > 6) ? 10 : 5; // Set the number of items per column based on the column count
+
+    const startIndex = i * itemsPerColumn;
+    const endIndex = startIndex + itemsPerColumn;
+
+    const championsSlice = reversedChampions.slice(startIndex, endIndex);
+
+    for (const champion of championsSlice) {
+      const capitalizedChampion = capitalizeChampionName(champion);
+
+      const championItem = document.createElement('li');
+      const championImage = document.createElement('img');
+
+      const imageName = champion.toLowerCase().replace(/\s/g, '');
+      const imageUrl = `../gfx/icons/champion-icons/${imageName}.png`;
+      championImage.src = imageUrl;
+      championImage.alt = capitalizedChampion;
+      championItem.appendChild(championImage);
+      championItem.appendChild(document.createTextNode(capitalizedChampion));
+      column.appendChild(championItem);
+
+      championIndex++;
+    }
+
+    attemptedChampionsListElement.appendChild(column);
   }
+
   wrongTries++;
 }
+
 
 function showFilteredChampions() {
   championListElement.innerHTML = ''; // Clear the champion list
