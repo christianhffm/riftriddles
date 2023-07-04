@@ -4,6 +4,7 @@ const championListElement = document.getElementById('champion-list');
 const attemptedChampionsListElement = document.getElementById('attempted-list');
 const championImage = document.getElementById('champion-image');
 
+let wrongTries = 1; // Counter for wrong tries
 let questions = [];
 let currentQuestionIndex = 0;
 let attemptedChampions = [];
@@ -79,6 +80,7 @@ function displayQuestion() {
     return;
   }
 
+  wrongTries = 1;
   currentChampionName = currentChampionInfo.name;
   const skins = currentChampionInfo.skins;
 
@@ -107,10 +109,24 @@ function displayQuestion() {
   const imageContainer = document.querySelector('.imagecontainer');
   imageContainer.innerHTML = '';
   imageContainer.appendChild(imageElement);
-
+  
   answerElement.value = '';
   championListElement.innerHTML = '';
   attemptedChampionsListElement.innerHTML = '';
+  
+
+  imageElement.style.transform = 'scale(300%)';
+
+  function zoomOutImage() {
+    if (wrongTries >= 11) {
+      attemptedChampionsListElement.removeEventListener('DOMNodeInserted', zoomOutImage); // Remove the DOMNodeInserted event listener after 5 wrong tries
+      return;
+    }
+    const zoomLevel = 300 - wrongTries * 20; // Calculate zoom level based on wrong tries
+
+    imageElement.style.transform = `scale(${zoomLevel}%)`;
+  }
+  attemptedChampionsListElement.addEventListener('DOMNodeInserted', zoomOutImage);
 }
 
 function shuffleQuestions() {
@@ -182,6 +198,7 @@ function displayAttemptedChampions() {
     championItem.appendChild(document.createTextNode(capitalizedChampion));
     attemptedChampionsListElement.appendChild(championItem);
   }
+  wrongTries++;
 }
 
 function showFilteredChampions() {
