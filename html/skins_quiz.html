@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="../templates/style.css">
     <link rel="stylesheet" href="../templates/fonts/fonts.css">
-    <link rel="stylesheet" href="../css/champions_quiz.css">
+    <link rel="stylesheet" href="../css/skins_quiz.css">
 
 </head>
 
@@ -18,20 +18,20 @@
     <header>
         <div id="header-placeholder"></div>
     </header>
-
     <main>
         <section class="container">
-            <div class="headerblock">Skin quiz</div>
+            <div class="headerblock">Skin Quiz</div>
             <div class="quizcontainer">
-                <div id="skinDiv"></div>
-                
+                <div class="questionheader">What Champion is this?</div>
+                <div class="imagecontainer" id="champion-image"></div>
+                <div id="question"></div>
                 <div class="subrow">
                     <input type="text" id="answer">
                     <ul id="champion-list"></ul>
                     <button onclick="checkAnswer()" id="submit">
                     <img src="../icons/header-icons/arrow.png" alt=""></button>
                 </div>
-                <ul id="attempted-champions-list"></ul>
+                <ul id="attempted-list"></ul>
             </div>
         </section>
     </main>

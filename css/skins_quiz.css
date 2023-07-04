@@ -38,7 +38,11 @@
     margin: 2vh 0 4vh 0;
 }
 
-#skinDiv {
+.imagecontainer {
+    height: 287px;
+    width: 486px;
+    background-position: center;
+    background-size: contain;
     overflow: hidden;
 }
 
@@ -106,7 +110,7 @@ li img {
     margin: 0 1vw 0 0;
 }
 
-#attempted-champions-list li{
+#attempted-list li{
     background-color: rgb(141, 41, 41);
     margin: 1vh auto;
     width: 15%;

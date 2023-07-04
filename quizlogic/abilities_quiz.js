@@ -1,7 +1,7 @@
 const questionElement = document.getElementById('question');
 const answerElement = document.getElementById('answer');
 const championListElement = document.getElementById('champion-list');
-const attemptedChampionsListElement = document.getElementById('attempted-champions-list');
+const attemptedChampionsListElement = document.getElementById('attempted-list');
 
 let questions = [];
 let currentQuestionIndex = 0;
