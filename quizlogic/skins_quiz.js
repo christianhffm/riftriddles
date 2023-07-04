@@ -7,24 +7,49 @@ const championImage = document.getElementById('champion-image');
 let questions = [];
 let currentQuestionIndex = 0;
 let attemptedChampions = [];
+let championNames = [];
 let selectedChampionIndex = 0;
 let championInfoList = []; // Declare championInfoList as a global variable
+let currentChampionInfo = null; // Variable to store the current champion information
+let currentChampionName = ''; // Variable to store the current champion name
+let currentSkinName = ''; // Variable to store the current skin name
+let currentSkinNumber = ''; // Variable to store the current skin number
 
 function initializeQuestions() {
+  fetch('../data/abilities.json')
+    .then(response => response.json())
+    .then(data => {
+      for (const champion of data) {
+        const championName = champion.Champion.toLowerCase();
+        championNames.push(championName);
+        for (const abilityKey in champion) {
+          if (abilityKey !== "Champion") {
+            const question = `"${champion[abilityKey]}"`;
+            questions.push({ question, answer: championName });
+          }
+        }
+      }
+      shuffleQuestions();
+      displayQuestion();
+    })
+    .catch(error => {
+      console.log('An error occurred while fetching champions data:', error);
+    });
+
   // Fetch championFull.json
   fetch('../data/championFull.json')
     .then(response => response.json())
     .then(championData => {
-      const championNames = Object.keys(championData.data);
+      const championEntries = Object.values(championData.data);
 
-      // Iterate over each champion name
-      championNames.forEach(championName => {
+      // Iterate over each champion entry
+      championEntries.forEach(championEntry => {
         const championInfo = {
-          name: championName,
+          name: championEntry.name,
           skins: []
         };
 
-        const skins = championData.data[championName].skins;
+        const skins = championEntry.skins;
 
         // Iterate over each skin and add it to the champion's skins list
         skins.forEach(skin => {
@@ -37,38 +62,44 @@ function initializeQuestions() {
         championInfoList.push(championInfo);
       });
 
-      console.log(championInfoList); // Log the fetched champion data
-
       // Call displayQuestion() after the data has been fetched and the championInfoList is populated
       displayQuestion();
     })
     .catch(error => console.log('An error occurred while fetching champion data:', error));
+
 }
 
 function displayQuestion() {
-  const championInfo = championInfoList[selectedChampionIndex];
+  const randomChampionIndex = Math.floor(Math.random() * championInfoList.length);
+  currentChampionInfo = championInfoList[randomChampionIndex];
 
   // Check if championInfo is available
-  if (!championInfo) {
+  if (!currentChampionInfo) {
     console.log('Champion info not available.');
     return;
   }
 
-  const championName = championInfo.name;
-  const skins = championInfo.skins;
+  currentChampionName = currentChampionInfo.name;
+  const skins = currentChampionInfo.skins;
+
+  console.log(currentChampionName);
 
   // Check if skins are available
   if (!skins || skins.length === 0) {
-    console.log(`No skins available for ${championName}.`);
+    console.log(`No skins available for ${currentChampionName}.`);
     return;
   }
 
   const randomSkinIndex = Math.floor(Math.random() * skins.length);
   const randomSkin = skins[randomSkinIndex];
 
-  const imageName = `${championName}_${randomSkin.number}`;
-  const imageUrl = `url(../splashes/${imageName}.jpg)`;
+  currentSkinName = randomSkin.name;
+  currentSkinNumber = randomSkin.number;
 
+  const imageName = `${currentChampionName.replace(/[\s'\\.]/g, '')}_${randomSkin.number}`;
+const imageUrl = `url(../splashes/${imageName}.jpg)`;
+
+  
   const imageContainer = document.querySelector('.imagecontainer');
   imageContainer.style.backgroundImage = imageUrl;
 
@@ -76,7 +107,6 @@ function displayQuestion() {
   championListElement.innerHTML = '';
   attemptedChampionsListElement.innerHTML = '';
 }
-
 
 function shuffleQuestions() {
   for (let i = questions.length - 1; i > 0; i--) {
@@ -87,7 +117,7 @@ function shuffleQuestions() {
 
 function checkAnswer() {
   const userAnswer = answerElement.value.trim().toLowerCase();
-  const correctAnswer = questions[currentQuestionIndex].answer.toLowerCase();
+  const correctAnswer = currentChampionName.toLowerCase();
 
   if (!championNames.includes(userAnswer)) {
     return; // Stop further processing
@@ -246,7 +276,7 @@ answerElement.addEventListener('keydown', (event) => {
   }
 });
 
-document.addEventListener('click', function(event) {
+document.addEventListener('click', function (event) {
   const clickedElement = event.target;
 
   if (clickedElement === answerElement) {
