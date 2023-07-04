@@ -109,11 +109,11 @@ function displayQuestion() {
   const imageContainer = document.querySelector('.imagecontainer');
   imageContainer.innerHTML = '';
   imageContainer.appendChild(imageElement);
-  
+
   answerElement.value = '';
   championListElement.innerHTML = '';
   attemptedChampionsListElement.innerHTML = '';
-  
+
 
   imageElement.style.transform = 'scale(500%)';
 
@@ -127,6 +127,19 @@ function displayQuestion() {
     imageElement.style.transform = `scale(${zoomLevel}%)`;
   }
   attemptedChampionsListElement.addEventListener('DOMNodeInserted', zoomOutImage);
+
+  // Add event listener to deny left click holds on the image
+  imageElement.addEventListener('mousedown', (event) => {
+    if (event.button === 0) { // Check for left mouse button
+      event.preventDefault();
+    }
+  });
+
+  // Disable right-click on the image
+  imageElement.addEventListener('contextmenu', (event) => {
+    event.preventDefault();
+  });
+
 }
 
 function shuffleQuestions() {

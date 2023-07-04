@@ -18,7 +18,7 @@ function displayQuestion() {
     .then(result => {
       const championName = result.championName;
       const abilityTag = result.abilityTag;
-      
+
       const imageName = `${championName}${abilityTag}.png`; // Combine the champion name and ability tag
       const imageUrl = `../icons/ability-icons/${imageName}`; // Update image URL based on the champion's name and ability tag
 
@@ -29,6 +29,19 @@ function displayQuestion() {
       const imageContainer = document.querySelector('.imagecontainer');
       imageContainer.innerHTML = ''; // Clear the image container
       imageContainer.appendChild(imageElement);
+
+      // Add event listener to deny left click holds on the image
+      imageElement.addEventListener('mousedown', (event) => {
+        if (event.button === 0) { // Check for left mouse button
+          event.preventDefault();
+        }
+      });
+
+      // Disable right-click on the image
+      imageElement.addEventListener('contextmenu', (event) => {
+        event.preventDefault();
+      });
+
     })
     .catch(error => {
       console.log(error);
@@ -37,6 +50,7 @@ function displayQuestion() {
   answerElement.value = '';
   championListElement.innerHTML = '';
   attemptedChampionsListElement.innerHTML = '';
+
 }
 
 function shuffleQuestions() {
@@ -232,7 +246,7 @@ answerElement.addEventListener('keydown', (event) => {
   }
 });
 
-document.addEventListener('click', function(event) {
+document.addEventListener('click', function (event) {
   const clickedElement = event.target;
 
   if (clickedElement === answerElement) {
