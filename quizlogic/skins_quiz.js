@@ -99,7 +99,7 @@ function displayQuestion() {
   currentSkinNumber = randomSkin.number;
 
   const imageName = `${currentChampionName.replace(/[\s'\\.&]/g, '')}_${randomSkin.number}`;
-  const imageUrl = `../centered/${imageName}.jpg`;
+  const imageUrl = `../gfx/centered/${imageName}.jpg`;
 
   const imageElement = document.createElement('img');
   imageElement.src = imageUrl;
