@@ -117,6 +117,8 @@ https://www.flaticon.com/free-icon/earth_8567303?term=globe&page=2&position=11&o
 https://www.flaticon.com/free-icon/bug_25646?term=bug&page=1&position=10&origin=search&related_id=25646
 https://www.flaticon.com/free-icon/mute_6946616?related_id=6946616&origin=pack
 https://www.flaticon.com/free-icon/sound_6946622?related_id=6946622&origin=pack
+https://www.flaticon.com/free-icon/slash_7625525?related_id=7625525&origin=pack
+https://www.flaticon.com/free-icon/music_7625519?related_id=7625519&origin=pack
 */
 .navright img {
     height: 24px;
@@ -126,7 +128,11 @@ https://www.flaticon.com/free-icon/sound_6946622?related_id=6946622&origin=pack
     height: 30px;
     cursor: pointer;
 }
-  
+
+#muteEffectsButton img {
+    height: 24px;
+}
+
 #muteMusicButton img {
     height: 24px;
 }
