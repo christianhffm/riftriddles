@@ -9,7 +9,7 @@
     height: 10vh;
     text-align: center;
     text-justify: center;
-    margin: 2vh 0 2vh 0;
+    margin: 2vh 0 4vh 0;
     font-style: italic;
     font-weight: bold;
     font-size: 70px;
@@ -25,17 +25,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.questionheader {
-    height: 5vh;
-    width: 20vw;
-    font-size: 20px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2vh 0 4vh 0;
 }
 
 .imagecontainer {
