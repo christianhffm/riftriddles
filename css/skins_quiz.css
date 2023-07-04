@@ -28,15 +28,12 @@
 }
 
 .imagecontainer {
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    margin: 0 0 4vh 0;
+    height: 40vh;
+    margin: 0 0 6vh 0;
 }
 
 .custom-image {
-    width: 30vw;
+    height: 40vh;
 }
 
 .subrow {
