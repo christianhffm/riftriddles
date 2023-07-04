@@ -7,7 +7,7 @@ function toggleLightMode() {
 
   body.classList.toggle("light-mode");
   if (body.classList.contains("light-mode")) {
-    icon.setAttribute("src", "../icons/header-icons/moon.png");
+    icon.setAttribute("src", "../gfx/icons/header-icons/moon.png");
     icon.setAttribute("alt", "Dark Mode");
     body.style.backgroundColor = "white";
     featureContent.style.background = "linear-gradient(rgb(230, 230, 230), white)";
@@ -15,7 +15,7 @@ function toggleLightMode() {
     localStorage.setItem("lightMode", "true");
 
   } else {
-    icon.setAttribute("src", "../icons/header-icons/sun.png");
+    icon.setAttribute("src", "../gfx/icons/header-icons/sun.png");
     icon.setAttribute("alt", "Light Mode");
     body.style.backgroundColor = "";
     featureContent.style.background = "linear-gradient(rgb(210, 210, 210), rgb(0, 10, 20))";

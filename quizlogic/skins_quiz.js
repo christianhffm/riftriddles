@@ -214,7 +214,7 @@ function displayAttemptedChampions() {
     const championImage = document.createElement('img');
 
     const imageName = champion.toLowerCase().replace(/\s/g, ''); // Convert champion name to lowercase and remove spaces
-    const imageUrl = `../icons/champion-icons/${imageName}.png`; // Update image URL based on the champion's name
+    const imageUrl = `../gfx/icons/champion-icons/${imageName}.png`; // Update image URL based on the champion's name
     championImage.src = imageUrl;
     championImage.alt = capitalizedChampion;
     championItem.appendChild(championImage);
@@ -243,7 +243,7 @@ function showFilteredChampions() {
         const championImage = document.createElement('img');
 
         const imageName = champion.toLowerCase().replace(/\s/g, ''); // Convert champion name to lowercase and remove spaces
-        const imageUrl = `../icons/champion-icons/${imageName}.png`; // Update image URL based on the champion's name
+        const imageUrl = `../gfx/icons/champion-icons/${imageName}.png`; // Update image URL based on the champion's name
         championImage.src = imageUrl;
         championImage.alt = capitalizedChampionName;
         championItem.appendChild(championImage);

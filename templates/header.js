@@ -20,10 +20,10 @@ if (!headerPlaceholder.innerHTML) {
       // Initialize the state and images for the buttons
       let isMusicMuted = false; // Set the initial state for music to unmuted
       let isEffectsMuted = false; // Set the initial state for effects to unmuted
-      const unmuteMusicImagePath = '../icons/header-icons/music.png';
-      const muteMusicImagePath = '../icons/header-icons/slash.png';
-      const unmuteEffectsImagePath = '../icons/header-icons/sound.png'; // Specify the actual path to unmute effects image
-      const muteEffectsImagePath = '../icons/header-icons/mute.png'; // Specify the actual path to mute effects image
+      const unmuteMusicImagePath = '../gfx/icons/header-icons/music.png';
+      const muteMusicImagePath = '../gfx/icons/header-icons/slash.png';
+      const unmuteEffectsImagePath = '../gfx/icons/header-icons/sound.png'; // Specify the actual path to unmute effects image
+      const muteEffectsImagePath = '../gfx/icons/header-icons/mute.png'; // Specify the actual path to mute effects image
 
       // Set the initial images for the buttons
       muteMusicImage.setAttribute('src', isMusicMuted ? muteMusicImagePath : unmuteMusicImagePath);
