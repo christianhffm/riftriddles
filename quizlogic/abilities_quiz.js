@@ -347,6 +347,7 @@ function findChampionByAbility(ability) {
   });
 }
 
+const veryeasyButton = document.getElementById('very-easy-button');
 const easyButton = document.getElementById('easy-button');
 const mediumButton = document.getElementById('medium-button');
 const hardButton = document.getElementById('hard-button');
@@ -356,6 +357,10 @@ let difficultyLevel = ''; // Stores the selected difficulty level
 let selectedButton = null; // Stores the currently selected button
 
 // Add event listeners to the buttons
+veryeasyButton.addEventListener('click', () => {
+  selectButton(veryeasyButton, 'veryeasy');
+});
+
 easyButton.addEventListener('click', () => {
   selectButton(easyButton, 'easy');
 });
@@ -387,13 +392,21 @@ function selectButton(button, level) {
 }
 
 function applyDifficulty() {
+  var element = document.getElementById('question');
   imageContainer.classList.remove('gray-filter', 'rotate');
   imageContainer.style.transform = ''; // Reset the rotation
+  element.classList.remove('hidden-element');
 
-  if (difficultyLevel === 'medium') {
+  if (difficultyLevel === 'easy') {
+    element.classList.add('hidden-element');
+  }
+  else if (difficultyLevel === 'medium') {
     imageContainer.classList.add('gray-filter');
+    element.classList.add('hidden-element');
   } else if (difficultyLevel === 'hard') {
     imageContainer.classList.add('gray-filter', 'rotate');
+    element.classList.add('hidden-element');
+
 
     // Generate a random rotation value from 1 to 3 (1, 2, or 3)
     const rotationValue = Math.floor(Math.random() * 3) + 1;
@@ -401,6 +414,11 @@ function applyDifficulty() {
     // Apply the rotation using the randomly generated value
     imageContainer.style.transform = `rotate(${rotationValue * 90}deg)`;
   }
+}
+
+function hideElement() {
+  var element = document.getElementById('question');
+  element.classList.add('hidden-element');
 }
 
 initializeQuestions();
