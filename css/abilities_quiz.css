@@ -9,27 +9,68 @@
     height: 10vh;
     text-align: center;
     text-justify: center;
-    margin: 2vh 0 4vh 0;
+    margin: 2vh 0 0vh 0;
     font-style: italic;
     font-weight: bold;
     font-size: 70px;
     text-transform: uppercase;
 }
 
+.settings {
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 4vh 0;
+}
+
+.difficulty-button {
+    width: 5vh;
+    height: 5vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0 2vh 0 0;
+    background-color: transparent;
+  }
+  
+  #easy-button {
+    background-image: url('../gfx/icons/settings_icons/bronze4.webp');
+  }
+  
+  #medium-button {
+    background-image: url('../gfx/icons/settings_icons/silver4.webp');
+  }
+  
+  #hard-button {
+    background-image: url('../gfx/icons/settings_icons/gold4.webp');
+  }
+
 .quizcontainer {
     font-family: "FF Mark W05", Arial, sans-serif;
     font-size: 20px;
-    width: 100%;
-    margin: 0vh auto 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .imagecontainer {
     height: 64px;
+    width: 64px;
 }
+
+.gray-filter {
+    filter: grayscale(100%);
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+.selected {
+    background-color: rgba(5, 31, 44,.3);
+    /* Add any other styles you want for the selected button */
+  }  
 
 #question {
     height: 40px;
@@ -61,7 +102,7 @@
     width: 15%;
 }
 
-button img{
+button img {
     height: 100%;
     margin: 0 0 0 5%;
 }
@@ -100,7 +141,7 @@ li img {
     max-width: 100vw;
 }
 
-#attempted-list li{
+#attempted-list li {
     background-color: rgb(141, 41, 41);
     margin: 1vh;
     width: 15.5vh;
@@ -110,4 +151,4 @@ li img {
 .column {
     display: inline-block;
     vertical-align: top;
-  }
+}

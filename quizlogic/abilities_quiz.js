@@ -305,9 +305,6 @@ function highlightSelectedChampion() {
   }
 }
 
-initializeQuestions();
-displayQuestion();
-
 const submitButton = document.getElementById('submit');
 submitButton.onclick = checkAnswer;
 
@@ -349,3 +346,62 @@ function findChampionByAbility(ability) {
       });
   });
 }
+
+const easyButton = document.getElementById('easy-button');
+const mediumButton = document.getElementById('medium-button');
+const hardButton = document.getElementById('hard-button');
+const imageContainer = document.querySelector('.imagecontainer');
+
+let difficultyLevel = ''; // Stores the selected difficulty level
+let selectedButton = null; // Stores the currently selected button
+
+// Add event listeners to the buttons
+easyButton.addEventListener('click', () => {
+  selectButton(easyButton, 'easy');
+});
+
+mediumButton.addEventListener('click', () => {
+  selectButton(mediumButton, 'medium');
+});
+
+hardButton.addEventListener('click', () => {
+  selectButton(hardButton, 'hard');
+});
+
+function selectButton(button, level) {
+  if (button === selectedButton) {
+    return; // Ignore the click if the button is already selected
+  }
+
+  if (selectedButton) {
+    selectedButton.classList.remove('selected');
+    selectedButton.disabled = false;
+  }
+
+  button.classList.add('selected');
+  button.disabled = true;
+  selectedButton = button;
+  difficultyLevel = level;
+
+  applyDifficulty();
+}
+
+function applyDifficulty() {
+  imageContainer.classList.remove('gray-filter', 'rotate');
+  imageContainer.style.transform = ''; // Reset the rotation
+
+  if (difficultyLevel === 'medium') {
+    imageContainer.classList.add('gray-filter');
+  } else if (difficultyLevel === 'hard') {
+    imageContainer.classList.add('gray-filter', 'rotate');
+
+    // Generate a random rotation value from 1 to 3 (1, 2, or 3)
+    const rotationValue = Math.floor(Math.random() * 3) + 1;
+
+    // Apply the rotation using the randomly generated value
+    imageContainer.style.transform = `rotate(${rotationValue * 90}deg)`;
+  }
+}
+
+initializeQuestions();
+displayQuestion();
