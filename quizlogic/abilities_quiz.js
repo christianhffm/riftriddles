@@ -353,8 +353,8 @@ const mediumButton = document.getElementById('medium-button');
 const hardButton = document.getElementById('hard-button');
 const imageContainer = document.querySelector('.imagecontainer');
 
-let difficultyLevel = ''; // Stores the selected difficulty level
-let selectedButton = null; // Stores the currently selected button
+let difficultyLevel = 'veryeasy'; // Set the default difficulty level
+let selectedButton = veryeasyButton; // Set the default selected button
 
 // Add event listeners to the buttons
 veryeasyButton.addEventListener('click', () => {
