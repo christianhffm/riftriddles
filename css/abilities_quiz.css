@@ -102,7 +102,11 @@
     text-transform: capitalize;
     height: 90%;
     width: 80%;
-    font-size: 16px;
+    font-size: 18px;
+}
+
+#answer::placeholder {
+    text-transform: none;
 }
 
 #submit {
@@ -129,7 +133,7 @@ button img {
 
 ul {
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     list-style-type: none;
 }
 

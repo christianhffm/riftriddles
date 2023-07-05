@@ -397,10 +397,16 @@ function applyDifficulty() {
   imageContainer.style.transform = ''; // Reset the rotation
   element.classList.remove('hidden-element');
 
-  if (difficultyLevel === 'easy' || difficultyLevel === 'medium') {
+  if (difficultyLevel === 'easy'){
     element.classList.add('hidden-element');
   }
+  
+  else if(difficultyLevel === 'medium') {
+    element.classList.add('hidden-element');
+    imageContainer.classList.add('gray-filter');
+  }
   else if (difficultyLevel === 'hard') {
+    element.classList.add('hidden-element');
     imageContainer.classList.add('gray-filter');
 
     let flipValueX = 1;
