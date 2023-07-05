@@ -397,22 +397,32 @@ function applyDifficulty() {
   imageContainer.style.transform = ''; // Reset the rotation
   element.classList.remove('hidden-element');
 
-  if (difficultyLevel === 'easy') {
+  if (difficultyLevel === 'easy' || difficultyLevel === 'medium') {
     element.classList.add('hidden-element');
   }
-  else if (difficultyLevel === 'medium') {
+  else if (difficultyLevel === 'hard') {
     imageContainer.classList.add('gray-filter');
-    element.classList.add('hidden-element');
-  } else if (difficultyLevel === 'hard') {
-    imageContainer.classList.add('gray-filter', 'rotate');
-    element.classList.add('hidden-element');
 
+    let flipValueX = 1;
+    let flipValueY = 1;
 
-    // Generate a random rotation value from 1 to 3 (1, 2, or 3)
-    const rotationValue = Math.floor(Math.random() * 3) + 1;
+    // Generate random values from 0 to 1 (0 or 1)
+    const randomValueX = Math.floor(Math.random() * 2);
+    const randomValueY = Math.floor(Math.random() * 2);
 
-    // Apply the rotation using the randomly generated value
-    imageContainer.style.transform = `rotate(${rotationValue * 90}deg)`;
+    // Apply the flip transformations based on the random values
+    if (randomValueX === 1) {
+      flipValueX = -1; // Flip along the x-axis
+    }
+    if (randomValueY === 1) {
+      flipValueY = -1; // Flip along the y-axis
+    }
+
+    // Generate a random rotation value of 0, 90, 180, 270, or 360 degrees
+    const rotationValue = Math.floor(Math.random() * 5) * 90;
+
+    // Apply the transformations using the randomly generated values
+    imageContainer.style.transform = `scaleX(${flipValueX}) scaleY(${flipValueY}) rotate(${rotationValue}deg)`;
   }
 }
 

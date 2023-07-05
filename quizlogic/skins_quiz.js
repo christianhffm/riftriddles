@@ -1,4 +1,3 @@
-const questionElement = document.getElementById('question');
 const answerElement = document.getElementById('answer');
 const championListElement = document.getElementById('champion-list');
 const attemptedChampionsListElement = document.getElementById('attempted-list');
@@ -104,7 +103,9 @@ function displayQuestion() {
   const imageElement = document.createElement('img');
   imageElement.src = imageUrl;
   imageElement.alt = `${currentChampionName} - ${currentSkinName}`;
-  imageElement.classList.add('custom-image'); // Add a class to the image element  
+  imageElement.classList.add('custom-image'); // Add a class to the image element 
+  imageElement.id = 'my-image'; // Set the id of the image element to 'my-image'
+
 
   const imageContainer = document.querySelector('.imagecontainer');
   imageContainer.innerHTML = '';
@@ -113,7 +114,6 @@ function displayQuestion() {
   answerElement.value = '';
   championListElement.innerHTML = '';
   attemptedChampionsListElement.innerHTML = '';
-
 
   imageElement.style.transform = 'scale(500%)';
 
@@ -387,3 +387,83 @@ function findChampionByName(championName) {
 }
 
 initializeQuestions();
+
+const easyButton = document.getElementById('easy-button');
+const mediumButton = document.getElementById('medium-button');
+const hardButton = document.getElementById('hard-button');
+const imageContainer = document.querySelector('.imagecontainer');
+
+let difficultyLevel = 'easy'; // Set the default difficulty level
+let selectedButton = easyButton; // Set the default selected button
+
+easyButton.addEventListener('click', () => {
+  selectButton(easyButton, 'easy');
+});
+
+mediumButton.addEventListener('click', () => {
+  selectButton(mediumButton, 'medium');
+});
+
+hardButton.addEventListener('click', () => {
+  selectButton(hardButton, 'hard');
+});
+
+applyDifficulty();
+
+function selectButton(button, level) {
+  if (button === selectedButton) {
+    return; // Ignore the click if the button is already selected
+  }
+
+  if (selectedButton) {
+    selectedButton.classList.remove('selected');
+    selectedButton.disabled = false;
+  }
+
+  button.classList.add('selected');
+  button.disabled = true;
+  selectedButton = button;
+  difficultyLevel = level;
+
+  applyDifficulty();
+}
+
+function applyDifficulty() {
+  var element = document.getElementById('champion-image');
+  var image = document.getElementById('my-image');
+  imageContainer.classList.remove('gray-filter');
+  element.style.transform = ''; // Reset the transformation
+
+  if (difficultyLevel === 'easy') {
+  }
+  else if (difficultyLevel === 'medium') {
+    imageContainer.classList.add('gray-filter');
+  }
+  else if (difficultyLevel === 'hard') {
+    imageContainer.classList.add('gray-filter');
+
+    let flipValueX = 1;
+    let flipValueY = 1;
+
+    // Generate random values from 0 to 1 (0 or 1)
+    const randomValueX = Math.floor(Math.random() * 2);
+    const randomValueY = Math.floor(Math.random() * 2);
+
+    // Apply the flip transformations based on the random values
+    if (randomValueX === 1) {
+      flipValueX = -1; // Flip along the x-axis
+    }
+
+    if (randomValueY === 1) {
+      flipValueY = -1; // Flip along the y-axis
+    }
+
+    if (randomValueX === 0 && randomValueY === 0) {
+      flipValueX = -1; // Flip along the x-axis
+      flipValueY = -1; // Flip along the y-axis
+    }
+
+    // Apply the flip transformations using the randomly generated values
+    element.style.transform = `scaleX(${flipValueX}) scaleY(${flipValueY})`;
+  }
+}
