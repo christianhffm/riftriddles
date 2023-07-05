@@ -28,6 +28,7 @@
 }
 
 .imagecontainer {
+    border: grey 1px solid;
     height: 30vh;
     margin: 0 0 4vh 0;
     overflow: hidden;
@@ -102,9 +103,13 @@ li img {
 
 #attempted-list li{
     background-color: rgb(100, 15, 15);
-    margin: 1vh;
-    width: 15.5vh;
+    margin: 1vh 1vh 0 0;
+    width: 19vh;
     border-radius: 5px;
+}
+
+#attempted-list:last-child{
+    margin: 1vh 0 0 0;
 }
 
 .column {
