@@ -63,7 +63,22 @@
 }
 
 .imagecontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 4vh 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+}
+
+.box {
+    font-size: 14px;
+    text-align: center;
     height: 80px;
+    line-height: 80px;
     width: 80px;
     border: grey 1px solid;
 }

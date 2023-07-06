@@ -41,7 +41,38 @@ function displayQuestion() {
   answerElement.value = '';
   championListElement.innerHTML = '';
   attemptedChampionsListElement.innerHTML = '';
+}
 
+function checkAnswer() {
+  const userAnswer = answerElement.value.trim().toLowerCase();
+  const correctSkin = currentChampionName.toLowerCase();
+  const correctAbility = questions[currentQuestionIndex].answer.toLowerCase();
+
+  if (!championNames.includes(userAnswer)) {
+    return; // Stop further processing
+  }
+
+  if (userAnswer === correctAbility || userAnswer === correctSkin) {
+    console.clear();
+    currentQuestionIndex++;
+    if (currentQuestionIndex < questions.length) {
+      displayQuestion();
+    } else {
+      shuffleQuestions();
+      currentQuestionIndex = 0;
+      displayQuestion();
+    }
+    attemptedChampions = [];
+    playCorrectSound();
+  } else {
+    if (!attemptedChampions.includes(userAnswer)) { // Check if the champion guess is not already in the attempted list
+      attemptedChampions.push(userAnswer);
+      displayAttemptedChampions();
+    }
+  }
+
+  answerElement.value = '';
+  showFilteredChampions();
 }
 
 const veryeasyButton = document.getElementById('very-easy-button');
