@@ -84,9 +84,9 @@ function check() {
   
           // Check if the category value of the guessed champion matches the correct champion
           if (guessedChampionEntry[category] === correctChampionEntry[category]) {
-            box.classList.add('green'); // Add green color class
+            box.classList.add('right'); // Add right color class
           } else {
-            box.classList.add('red'); // Add red color class
+            box.classList.add('wrong'); // Add wrong color class
           }
   
           if (i === 0) {
