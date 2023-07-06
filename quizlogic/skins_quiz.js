@@ -75,7 +75,6 @@ function displayQuestion() {
 
   // Check if championInfo is available
   if (!currentChampionInfo) {
-    console.log('Champion info not available.');
     return;
   }
 
