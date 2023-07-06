@@ -81,7 +81,16 @@
     line-height: 80px;
     width: 80px;
     border: grey 1px solid;
+    background-size: contain;
 }
+
+.right {
+    background-color: green;
+  }
+
+  .wrong {
+    background-color: red;
+  }
 
 .gray-filter {
     filter: grayscale(100%);
