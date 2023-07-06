@@ -7,7 +7,17 @@ function convertXlsxToJson() {
   // Read the Excel file
   const workbook = XLSX.readFile('data/championData.xlsx');
   const worksheet = workbook.Sheets[workbook.SheetNames[0]];
-  const jsonData = XLSX.utils.sheet_to_json(worksheet);
+  const jsonData = XLSX.utils.sheet_to_json(worksheet, { raw: false });
+
+  // Split category values into an array
+  jsonData.forEach((champion) => {
+    for (const key in champion) {
+      const value = champion[key];
+      if (typeof value === 'string' && value.includes(',')) {
+        champion[key] = value.split(',').map((v) => v.trim());
+      }
+    }
+  });
 
   // Write the JSON data to a file
   fs.writeFile('data/championData.json', JSON.stringify(jsonData, null, 4), (err) => {
