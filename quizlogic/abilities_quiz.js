@@ -1,27 +1,5 @@
 const questionElement = document.getElementById('question');
 
-function initializeQuestions() {
-  fetch('../data/abilities.json')
-    .then(response => response.json())
-    .then(data => {
-      for (const champion of data) {
-        const championName = champion.Champion.toLowerCase();
-        championNames.push(championName);
-        for (const abilityKey in champion) {
-          if (abilityKey !== "Champion") {
-            const question = `"${champion[abilityKey]}"`;
-            questions.push({ question, answer: championName });
-          }
-        }
-      }
-      shuffleQuestions();
-      displayQuestion();
-    })
-    .catch(error => {
-      console.log('An error occurred while fetching champions data:', error);
-    });
-}
-
 function displayQuestion() {
   const question = questions[currentQuestionIndex].question;
   questionElement.textContent = question;
@@ -64,79 +42,6 @@ function displayQuestion() {
   championListElement.innerHTML = '';
   attemptedChampionsListElement.innerHTML = '';
 
-}
-
-function checkAnswer() {
-  const userAnswer = answerElement.value.trim().toLowerCase();
-  const correctAnswer = questions[currentQuestionIndex].answer.toLowerCase();
-
-  if (!championNames.includes(userAnswer)) {
-    return; // Stop further processing
-  }
-
-  if (userAnswer === correctAnswer) {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-      displayQuestion();
-    } else {
-      shuffleQuestions();
-      currentQuestionIndex = 0;
-      displayQuestion();
-    }
-    attemptedChampions = [];
-    playCorrectSound();
-  } else {
-    if (!attemptedChampions.includes(userAnswer)) { // Check if the champion guess is not already in the attempted list
-      attemptedChampions.push(userAnswer);
-      displayAttemptedChampions();
-    }
-  }
-
-  answerElement.value = '';
-  showFilteredChampions();
-}
-
-
-const submitButton = document.getElementById('submit');
-submitButton.onclick = checkAnswer;
-
-function findChampionByAbility(ability) {
-  return new Promise((resolve, reject) => {
-    fetch('../data/abilities.json')
-      .then(response => response.json())
-      .then(data => {
-        let championName = null;
-        let abilityTag = null;
-
-        for (const champion of data) {
-          for (const abilityKey in champion) {
-            if (champion[abilityKey] === ability) {
-              championName = champion.Champion;
-              abilityTag = abilityKey;
-              break; // Found the ability, exit the loop
-            }
-          }
-          if (championName !== null && abilityTag !== null) {
-            break; // Found the ability and champion, exit the loop
-          }
-        }
-
-        if (championName !== null && abilityTag !== null) {
-          console.log(`${championName}`);
-          console.log(`${abilityTag}`);
-          const result = {
-            championName: championName,
-            abilityTag: abilityTag
-          };
-          resolve(result);
-        } else {
-          reject(new Error(`Unable to find the champion for ability "${ability}".`));
-        }
-      })
-      .catch(error => {
-        reject(new Error('An error occurred while fetching champions data:', error));
-      });
-  });
 }
 
 const veryeasyButton = document.getElementById('very-easy-button');
@@ -238,5 +143,5 @@ function hideElement() {
   element.classList.add('hidden-element');
 }
 
-initializeQuestions();
+initialize();
 console.clear();

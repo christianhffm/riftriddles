@@ -1,0 +1,669 @@
+[
+    {
+        "Champion": "Aatrox",
+        "Species": "Darkin",
+        "Gender": "Male",
+        "Position": "Top",
+        "Resource": "Blood",
+        "Range Type": "Melee",
+        "Region": "Shurima"
+    },
+    {
+        "Champion": "Ahri",
+        "Species": "Vastayan",
+        "Gender": "Female",
+        "Position": "Mid",
+        "Resource": "Mana",
+        "Range Type": "Ranged",
+        "Region": "Icathia"
+    },
+    {
+        "Champion": "Akali",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Akshan",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Alistar",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Amumu",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Anivia",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Annie",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Aphelios",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Ashe",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Aurelion Sol",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Azir",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Bard",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Bel'Veth",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Blitzcrank",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Brand",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Braum",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Caitlyn",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Camille",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Cassiopeia",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Cho'Gath",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Corki",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Darius",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Diana",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Dr. Mundo",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Draven",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Ekko",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Elise",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Evelynn",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Ezreal",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Fiddlesticks",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Fiora",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Fizz",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Galio",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Gangplank",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Garen",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Gnar",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Gragas",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Graves",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Gwen",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Hecarim",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Heimerdinger",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Illaoi",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Irelia",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Ivern",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Janna",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Jarvan IV",
+        "Species": "Human",
+        "Gender": "Male",
+        "Position": "Jungle",
+        "Resource": "Mana",
+        "Range Type": "Melee",
+        "Region": "Demacia"
+    },
+    {
+        "Champion": "Jax",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Jayce",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Jhin",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Jinx",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "K'Sante",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Kai'Sa",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Kalista",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Karma",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Karthus",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Kassadin",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Katarina",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Kayle",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Kayn",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Kennen",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Kha'Zix",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Kindred",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Kled",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Kog'Maw",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "LeBlanc",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Lee Sin",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Leona",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Lillia",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Lissandra",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Lucian",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Lulu",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Lux",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Malphite",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Malzahar",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Maokai",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Master Yi",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Milio",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Miss Fortune",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Mordekaiser",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Morgana",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Nami",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Nasus",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Nautilus",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Neeko",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Nidalee",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Nilah",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Nocturne",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Nunu & Willump",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Olaf",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Orianna",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Ornn",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Pantheon",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Poppy",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Pyke",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Qiyana",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Quinn",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Rakan",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Rammus",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Rek'Sai",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Rell",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Renata Glasc",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Renekton",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Rengar",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Riven",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Rumble",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Ryze",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Samira",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Sejuani",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Senna",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Seraphine",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Sett",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Shaco",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Shen",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Shyvana",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Singed",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Sion",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Sivir",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Skarner",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Sona",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Soraka",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Swain",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Sylas",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Syndra",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Tahm Kench",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Taliyah",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Talon",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Taric",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Teemo",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Thresh",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Tristana",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Trundle",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Tryndamere",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Twisted Fate",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Twitch",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Udyr",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Urgot",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Varus",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Vayne",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Veigar",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Vel'Koz",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Vex",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Vi",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Viego",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Viktor",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Vladimir",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Volibear",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Warwick",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Wukong",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Xayah",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Xerath",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Xin Zhao",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Yasuo",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Yone",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Yorick",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Yuumi",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Zac",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Zed",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Zeri",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Ziggs",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Zilean",
+        "Gender": "Male"
+    },
+    {
+        "Champion": "Zoe",
+        "Gender": "Female"
+    },
+    {
+        "Champion": "Zyra",
+        "Gender": "Female"
+    }
+]

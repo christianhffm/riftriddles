@@ -2,28 +2,11 @@ const championImage = document.getElementById('champion-image');
 
 let championInfoList = []; // Declare championInfoList as a global variable
 let currentChampionInfo = null; // Variable to store the current champion information
-let currentChampionName = ''; // Variable to store the current champion name
 let currentSkinName = ''; // Variable to store the current skin name
 let currentSkinNumber = ''; // Variable to store the current skin number
 
 function initializeQuestions() {
-  fetch('../data/abilities.json')
-    .then(response => response.json())
-    .then(data => {
-      for (const champion of data) {
-        const championName = champion.Champion.toLowerCase();
-        championNames.push(championName);
-        for (const abilityKey in champion) {
-          if (abilityKey !== "Champion") {
-            const question = `"${champion[abilityKey]}"`;
-            questions.push({ question, answer: championName });
-          }
-        }
-      }
-    })
-    .catch(error => {
-      console.log('An error occurred while fetching champions data:', error);
-    });
+  initialize();
 
   // Fetch championFull.json
   fetch('../data/championFull.json')
@@ -55,7 +38,6 @@ function initializeQuestions() {
       displayQuestion();
     })
     .catch(error => console.log('An error occurred while fetching champion data:', error));
-
 }
 
 function displayQuestion() {
@@ -128,52 +110,6 @@ function displayQuestion() {
     event.preventDefault();
   });
 
-}
-
-function checkAnswer() {
-  const userAnswer = answerElement.value.trim().toLowerCase();
-  const correctAnswer = currentChampionName.toLowerCase();
-
-  if (!championNames.includes(userAnswer)) {
-    return; // Stop further processing
-  }
-
-  if (userAnswer === correctAnswer) {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-      displayQuestion();
-    } else {
-      shuffleQuestions();
-      currentQuestionIndex = 0;
-      displayQuestion();
-    }
-    attemptedChampions = [];
-    playCorrectSound();
-  } else {
-    if (!attemptedChampions.includes(userAnswer)) { // Check if the champion guess is not already in the attempted list
-      attemptedChampions.push(userAnswer);
-      displayAttemptedChampions();
-    }
-  }
-
-  answerElement.value = '';
-  showFilteredChampions();
-}
-
-
-
-
-const submitButton = document.getElementById('submit');
-submitButton.onclick = checkAnswer;
-
-function findChampionByName(championName) {
-  const normalizedChampionName = championName.toLowerCase();
-  for (const championInfo of championInfoList) {
-    if (championInfo.name.toLowerCase() === normalizedChampionName) {
-      return championInfo;
-    }
-  }
-  return null;
 }
 
 const easyButton = document.getElementById('easy-button');

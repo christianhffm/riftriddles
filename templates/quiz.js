@@ -1,13 +1,70 @@
 const championListElement = document.getElementById('champion-list');
 const attemptedChampionsListElement = document.getElementById('attempted-list');
 const answerElement = document.getElementById('answer');
+const submitButton = document.getElementById('submit');
 
 let wrongTries = 1; // Counter for wrong tries
 let questions = [];
 let currentQuestionIndex = 0;
+let currentChampionName = ''; // Variable to store the current champion name
 let championNames = [];
 let attemptedChampions = [];
 let selectedChampionIndex = 0;
+
+function initialize() {
+  fetch('../data/abilities.json')
+    .then(response => response.json())
+    .then(data => {
+      for (const champion of data) {
+        const championName = champion.Champion.toLowerCase();
+        championNames.push(championName);
+        for (const abilityKey in champion) {
+          if (abilityKey !== "Champion") {
+            const question = `"${champion[abilityKey]}"`;
+            questions.push({ question, answer: championName });
+          }
+        }
+      }
+      shuffleQuestions();
+      displayQuestion();
+    })
+    .catch(error => {
+      console.log('An error occurred while fetching champions data:', error);
+    });
+}
+
+function checkAnswer() {
+  const userAnswer = answerElement.value.trim().toLowerCase();
+  const correctSkin = currentChampionName.toLowerCase();
+  const correctAbility = questions[currentQuestionIndex].answer.toLowerCase();
+
+  if (!championNames.includes(userAnswer)) {
+    return; // Stop further processing
+  }
+
+  if (userAnswer === correctAbility || userAnswer === correctSkin) {
+    console.clear();
+    currentQuestionIndex++;
+    if (currentQuestionIndex < questions.length) {
+      displayQuestion();
+    } else {
+      shuffleQuestions();
+      currentQuestionIndex = 0;
+      displayQuestion();
+    }
+    attemptedChampions = [];
+    playCorrectSound();
+  } else {
+    if (!attemptedChampions.includes(userAnswer)) { // Check if the champion guess is not already in the attempted list
+      attemptedChampions.push(userAnswer);
+      displayAttemptedChampions();
+    }
+  }
+
+  answerElement.value = '';
+  showFilteredChampions();
+}
+
 
 function shuffleQuestions() {
     for (let i = questions.length - 1; i > 0; i--) {
@@ -121,6 +178,54 @@ function showFilteredChampions() {
     }
 }
 
+function findChampionByName(championName) {
+  const normalizedChampionName = championName.toLowerCase();
+  for (const championInfo of championInfoList) {
+    if (championInfo.name.toLowerCase() === normalizedChampionName) {
+      return championInfo;
+    }
+  }
+  return null;
+}
+
+function findChampionByAbility(ability) {
+  return new Promise((resolve, reject) => {
+    fetch('../data/abilities.json')
+      .then(response => response.json())
+      .then(data => {
+        let championName = null;
+        let abilityTag = null;
+
+        for (const champion of data) {
+          for (const abilityKey in champion) {
+            if (champion[abilityKey] === ability) {
+              championName = champion.Champion;
+              abilityTag = abilityKey;
+              break; // Found the ability, exit the loop
+            }
+          }
+          if (championName !== null && abilityTag !== null) {
+            break; // Found the ability and champion, exit the loop
+          }
+        }
+
+        if (championName !== null && abilityTag !== null) {
+          console.log(`${championName}`);
+          console.log(`${abilityTag}`);
+          const result = {
+            championName: championName,
+            abilityTag: abilityTag
+          };
+          resolve(result);
+        } else {
+          reject(new Error(`Unable to find the champion for ability "${ability}".`));
+        }
+      })
+      .catch(error => {
+        reject(new Error('An error occurred while fetching champions data:', error));
+      });
+  });
+}
 
 answerElement.addEventListener('input', () => {
     const enteredText = answerElement.value.trim().toLowerCase();
