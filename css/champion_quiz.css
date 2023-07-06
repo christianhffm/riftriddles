@@ -164,7 +164,7 @@ li img {
 }
 
 #attempted-list {
-    display: flex;
+    display: none;
     justify-content: center;
 }
 

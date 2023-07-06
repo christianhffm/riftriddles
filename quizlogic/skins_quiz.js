@@ -112,6 +112,21 @@ function displayQuestion() {
 
 }
 
+answerElement.addEventListener('keydown', (event) => {
+  const filteredChampions = championListElement.getElementsByTagName('li');
+  const selectedChampion = filteredChampions[selectedChampionIndex]?.textContent;
+
+  if (event.key === 'Enter') {
+    if (selectedChampion) {
+      answerElement.value = selectedChampion;
+    } else if (filteredChampions.length > 0) {
+      answerElement.value = filteredChampions[0].textContent;
+    }
+
+    checkAnswer();
+  }
+});
+
 const easyButton = document.getElementById('easy-button');
 const mediumButton = document.getElementById('medium-button');
 const hardButton = document.getElementById('hard-button');
