@@ -411,6 +411,7 @@ function applyDifficulty() {
 
     let flipValueX = 1;
     let flipValueY = 1;
+    let rotationValue = 0;
 
     // Generate random values from 0 to 1 (0 or 1)
     const randomValueX = Math.floor(Math.random() * 2);
@@ -424,8 +425,16 @@ function applyDifficulty() {
       flipValueY = -1; // Flip along the y-axis
     }
 
-    // Generate a random rotation value of 0, 90, 180, 270, or 360 degrees
-    const rotationValue = Math.floor(Math.random() * 5) * 90;
+    // Generate a random rotation value of 0, 90, 180 or 270 degrees
+    rotationValue = Math.floor(Math.random() * 4) * 90;
+
+    if (flipValueX === 1 && flipValueY === 1 && rotationValue === 0){
+      rotationValue = 90;
+    }
+
+    if (flipValueX === -1 && flipValueY === -1 && rotationValue === 180){
+      rotationValue = 90;
+    }
 
     // Apply the transformations using the randomly generated values
     imageContainer.style.transform = `scaleX(${flipValueX}) scaleY(${flipValueY}) rotate(${rotationValue}deg)`;
