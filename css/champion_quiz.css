@@ -32,27 +32,27 @@
     background-position: center;
     margin: 0 2vh 0 0;
     background-color: transparent;
-  }
+}
 
-  .difficulty-button:last-child {
+.difficulty-button:last-child {
     margin: 0;
-  }
-  
-  #very-easy-button {
-    background-image: url('../gfx/icons/settings_icons/iron4.webp');
-  }
+}
 
-  #easy-button {
+#very-easy-button {
+    background-image: url('../gfx/icons/settings_icons/iron4.webp');
+}
+
+#easy-button {
     background-image: url('../gfx/icons/settings_icons/bronze4.webp');
-  }
-  
-  #medium-button {
+}
+
+#medium-button {
     background-image: url('../gfx/icons/settings_icons/silver4.webp');
-  }
-  
-  #hard-button {
+}
+
+#hard-button {
     background-image: url('../gfx/icons/settings_icons/gold4.webp');
-  }
+}
 
 .quizcontainer {
     font-family: "FF Mark W05", Arial, sans-serif;
@@ -76,21 +76,32 @@
 
 .box {
     font-size: 14px;
-    text-align: center;
+    display: flex;
     height: 80px;
-    line-height: 80px;
     width: 80px;
     border: grey 1px solid;
     background-size: contain;
 }
 
-.right {
-    background-color: green;
-  }
+.box p {
+    margin: auto ;
+}
 
-  .wrong {
-    background-color: red;
-  }
+.row .box:first-child p {
+    display: none;
+}
+
+.row .box:first-child:hover p {
+    display: inline;
+}
+
+.right {
+    background-color: rgb(0, 80, 0);
+}
+
+.wrong {
+    background-color: rgb(155, 0, 0);
+}
 
 .gray-filter {
     filter: grayscale(100%);
@@ -101,9 +112,9 @@
 }
 
 .selected {
-    background-color: rgba(5, 31, 44,.3);
+    background-color: rgba(5, 31, 44, .3);
     /* Add any other styles you want for the selected button */
-  }  
+}
 
 #question {
     height: 40px;
@@ -184,7 +195,7 @@ li img {
     border-radius: 5px;
 }
 
-#attempted-list:last-child{
+#attempted-list:last-child {
     margin: 1vh 0 0 0;
 }
 
@@ -196,7 +207,10 @@ li img {
 .hidden-element {
     opacity: 0;
     user-select: none;
-      -webkit-user-select: none; /* For Safari */
-      -moz-user-select: none; /* For Firefox */
-      -ms-user-select: none; /* For Internet Explorer/Edge */
-  }
+    -webkit-user-select: none;
+    /* For Safari */
+    -moz-user-select: none;
+    /* For Firefox */
+    -ms-user-select: none;
+    /* For Internet Explorer/Edge */
+}

@@ -38,78 +38,76 @@ function selectRandomChampion() {
 function check() {
     const guess = answerElement.value.trim().toLowerCase();
     const answer = currentChampionName.trim().toLowerCase();
-  
-    console.log("checking ...");
-  
+
     if (guess === answer) {
-      console.log("correct");
-      currentCounter++;
-      if (currentCounter < championEntries.length) {
-        selectRandomChampion();
-      } else {
-        shuffleQuestions();
-        currentCounter = 0;
-        displayQuestion();
-      }
-  
-      playCorrectSound();
-  
-      const imageContainer = document.querySelector('.imagecontainer');
-  
-      // Remove all existing rows
-      const rows = imageContainer.querySelectorAll('.row');
-      rows.forEach(row => {
-        row.remove();
-      });
-  
-    } else {
-      console.log("wrong");
-  
-      const imageContainer = document.querySelector('.imagecontainer');
-  
-      // Create a new row element
-      const row = document.createElement('div');
-      row.classList.add('row');
-  
-      const guessedChampionEntry = championEntries.find(champion => champion.name.toLowerCase() === guess);
-      const correctChampionEntry = championEntries.find(champion => champion.name.toLowerCase() === answer);
-  
-      if (guessedChampionEntry) {
-        // Create and append the champion data boxes
-        const categories = Object.keys(guessedChampionEntry);
-        for (let i = 0; i < categories.length; i++) {
-          const category = categories[i];
-          const box = document.createElement('div');
-          box.classList.add('box');
-  
-          // Check if the category value of the guessed champion matches the correct champion
-          if (guessedChampionEntry[category] === correctChampionEntry[category]) {
-            box.classList.add('right'); // Add right color class
-          } else {
-            box.classList.add('wrong'); // Add wrong color class
-          }
-  
-          if (i === 0) {
-            // Set the background image for the first box in the row
-            box.style.backgroundImage = `url('../gfx/icons/champion-icons/${answerElement.value}.png')`;
-          }
-  
-          box.textContent = guessedChampionEntry[category];
-          row.appendChild(box);
+        currentCounter++;
+        if (currentCounter < championEntries.length) {
+            console.clear();
+            selectRandomChampion();
+        } else {
+            shuffleQuestions();
+            currentCounter = 0;
+            displayQuestion();
         }
-      }
-  
-      // Prepend the new row to the image container to maintain reversed order
-      imageContainer.insertBefore(row, imageContainer.firstChild);
-  
-      if (!attemptedChampions.includes(guess)) { // Check if the champion guess is not already in the attempted list
-        attemptedChampions.push(guess);
-      }
+
+        playCorrectSound();
+
+        const imageContainer = document.querySelector('.imagecontainer');
+
+        // Remove all existing rows
+        const rows = imageContainer.querySelectorAll('.row');
+        rows.forEach(row => {
+            row.remove();
+        });
+
+    } else {
+        const imageContainer = document.querySelector('.imagecontainer');
+
+        // Create a new row element
+        const row = document.createElement('div');
+        row.classList.add('row');
+
+        const guessedChampionEntry = championEntries.find(champion => champion.name.toLowerCase() === guess);
+        const correctChampionEntry = championEntries.find(champion => champion.name.toLowerCase() === answer);
+
+        if (guessedChampionEntry) {
+            // Create and append the champion data boxes
+            const categories = Object.keys(guessedChampionEntry);
+            for (let i = 0; i < categories.length; i++) {
+                const category = categories[i];
+                const box = document.createElement('div');
+                box.classList.add('box');
+
+                // Check if the category value of the guessed champion matches the correct champion
+                if (guessedChampionEntry[category] === correctChampionEntry[category]) {
+                    box.classList.add('right'); // Add right color class
+                } else {
+                    box.classList.add('wrong'); // Add wrong color class
+                }
+
+                if (i === 0) {
+                    // Set the background image for the first box in the row
+                    box.style.backgroundImage = `url('../gfx/icons/champion-icons/${answerElement.value}.png')`;
+                }
+
+                const paragraph = document.createElement('p');
+                paragraph.textContent = guessedChampionEntry[category];
+                box.appendChild(paragraph);
+                row.appendChild(box);
+            }
+        }
+
+        // Prepend the new row to the image container to maintain reversed order
+        imageContainer.insertBefore(row, imageContainer.firstChild);
+
+        if (!attemptedChampions.includes(guess)) { // Check if the champion guess is not already in the attempted list
+            attemptedChampions.push(guess);
+        }
     }
     answerElement.value = '';
     showFilteredChampions();
-  }
-  
+}
+
 
 answerElement.addEventListener('keydown', (event) => {
     const filteredChampions = championListElement.getElementsByTagName('li');
