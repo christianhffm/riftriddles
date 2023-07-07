@@ -17,7 +17,7 @@ function initializeQuestions() {
                     resource: champion.Resource,
                     rangeType: champion['Range Type'],
                     region: champion.Region,
-                    releaseDate: champion['Release Date']
+                    releaseDate : champion['Release Date']
                 };
             });
 
@@ -35,6 +35,23 @@ function selectRandomChampion() {
     currentChampionName = championEntries[randomIndex].name;
     console.log(currentChampionName);
 }
+
+function arraysEqual(arr1, arr2) {
+    // Check if the arrays have the same length
+    if (arr1.length !== arr2.length) {
+        return false;
+    }
+
+    // Iterate over each element and compare
+    for (let i = 0; i < arr1.length; i++) {
+        if (arr1[i] !== arr2[i]) {
+            return false;
+        }
+    }
+
+    return true;
+}
+
 
 function check() {
     const guess = answerElement.value.trim().toLowerCase();
@@ -78,32 +95,65 @@ function check() {
                 const category = categories[i];
                 const categoryEntries = guessedChampionEntry[category];
 
-                const box = document.createElement('div');
-                box.classList.add('box');
+                // Check if the category has multiple entries
+                if (Array.isArray(categoryEntries)) {
+                    const box = document.createElement('div');
+                    box.classList.add('box');
 
-                // Check if the category value of the guessed champion matches the correct champion
-                if (categoryEntries === correctChampionEntry[category]) {
-                    box.classList.add('right');
-                } // Add right color class
-                else if (
-                    Array.isArray(correctChampionEntry[category]) &&
-                    correctChampionEntry[category].includes(categoryEntries)
-                ) {
-                    box.classList.add('almostright'); // Add right color class
-                }
-                else {
-                    box.classList.add('wrong'); // Add wrong color class
-                }
+                    // Check if the category value of the guessed champion matches the correct champion
+                    if (
+                        Array.isArray(correctChampionEntry[category]) &&
+                        arraysEqual(categoryEntries, correctChampionEntry[category])
+                    ) {
+                        box.classList.add('right'); // Add right color class
+                    }
+                    else if (
+                        Array.isArray(correctChampionEntry[category]) &&
+                        categoryEntries.some(entry => correctChampionEntry[category].includes(entry))
+                    ) {
+                        box.classList.add('almostright'); // Add right color class
+                    }
+                    else {
+                        box.classList.add('wrong'); // Add wrong color class
+                    }
 
-                if (i === 0) {
-                    // Set the background image for the first box in the row
-                    box.style.backgroundImage = `url('../gfx/icons/champion-icons/${answerElement.value}.png')`;
-                }
+                    if (i === 0) {
+                        // Set the background image for the first box in the row
+                        box.style.backgroundImage = `url('../gfx/icons/champion-icons/${answerElement.value}.png')`;
+                    }
 
-                const paragraph = document.createElement('p');
-                paragraph.textContent = categoryEntries;
-                box.appendChild(paragraph);
-                row.appendChild(box);
+                    const paragraph = document.createElement('p');
+                    paragraph.textContent = categoryEntries.join(', '); // Concatenate entries with a comma separator
+                    box.appendChild(paragraph);
+                    row.appendChild(box);
+                } else {
+                    const box = document.createElement('div');
+                    box.classList.add('box');
+
+                    // Check if the category value of the guessed champion matches the correct champion
+                    if (categoryEntries === correctChampionEntry[category]) {
+                        box.classList.add('right');
+                    } // Add right color class
+                    else if (
+                        Array.isArray(correctChampionEntry[category]) &&
+                        correctChampionEntry[category].includes(categoryEntries)
+                    ) {
+                        box.classList.add('almostright'); // Add right color class
+                    }
+                    else {
+                        box.classList.add('wrong'); // Add wrong color class
+                    }
+
+                    if (i === 0) {
+                        // Set the background image for the first box in the row
+                        box.style.backgroundImage = `url('../gfx/icons/champion-icons/${answerElement.value}.png')`;
+                    }
+
+                    const paragraph = document.createElement('p');
+                    paragraph.textContent = categoryEntries;
+                    box.appendChild(paragraph);
+                    row.appendChild(box);
+                }
             }
         }
 
