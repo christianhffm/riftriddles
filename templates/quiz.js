@@ -33,38 +33,6 @@ function initialize() {
     });
 }
 
-function checkAnswer() {
-  const userAnswer = answerElement.value.trim().toLowerCase();
-  const correctSkin = currentChampionName.toLowerCase();
-  const correctAbility = questions[currentQuestionIndex].answer.toLowerCase();
-
-  if (!championNames.includes(userAnswer)) {
-    return; // Stop further processing
-  }
-
-  if (userAnswer === correctAbility || userAnswer === correctSkin) {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-      displayQuestion();
-    } else {
-      shuffleQuestions();
-      currentQuestionIndex = 0;
-      displayQuestion();
-    }
-    attemptedChampions = [];
-    playCorrectSound();
-  } else {
-    if (!attemptedChampions.includes(userAnswer)) { // Check if the champion guess is not already in the attempted list
-      attemptedChampions.push(userAnswer);
-      displayAttemptedChampions();
-    }
-  }
-
-  answerElement.value = '';
-  showFilteredChampions();
-}
-
-
 function shuffleQuestions() {
   for (let i = questions.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));

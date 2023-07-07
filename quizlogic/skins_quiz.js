@@ -112,6 +112,37 @@ function displayQuestion() {
 
 }
 
+function checkAnswer() {
+  const userAnswer = answerElement.value.trim().toLowerCase();
+  const correctSkin = currentChampionName.toLowerCase();
+  const correctAbility = questions[currentQuestionIndex].answer.toLowerCase();
+
+  if (!championNames.includes(userAnswer)) {
+    return; // Stop further processing
+  }
+
+  if (userAnswer === correctAbility || userAnswer === correctSkin) {
+    currentQuestionIndex++;
+    if (currentQuestionIndex < questions.length) {
+      displayQuestion();
+    } else {
+      shuffleQuestions();
+      currentQuestionIndex = 0;
+      displayQuestion();
+    }
+    attemptedChampions = [];
+    playCorrectSound();
+  } else {
+    if (!attemptedChampions.includes(userAnswer)) { // Check if the champion guess is not already in the attempted list
+      attemptedChampions.push(userAnswer);
+      displayAttemptedChampions();
+    }
+  }
+
+  answerElement.value = '';
+  showFilteredChampions();
+}
+
 answerElement.addEventListener('keydown', (event) => {
   const filteredChampions = championListElement.getElementsByTagName('li');
   const selectedChampion = filteredChampions[selectedChampionIndex]?.textContent;
