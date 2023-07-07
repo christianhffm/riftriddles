@@ -15,8 +15,9 @@ function initializeQuestions() {
                     gender: champion.Gender,
                     position: champion.Position,
                     resource: champion.Resource,
-                    rangeType: champion.Range,
-                    region: champion.Region
+                    rangeType: champion['Range Type'],
+                    region: champion.Region,
+                    releaseDate : champion['Release Date']
                 };
             });
 

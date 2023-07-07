@@ -1,2442 +1,1520 @@
 [
     {
         "Champion": "Aatrox",
-        "Species": "Darkin",
         "Gender": "Male",
-        "Position": 
-            "Top",
-        "Resource": "Blood",
-        "Range": "Melee",
-        "Region": "Shurima"
+        "Position": "Top",
+        "Species": "Darkin",
+        "Resource": "Manaless",
+        "Range Type": "Melee",
+        "Region": [
+            "Runeterra",
+            "Shurima"
+        ],
+        "Release Date": "2013",
+        "Champion_1": "Gender",
+        "Aatrox": "Male",
+        "Ahri": "Female",
+        "Akali": "Female",
+        "Akshan": "Male",
+        "Alistar": "Male",
+        "Amumu": "Male",
+        "Anivia": "Female",
+        "Annie": "Female",
+        "Aphelios": "Male",
+        "Ashe": "Female",
+        "Aurelion Sol": "Male",
+        "Azir": "Male",
+        "Bard": "Male",
+        "Bel'Veth": "Female",
+        "Blitzcrank": "Other",
+        "Brand": "Male",
+        "Braum": "Male",
+        "Caitlyn": "Female",
+        "Camille": "Female",
+        "Cassiopeia": "Female",
+        "Cho'Gath": "Male",
+        "Corki": "Male",
+        "Darius": "Male",
+        "Diana": "Female",
+        "Dr. Mundo": "Male",
+        "Draven": "Male",
+        "Ekko": "Male",
+        "Elise": "Female",
+        "Evelynn": "Female",
+        "Ezreal": "Male",
+        "Fiddlesticks": "Other",
+        "Fiora": "Female",
+        "Fizz": "Male",
+        "Galio": "Male",
+        "Gangplank": "Male",
+        "Garen": "Male",
+        "Gnar": "Male",
+        "Gragas": "Male",
+        "Graves": "Male",
+        "Gwen": "Female",
+        "Hecarim": "Male",
+        "Heimerdinger": "Male",
+        "Illaoi": "Female",
+        "Irelia": "Female",
+        "Ivern": "Male",
+        "Janna": "Female",
+        "Jarvan IV": "Male",
+        "Jax": "Male",
+        "Jayce": "Male",
+        "Jhin": "Male",
+        "Jinx": "Female"
     },
     {
         "Champion": "Ahri",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
+        "Position": "Middle",
+        "Species": "Vastayan",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": "Ionia",
+        "Release Date": "2011",
+        "Champion_1": "Position",
+        "Aatrox": "Top",
+        "Ahri": "Middle",
+        "Akali": [
+            "Middle",
+            "Top"
+        ],
+        "Akshan": [
+            "Middle",
+            "Top"
+        ],
+        "Alistar": "Support",
+        "Amumu": [
+            "Jungle",
+            "Support"
+        ],
+        "Anivia": "Middle",
+        "Annie": [
+            "Middle",
+            "Support"
+        ],
+        "Aphelios": "Bottom",
+        "Ashe": [
+            "Bottom",
+            "Support"
+        ],
+        "Aurelion Sol": "Middle",
+        "Azir": "Middle",
+        "Bard": "Support",
+        "Bel'Veth": "Jungle",
+        "Blitzcrank": "Support",
+        "Brand": "Support",
+        "Braum": "Support",
+        "Caitlyn": "Bottom",
+        "Camille": "Top",
+        "Cassiopeia": "Middle",
+        "Cho'Gath": "Top",
+        "Corki": "Middle",
+        "Darius": "Top",
+        "Diana": [
+            "Jungle",
+            "Middle"
+        ],
+        "Dr. Mundo": "Top",
+        "Draven": "Bottom",
+        "Ekko": [
+            "Jungle",
+            "Middle"
+        ],
+        "Elise": "Jungle",
+        "Evelynn": "Jungle",
+        "Ezreal": "Bottom",
+        "Fiddlesticks": "Jungle",
+        "Fiora": "Top",
+        "Fizz": "Middle",
+        "Galio": [
+            "Middle",
+            "Support"
+        ],
+        "Gangplank": "Top",
+        "Garen": "Top",
+        "Gnar": "Top",
+        "Gragas": [
+            "Top",
+            "Jungle"
+        ],
+        "Graves": "Jungle",
+        "Gwen": "Top",
+        "Hecarim": "Jungle",
+        "Heimerdinger": [
+            "Middle",
+            "Support"
+        ],
+        "Illaoi": "Top",
+        "Irelia": [
+            "Top",
+            "Middle"
+        ],
+        "Ivern": "Jungle",
+        "Janna": "Support",
+        "Jarvan IV": "Jungle",
+        "Jax": [
+            "Top",
+            "Jungle"
+        ],
+        "Jayce": [
+            "Top",
+            "Middle"
+        ],
+        "Jhin": "Bottom",
+        "Jinx": "Bottom"
     },
     {
         "Champion": "Akali",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
         "Position": [
-            "Top",
-            "Mid"
+            "Middle",
+            "Top"
         ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Species": "Human",
+        "Resource": "Energy",
+        "Range Type": "Melee",
+        "Region": "Ionia",
+        "Release Date": "2010",
+        "Champion_1": "Species",
+        "Aatrox": "Darkin",
+        "Ahri": "Vastayan",
+        "Akali": "Human",
+        "Akshan": "Human",
+        "Alistar": "Minotaur",
+        "Amumu": [
+            "Undead",
+            "Yordle"
+        ],
+        "Anivia": [
+            "God",
+            "Spirit"
+        ],
+        "Annie": [
+            "Human",
+            "Magicborn"
+        ],
+        "Aphelios": [
+            "Human",
+            "Spiritualist"
+        ],
+        "Ashe": [
+            "Human",
+            "Iceborn"
+        ],
+        "Aurelion Sol": [
+            "Celestial",
+            "Dragon"
+        ],
+        "Azir": "God-Warrior",
+        "Bard": "Celestial",
+        "Bel'Veth": "Void-Being",
+        "Blitzcrank": "Golem",
+        "Brand": [
+            "Human",
+            "Magically Altered"
+        ],
+        "Braum": [
+            "Human",
+            "Iceborn"
+        ],
+        "Caitlyn": "Human",
+        "Camille": [
+            "Human",
+            "Cyborg"
+        ],
+        "Cassiopeia": [
+            "Human",
+            "Magically Altered"
+        ],
+        "Cho'Gath": "Void-Being",
+        "Corki": "Yordle",
+        "Darius": "Human",
+        "Diana": [
+            "Human",
+            "Aspect"
+        ],
+        "Dr. Mundo": [
+            "Human",
+            "Chemically Altered"
+        ],
+        "Draven": "Human",
+        "Ekko": "Human",
+        "Elise": [
+            "Human",
+            "Magically Altered"
+        ],
+        "Evelynn": [
+            "Demon",
+            "Spirit"
+        ],
+        "Ezreal": [
+            "Human",
+            "Magicborn"
+        ],
+        "Fiddlesticks": [
+            "Demon",
+            "Spirit"
+        ],
+        "Fiora": "Human",
+        "Fizz": "Yordle",
+        "Galio": "Golem",
+        "Gangplank": "Human",
+        "Garen": "Human",
+        "Gnar": "Yordle",
+        "Gragas": "Human",
+        "Graves": "Human",
+        "Gwen": [
+            "Human",
+            "Magically Altered"
+        ],
+        "Hecarim": "Undead",
+        "Heimerdinger": "Yordle",
+        "Illaoi": [
+            "Human",
+            "Spiritualist"
+        ],
+        "Irelia": [
+            "Human",
+            "Spiritualist"
+        ],
+        "Ivern": [
+            "Human",
+            "Magically Altered"
+        ],
+        "Janna": [
+            "God",
+            "Spirit"
+        ],
+        "Jarvan IV": "Human",
+        "Jax": "Unknown",
+        "Jayce": "Human",
+        "Jhin": [
+            "Human",
+            "Spiritualist"
+        ],
+        "Jinx": [
+            "Human",
+            "Chemically Altered"
+        ]
     },
     {
         "Champion": "Akshan",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
+        "Gender": "Male",
         "Position": [
-            "Top",
-            "Mid"
+            "Middle",
+            "Top"
         ],
+        "Species": "Human",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": "Shurima",
+        "Release Date": "2021",
+        "Champion_1": "Resource",
+        "Aatrox": "Manaless",
+        "Ahri": "Mana",
+        "Akali": "Energy",
+        "Akshan": "Mana",
+        "Alistar": "Mana",
+        "Amumu": "Mana",
+        "Anivia": "Mana",
+        "Annie": "Mana",
+        "Aphelios": "Mana",
+        "Ashe": "Mana",
+        "Aurelion Sol": "Mana",
+        "Azir": "Mana",
+        "Bard": "Mana",
+        "Bel'Veth": "Manaless",
+        "Blitzcrank": "Mana",
+        "Brand": "Mana",
+        "Braum": "Mana",
+        "Caitlyn": "Mana",
+        "Camille": "Mana",
+        "Cassiopeia": "Mana",
+        "Cho'Gath": "Mana",
+        "Corki": "Mana",
+        "Darius": "Mana",
+        "Diana": "Mana",
+        "Dr. Mundo": "Health",
+        "Draven": "Mana",
+        "Ekko": "Mana",
+        "Elise": "Mana",
+        "Evelynn": "Mana",
+        "Ezreal": "Mana",
+        "Fiddlesticks": "Mana",
+        "Fiora": "Mana",
+        "Fizz": "Mana",
+        "Galio": "Mana",
+        "Gangplank": "Mana",
+        "Garen": "Manaless",
+        "Gnar": "Rage",
+        "Gragas": "Mana",
+        "Graves": "Mana",
+        "Gwen": "Mana",
+        "Hecarim": "Mana",
+        "Heimerdinger": "Mana",
+        "Illaoi": "Mana",
+        "Irelia": "Mana",
+        "Ivern": "Mana",
+        "Janna": "Mana",
+        "Jarvan IV": "Mana",
+        "Jax": "Mana",
+        "Jayce": "Mana",
+        "Jhin": "Mana",
+        "Jinx": "Mana"
     },
     {
         "Champion": "Alistar",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
+        "Gender": "Male",
+        "Position": "Support",
+        "Species": "Minotaur",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Runeterra",
+        "Release Date": "2009",
+        "Champion_1": "Range Type",
+        "Aatrox": "Melee",
+        "Ahri": "Ranged",
+        "Akali": "Melee",
+        "Akshan": "Ranged",
+        "Alistar": "Melee",
+        "Amumu": "Melee",
+        "Anivia": "Ranged",
+        "Annie": "Ranged",
+        "Aphelios": "Ranged",
+        "Ashe": "Ranged",
+        "Aurelion Sol": "Ranged",
+        "Azir": "Ranged",
+        "Bard": "Ranged",
+        "Bel'Veth": "Melee",
+        "Blitzcrank": "Melee",
+        "Brand": "Ranged",
+        "Braum": "Melee",
+        "Caitlyn": "Ranged",
+        "Camille": "Melee",
+        "Cassiopeia": "Ranged",
+        "Cho'Gath": "Melee",
+        "Corki": "Ranged",
+        "Darius": "Melee",
+        "Diana": "Melee",
+        "Dr. Mundo": "Melee",
+        "Draven": "Ranged",
+        "Ekko": "Melee",
+        "Elise": [
+            "Melee",
+            "Ranged"
+        ],
+        "Evelynn": "Melee",
+        "Ezreal": "Ranged",
+        "Fiddlesticks": "Ranged",
+        "Fiora": "Melee",
+        "Fizz": "Melee",
+        "Galio": "Melee",
+        "Gangplank": "Melee",
+        "Garen": "Melee",
+        "Gnar": [
+            "Melee",
+            "Ranged"
+        ],
+        "Gragas": "Melee",
+        "Graves": "Ranged",
+        "Gwen": "Melee",
+        "Hecarim": "Melee",
+        "Heimerdinger": "Ranged",
+        "Illaoi": "Melee",
+        "Irelia": "Melee",
+        "Ivern": "Ranged",
+        "Janna": "Ranged",
+        "Jarvan IV": "Melee",
+        "Jax": "Melee",
+        "Jayce": [
+            "Melee",
+            "Ranged"
+        ],
+        "Jhin": "Ranged",
+        "Jinx": "Ranged"
     },
     {
         "Champion": "Amumu",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
+        "Gender": "Male",
         "Position": [
-            "Top",
-            "Mid"
+            "Jungle",
+            "Support"
+        ],
+        "Species": [
+            "Undead",
+            "Yordle"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Shurima",
+        "Release Date": "2009",
+        "Champion_1": "Region",
+        "Aatrox": [
+            "Runeterra",
+            "Shurima"
+        ],
+        "Ahri": "Ionia",
+        "Akali": "Ionia",
+        "Akshan": "Shurima",
+        "Alistar": "Runeterra",
+        "Amumu": "Shurima",
+        "Anivia": "Freljord",
+        "Annie": [
+            "Runeterra",
+            "Noxus"
+        ],
+        "Aphelios": "Targon",
+        "Ashe": "Freljord",
+        "Aurelion Sol": [
+            "Runeterra",
+            "Targon"
+        ],
+        "Azir": "Shurima",
+        "Bard": "Runeterra",
+        "Bel'Veth": "Void",
+        "Blitzcrank": "Zaun",
+        "Brand": [
+            "Runeterra",
+            "Freljord"
+        ],
+        "Braum": "Freljord",
+        "Caitlyn": "Piltover",
+        "Camille": "Piltover",
+        "Cassiopeia": [
+            "Noxus",
+            "Shurima"
+        ],
+        "Cho'Gath": "Void",
+        "Corki": [
+            "Bandle City",
+            "Piltover"
+        ],
+        "Darius": "Noxus",
+        "Diana": "Targon",
+        "Dr. Mundo": "Zaun",
+        "Draven": "Noxus",
+        "Ekko": "Zaun",
+        "Elise": [
+            "Noxus",
+            "Shadow Isles"
+        ],
+        "Evelynn": "Runeterra",
+        "Ezreal": "Piltover",
+        "Fiddlesticks": "Runeterra",
+        "Fiora": "Demacia",
+        "Fizz": "Bilgewater",
+        "Galio": "Demacia",
+        "Gangplank": "Bilgewater",
+        "Garen": "Demacia",
+        "Gnar": "Freljord",
+        "Gragas": "Freljord",
+        "Graves": "Bilgewater",
+        "Gwen": [
+            "Camavor",
+            "Shadow Isles"
+        ],
+        "Hecarim": [
+            "Camavor",
+            "Shadow Isles"
+        ],
+        "Heimerdinger": "Piltover",
+        "Illaoi": "Bilgewater",
+        "Irelia": "Ionia",
+        "Ivern": [
+            "Freljord",
+            "Ionia"
+        ],
+        "Janna": [
+            "Shurima",
+            "Zaun"
+        ],
+        "Jarvan IV": "Demacia",
+        "Jax": [
+            "Icathia",
+            "Runeterra",
+            "Shurima"
+        ],
+        "Jayce": "Piltover",
+        "Jhin": "Ionia",
+        "Jinx": "Zaun"
     },
     {
         "Champion": "Anivia",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
+        "Position": "Middle",
+        "Species": [
+            "God",
+            "Spirit"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": "Freljord",
+        "Release Date": "2009",
+        "Champion_1": "Release Date",
+        "Aatrox": "2013",
+        "Ahri": "2011",
+        "Akali": "2010",
+        "Akshan": "2021",
+        "Alistar": "2009",
+        "Amumu": "2009",
+        "Anivia": "2009",
+        "Annie": "2009",
+        "Aphelios": "2019",
+        "Ashe": "2009",
+        "Aurelion Sol": "2016",
+        "Azir": "2014",
+        "Bard": "2015",
+        "Bel'Veth": "2022",
+        "Blitzcrank": "2009",
+        "Brand": "2011",
+        "Braum": "2014",
+        "Caitlyn": "2011",
+        "Camille": "2016",
+        "Cassiopeia": "2010",
+        "Cho'Gath": "2009",
+        "Corki": "2009",
+        "Darius": "2012",
+        "Diana": "2012",
+        "Dr. Mundo": "2009",
+        "Draven": "2012",
+        "Ekko": "2015",
+        "Elise": "2012",
+        "Evelynn": "2009",
+        "Ezreal": "2010",
+        "Fiddlesticks": "2009",
+        "Fiora": "2012",
+        "Fizz": "2011",
+        "Galio": "2010",
+        "Gangplank": "2009",
+        "Garen": "2010",
+        "Gnar": "2014",
+        "Gragas": "2010",
+        "Graves": "2011",
+        "Gwen": "2021",
+        "Hecarim": "2012",
+        "Heimerdinger": "2009",
+        "Illaoi": "2015",
+        "Irelia": "2010",
+        "Ivern": "2016",
+        "Janna": "2009",
+        "Jarvan IV": "2011",
+        "Jax": "2009",
+        "Jayce": "2012",
+        "Jhin": "2016",
+        "Jinx": "2013"
     },
     {
         "Champion": "Annie",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
         "Position": [
-            "Top",
-            "Mid"
+            "Middle",
+            "Support"
+        ],
+        "Species": [
+            "Human",
+            "Magicborn"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": [
+            "Runeterra",
+            "Noxus"
+        ],
+        "Release Date": "2009"
     },
     {
         "Champion": "Aphelios",
+        "Gender": "Male",
+        "Position": "Bottom",
         "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
+            "Human",
+            "Spiritualist"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": "Targon",
+        "Release Date": "2019"
     },
     {
         "Champion": "Ashe",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
         "Position": [
-            "Top",
-            "Mid"
+            "Bottom",
+            "Support"
+        ],
+        "Species": [
+            "Human",
+            "Iceborn"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": "Freljord",
+        "Release Date": "2009"
     },
     {
         "Champion": "Aurelion Sol",
+        "Gender": "Male",
+        "Position": "Middle",
         "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
+            "Celestial",
+            "Dragon"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": [
+            "Runeterra",
+            "Targon"
+        ],
+        "Release Date": "2016"
     },
     {
         "Champion": "Azir",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
+        "Gender": "Male",
+        "Position": "Middle",
+        "Species": "God-Warrior",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": "Shurima",
+        "Release Date": "2014"
     },
     {
         "Champion": "Bard",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
+        "Gender": "Male",
+        "Position": "Support",
+        "Species": "Celestial",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": "Runeterra",
+        "Release Date": "2015"
     },
     {
         "Champion": "Bel'Veth",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Position": "Jungle",
+        "Species": "Void-Being",
+        "Resource": "Manaless",
+        "Range Type": "Melee",
+        "Region": "Void",
+        "Release Date": "2022"
     },
     {
         "Champion": "Blitzcrank",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
+        "Gender": "Other",
+        "Position": "Support",
+        "Species": "Golem",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Zaun",
+        "Release Date": "2009"
     },
     {
         "Champion": "Brand",
+        "Gender": "Male",
+        "Position": "Support",
         "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
+            "Human",
+            "Magically Altered"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": [
+            "Runeterra",
+            "Freljord"
+        ],
+        "Release Date": "2011"
     },
     {
         "Champion": "Braum",
+        "Gender": "Male",
+        "Position": "Support",
         "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
+            "Human",
+            "Iceborn"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Freljord",
+        "Release Date": "2014"
     },
     {
         "Champion": "Caitlyn",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
+        "Position": "Bottom",
+        "Species": "Human",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": "Piltover",
+        "Release Date": "2011"
     },
     {
         "Champion": "Camille",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
+        "Position": "Top",
+        "Species": [
+            "Human",
+            "Cyborg"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Piltover",
+        "Release Date": "2016"
     },
     {
         "Champion": "Cassiopeia",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
+        "Position": "Middle",
+        "Species": [
+            "Human",
+            "Magically Altered"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": [
+            "Noxus",
+            "Shurima"
+        ],
+        "Release Date": "2010"
     },
     {
         "Champion": "Cho'Gath",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
+        "Gender": "Male",
+        "Position": "Top",
+        "Species": "Void-Being",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Void",
+        "Release Date": "2009"
     },
     {
         "Champion": "Corki",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
+        "Gender": "Male",
+        "Position": "Middle",
+        "Species": "Yordle",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": [
+            "Bandle City",
+            "Piltover"
+        ],
+        "Release Date": "2009"
     },
     {
         "Champion": "Darius",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
+        "Gender": "Male",
+        "Position": "Top",
+        "Species": "Human",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Noxus",
+        "Release Date": "2012"
     },
     {
         "Champion": "Diana",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
         "Position": [
-            "Top",
-            "Mid"
+            "Jungle",
+            "Middle"
+        ],
+        "Species": [
+            "Human",
+            "Aspect"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Targon",
+        "Release Date": "2012"
     },
     {
         "Champion": "Dr. Mundo",
+        "Gender": "Male",
+        "Position": "Top",
         "Species": [
-            "Vastayan",
-            "Human"
+            "Human",
+            "Chemically Altered"
         ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Resource": "Health",
+        "Range Type": "Melee",
+        "Region": "Zaun",
+        "Release Date": "2009"
     },
     {
         "Champion": "Draven",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
+        "Gender": "Male",
+        "Position": "Bottom",
+        "Species": "Human",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": "Noxus",
+        "Release Date": "2012"
     },
     {
         "Champion": "Ekko",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
+        "Gender": "Male",
         "Position": [
-            "Top",
-            "Mid"
+            "Jungle",
+            "Middle"
         ],
+        "Species": "Human",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Zaun",
+        "Release Date": "2015"
     },
     {
         "Champion": "Elise",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
+        "Position": "Jungle",
+        "Species": [
+            "Human",
+            "Magically Altered"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": [
+            "Melee",
+            "Ranged"
+        ],
+        "Region": [
+            "Noxus",
+            "Shadow Isles"
+        ],
+        "Release Date": "2012"
     },
     {
         "Champion": "Evelynn",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
+        "Position": "Jungle",
+        "Species": [
+            "Demon",
+            "Spirit"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Runeterra",
+        "Release Date": "2009"
     },
     {
         "Champion": "Ezreal",
+        "Gender": "Male",
+        "Position": "Bottom",
         "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
+            "Human",
+            "Magicborn"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": "Piltover",
+        "Release Date": "2010"
     },
     {
         "Champion": "Fiddlesticks",
+        "Gender": "Other",
+        "Position": "Jungle",
         "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
+            "Demon",
+            "Spirit"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": "Runeterra",
+        "Release Date": "2009"
     },
     {
         "Champion": "Fiora",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
+        "Position": "Top",
+        "Species": "Human",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Demacia",
+        "Release Date": "2012"
     },
     {
         "Champion": "Fizz",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
+        "Gender": "Male",
+        "Position": "Middle",
+        "Species": "Yordle",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Bilgewater",
+        "Release Date": "2011"
     },
     {
         "Champion": "Galio",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
+        "Gender": "Male",
         "Position": [
-            "Top",
-            "Mid"
+            "Middle",
+            "Support"
         ],
+        "Species": "Golem",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Demacia",
+        "Release Date": "2010"
     },
     {
         "Champion": "Gangplank",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
+        "Gender": "Male",
+        "Position": "Top",
+        "Species": "Human",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Bilgewater",
+        "Release Date": "2009"
     },
     {
         "Champion": "Garen",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Gender": "Male",
+        "Position": "Top",
+        "Species": "Human",
+        "Resource": "Manaless",
+        "Range Type": "Melee",
+        "Region": "Demacia",
+        "Release Date": "2010"
     },
     {
         "Champion": "Gnar",
-        "Species": [
-            "Vastayan",
-            "Human"
+        "Gender": "Male",
+        "Position": "Top",
+        "Species": "Yordle",
+        "Resource": "Rage",
+        "Range Type": [
+            "Melee",
+            "Ranged"
         ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Region": "Freljord",
+        "Release Date": "2014"
     },
     {
         "Champion": "Gragas",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
+        "Gender": "Male",
         "Position": [
             "Top",
-            "Mid"
+            "Jungle"
         ],
+        "Species": "Human",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Freljord",
+        "Release Date": "2010"
     },
     {
         "Champion": "Graves",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
+        "Gender": "Male",
+        "Position": "Jungle",
+        "Species": "Human",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": "Bilgewater",
+        "Release Date": "2011"
     },
     {
         "Champion": "Gwen",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
+        "Position": "Top",
+        "Species": [
+            "Human",
+            "Magically Altered"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": [
+            "Camavor",
+            "Shadow Isles"
+        ],
+        "Release Date": "2021"
     },
     {
         "Champion": "Hecarim",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
+        "Gender": "Male",
+        "Position": "Jungle",
+        "Species": "Undead",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": [
+            "Camavor",
+            "Shadow Isles"
+        ],
+        "Release Date": "2012"
     },
     {
         "Champion": "Heimerdinger",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
+        "Gender": "Male",
         "Position": [
-            "Top",
-            "Mid"
+            "Middle",
+            "Support"
         ],
+        "Species": "Yordle",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": "Piltover",
+        "Release Date": "2009"
     },
     {
         "Champion": "Illaoi",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
+        "Position": "Top",
+        "Species": [
+            "Human",
+            "Spiritualist"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Bilgewater",
+        "Release Date": "2015"
     },
     {
         "Champion": "Irelia",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
         "Position": [
             "Top",
-            "Mid"
+            "Middle"
+        ],
+        "Species": [
+            "Human",
+            "Spiritualist"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Ionia",
+        "Release Date": "2010"
     },
     {
         "Champion": "Ivern",
+        "Gender": "Male",
+        "Position": "Jungle",
         "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
+            "Human",
+            "Magically Altered"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": [
+            "Freljord",
+            "Ionia"
+        ],
+        "Release Date": "2016"
     },
     {
         "Champion": "Janna",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
+        "Position": "Support",
+        "Species": [
+            "God",
+            "Spirit"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": [
+            "Shurima",
+            "Zaun"
+        ],
+        "Release Date": "2009"
     },
     {
         "Champion": "Jarvan IV",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
+        "Gender": "Male",
+        "Position": "Jungle",
+        "Species": "Human",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": "Demacia",
+        "Release Date": "2011"
     },
     {
         "Champion": "Jax",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
+        "Gender": "Male",
         "Position": [
             "Top",
-            "Mid"
+            "Jungle"
         ],
+        "Species": "Unknown",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Melee",
+        "Region": [
+            "Icathia",
+            "Runeterra",
+            "Shurima"
+        ],
+        "Release Date": "2009"
     },
     {
         "Champion": "Jayce",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
+        "Gender": "Male",
         "Position": [
             "Top",
-            "Mid"
+            "Middle"
         ],
+        "Species": "Human",
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": [
+            "Melee",
+            "Ranged"
+        ],
+        "Region": "Piltover",
+        "Release Date": "2012"
     },
     {
         "Champion": "Jhin",
+        "Gender": "Male",
+        "Position": "Bottom",
         "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
+            "Human",
+            "Spiritualist"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": "Ionia",
+        "Release Date": "2016"
     },
     {
         "Champion": "Jinx",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
         "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
+        "Position": "Bottom",
+        "Species": [
+            "Human",
+            "Chemically Altered"
         ],
         "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Range Type": "Ranged",
+        "Region": "Zaun",
+        "Release Date": "2013"
     },
     {
-        "Champion": "K'Sante",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "K'Sante"
     },
     {
-        "Champion": "Kai'Sa",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Kai'Sa"
     },
     {
-        "Champion": "Kalista",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Kalista"
     },
     {
-        "Champion": "Karma",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Karma"
     },
     {
-        "Champion": "Karthus",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Karthus"
     },
     {
-        "Champion": "Kassadin",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Kassadin"
     },
     {
-        "Champion": "Katarina",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Katarina"
     },
     {
-        "Champion": "Kayle",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Kayle"
     },
     {
-        "Champion": "Kayn",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Kayn"
     },
     {
-        "Champion": "Kennen",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Kennen"
     },
     {
-        "Champion": "Kha'Zix",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Kha'Zix"
     },
     {
-        "Champion": "Kindred",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Kindred"
     },
     {
-        "Champion": "Kled",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Kled"
     },
     {
-        "Champion": "Kog'Maw",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Kog'Maw"
     },
     {
-        "Champion": "LeBlanc",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "LeBlanc"
     },
     {
-        "Champion": "Lee Sin",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Lee Sin"
     },
     {
-        "Champion": "Leona",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Leona"
     },
     {
-        "Champion": "Lillia",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Lillia"
     },
     {
-        "Champion": "Lissandra",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Lissandra"
     },
     {
-        "Champion": "Lucian",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Lucian"
     },
     {
-        "Champion": "Lulu",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Lulu"
     },
     {
-        "Champion": "Lux",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Lux"
     },
     {
-        "Champion": "Malphite",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Malphite"
     },
     {
-        "Champion": "Malzahar",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Malzahar"
     },
     {
-        "Champion": "Maokai",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Maokai"
     },
     {
-        "Champion": "Master Yi",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Master Yi"
     },
     {
-        "Champion": "Milio",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Milio"
     },
     {
-        "Champion": "Miss Fortune",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Miss Fortune"
     },
     {
-        "Champion": "Mordekaiser",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Mordekaiser"
     },
     {
-        "Champion": "Morgana",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Morgana"
     },
     {
-        "Champion": "Nami",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Nami"
     },
     {
-        "Champion": "Nasus",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Nasus"
     },
     {
-        "Champion": "Nautilus",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Nautilus"
     },
     {
-        "Champion": "Neeko",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Neeko"
     },
     {
-        "Champion": "Nidalee",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Nidalee"
     },
     {
-        "Champion": "Nilah",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Nilah"
     },
     {
-        "Champion": "Nocturne",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Nocturne"
     },
     {
-        "Champion": "Nunu & Willump",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Nunu & Willump"
     },
     {
-        "Champion": "Olaf",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Olaf"
     },
     {
-        "Champion": "Orianna",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Orianna"
     },
     {
-        "Champion": "Ornn",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Ornn"
     },
     {
-        "Champion": "Pantheon",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Pantheon"
     },
     {
-        "Champion": "Poppy",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Poppy"
     },
     {
-        "Champion": "Pyke",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Pyke"
     },
     {
-        "Champion": "Qiyana",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Qiyana"
     },
     {
-        "Champion": "Quinn",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Quinn"
     },
     {
-        "Champion": "Rakan",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Rakan"
     },
     {
-        "Champion": "Rammus",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Rammus"
     },
     {
-        "Champion": "Rek'Sai",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Rek'Sai"
     },
     {
-        "Champion": "Rell",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Rell"
     },
     {
-        "Champion": "Renata Glasc",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Renata Glasc"
     },
     {
-        "Champion": "Renekton",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Renekton"
     },
     {
-        "Champion": "Rengar",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Rengar"
     },
     {
-        "Champion": "Riven",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Riven"
     },
     {
-        "Champion": "Rumble",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Rumble"
     },
     {
-        "Champion": "Ryze",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Ryze"
     },
     {
-        "Champion": "Samira",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Samira"
     },
     {
-        "Champion": "Sejuani",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Sejuani"
     },
     {
-        "Champion": "Senna",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Senna"
     },
     {
-        "Champion": "Seraphine",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Seraphine"
     },
     {
-        "Champion": "Sett",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Sett"
     },
     {
-        "Champion": "Shaco",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Shaco"
     },
     {
-        "Champion": "Shen",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Shen"
     },
     {
-        "Champion": "Shyvana",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Shyvana"
     },
     {
-        "Champion": "Singed",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Singed"
     },
     {
-        "Champion": "Sion",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Sion"
     },
     {
-        "Champion": "Sivir",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Sivir"
     },
     {
-        "Champion": "Skarner",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Skarner"
     },
     {
-        "Champion": "Sona",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Sona"
     },
     {
-        "Champion": "Soraka",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Soraka"
     },
     {
-        "Champion": "Swain",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Swain"
     },
     {
-        "Champion": "Sylas",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Sylas"
     },
     {
-        "Champion": "Syndra",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Syndra"
     },
     {
-        "Champion": "Tahm Kench",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Tahm Kench"
     },
     {
-        "Champion": "Taliyah",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Taliyah"
     },
     {
-        "Champion": "Talon",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Talon"
     },
     {
-        "Champion": "Taric",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Taric"
     },
     {
-        "Champion": "Teemo",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Teemo"
     },
     {
-        "Champion": "Thresh",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Thresh"
     },
     {
-        "Champion": "Tristana",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Tristana"
     },
     {
-        "Champion": "Trundle",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Trundle"
     },
     {
-        "Champion": "Tryndamere",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Tryndamere"
     },
     {
-        "Champion": "Twisted Fate",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Twisted Fate"
     },
     {
-        "Champion": "Twitch",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Twitch"
     },
     {
-        "Champion": "Udyr",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Udyr"
     },
     {
-        "Champion": "Urgot",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Urgot"
     },
     {
-        "Champion": "Varus",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Varus"
     },
     {
-        "Champion": "Vayne",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Vayne"
     },
     {
-        "Champion": "Veigar",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Veigar"
     },
     {
-        "Champion": "Vel'Koz",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Vel'Koz"
     },
     {
-        "Champion": "Vex",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Vex"
     },
     {
-        "Champion": "Vi",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Vi"
     },
     {
-        "Champion": "Viego",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Viego"
     },
     {
-        "Champion": "Viktor",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Viktor"
     },
     {
-        "Champion": "Vladimir",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Vladimir"
     },
     {
-        "Champion": "Volibear",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Volibear"
     },
     {
-        "Champion": "Warwick",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Warwick"
     },
     {
-        "Champion": "Wukong",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Wukong"
     },
     {
-        "Champion": "Xayah",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Xayah"
     },
     {
-        "Champion": "Xerath",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Xerath"
     },
     {
-        "Champion": "Xin Zhao",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Xin Zhao"
     },
     {
-        "Champion": "Yasuo",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Yasuo"
     },
     {
-        "Champion": "Yone",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Yone"
     },
     {
-        "Champion": "Yorick",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Yorick"
     },
     {
-        "Champion": "Yuumi",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Yuumi"
     },
     {
-        "Champion": "Zac",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Zac"
     },
     {
-        "Champion": "Zed",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Zed"
     },
     {
-        "Champion": "Zeri",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Zeri"
     },
     {
-        "Champion": "Ziggs",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Ziggs"
     },
     {
-        "Champion": "Zilean",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Zilean"
     },
     {
-        "Champion": "Zoe",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Zoe"
     },
     {
-        "Champion": "Zyra",
-        "Species": [
-            "Vastayan",
-            "Human"
-        ],
-        "Gender": "Female",
-        "Position": [
-            "Top",
-            "Mid"
-        ],
-        "Resource": "Mana",
-        "Range": "Ranged",
-        "Region": "Icathia"
+        "Champion": "Zyra"
     }
 ]
