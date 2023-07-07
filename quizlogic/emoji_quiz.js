@@ -73,12 +73,12 @@ function check() {
             if(championNames.includes(guess)){
                 if (!attemptedChampions.includes(guess)){ // Check if the champion guess is not already in the attempted list
                     attemptedChampions.push(guess);
-                    displayAttemptedChampions();
                 }
             }
         }
         answerElement.value = '';
         showFilteredChampions();
+        displayAttemptedChampions();
     }
 }
 
