@@ -63,9 +63,10 @@ function check() {
             } else {
                 shuffleQuestions();
                 currentCounter = 0;
-                displayQuestion();
             }
             playCorrectSound();
+            display();
+
             attemptedChampions = [];
 
         } else {
@@ -93,7 +94,6 @@ answerElement.addEventListener('keydown', (event) => {
         }
         else {
             answerElement.value = '';
-            return;
         }
         check();
     }
