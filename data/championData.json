@@ -110,6 +110,7 @@
         "Qiyana": "Female",
         "Quinn": "Female",
         "Rakan": "Male",
+        "Rammus": "Male",
         "Rek'Sai": "Female",
         "Rell": "Female",
         "Renata Glasc": "Female",
@@ -345,6 +346,7 @@
         "Qiyana": "Middle",
         "Quinn": "Top",
         "Rakan": "Support",
+        "Rammus": "Jungle",
         "Rek'Sai": "Jungle",
         "Rell": "Support",
         "Renata Glasc": "Support",
@@ -716,6 +718,7 @@
         ],
         "Quinn": "Human",
         "Rakan": "Vastayan",
+        "Rammus": "God-Warrior",
         "Rek'Sai": "Void-Being",
         "Rell": [
             "Human",
@@ -1003,6 +1006,7 @@
         "Qiyana": "Mana",
         "Quinn": "Mana",
         "Rakan": "Mana",
+        "Rammus": "Mana",
         "Rek'Sai": "Rage",
         "Rell": "Mana",
         "Renata Glasc": "Mana",
@@ -1191,6 +1195,7 @@
         "Qiyana": "Melee",
         "Quinn": "Ranged",
         "Rakan": "Melee",
+        "Rammus": "Melee",
         "Rek'Sai": "Melee",
         "Rell": "Melee",
         "Renata Glasc": "Ranged",
@@ -1439,6 +1444,7 @@
         "Qiyana": "Ixtal",
         "Quinn": "Demacia",
         "Rakan": "Ionia",
+        "Rammus": "Shurima",
         "Rek'Sai": [
             "Shurima",
             "Void"
@@ -1685,6 +1691,7 @@
         "Qiyana": "2019",
         "Quinn": "2013",
         "Rakan": "2017",
+        "Rammus": "2009",
         "Rek'Sai": "2014",
         "Rell": "2020",
         "Renata Glasc": "2022",
@@ -2930,7 +2937,14 @@
         "Release Date": "2017"
     },
     {
-        "Champion": "Rammus"
+        "Champion": "Rammus",
+        "Gender": "Male",
+        "Position": "Jungle",
+        "Species": "God-Warrior",
+        "Resource": "Mana",
+        "Range Type": "Melee",
+        "Region": "Shurima",
+        "Release Date": "2009"
     },
     {
         "Champion": "Rek'Sai",
