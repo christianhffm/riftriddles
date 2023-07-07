@@ -10,7 +10,11 @@
             "Runeterra",
             "Shurima"
         ],
-        "Release Date": "2013"
+        "Release Date": "2013",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Ahri",
@@ -20,33 +24,45 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Ionia",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Akali",
         "Gender": "Female",
         "Position": [
-            "Middle",
-            "Top"
+            "Top",
+            "Middle"
         ],
         "Species": "Human",
         "Resource": "Energy",
         "Range Type": "Melee",
         "Region": "Ionia",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Akshan",
         "Gender": "Male",
         "Position": [
-            "Middle",
-            "Top"
+            "Top",
+            "Middle"
         ],
         "Species": "Human",
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Shurima",
-        "Release Date": "2021"
+        "Release Date": "2021",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Alistar",
@@ -56,7 +72,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Runeterra",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Amumu",
@@ -72,7 +92,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Shurima",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Anivia",
@@ -85,7 +109,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Freljord",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Annie",
@@ -104,7 +132,11 @@
             "Runeterra",
             "Noxus"
         ],
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Aphelios",
@@ -117,7 +149,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Targon",
-        "Release Date": "2019"
+        "Release Date": "2019",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Ashe",
@@ -133,7 +169,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Freljord",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Aurelion Sol",
@@ -149,7 +189,11 @@
             "Runeterra",
             "Targon"
         ],
-        "Release Date": "2016"
+        "Release Date": "2016",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Azir",
@@ -159,7 +203,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Shurima",
-        "Release Date": "2014"
+        "Release Date": "2014",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Bard",
@@ -169,7 +217,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Runeterra",
-        "Release Date": "2015"
+        "Release Date": "2015",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Bel'veth",
@@ -179,7 +231,11 @@
         "Resource": "Manaless",
         "Range Type": "Melee",
         "Region": "Void",
-        "Release Date": "2022"
+        "Release Date": "2022",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Blitzcrank",
@@ -189,7 +245,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Zaun",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Brand",
@@ -205,7 +265,11 @@
             "Runeterra",
             "Freljord"
         ],
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Braum",
@@ -218,7 +282,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Freljord",
-        "Release Date": "2014"
+        "Release Date": "2014",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Caitlyn",
@@ -228,7 +296,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Piltover",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Camille",
@@ -241,7 +313,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Piltover",
-        "Release Date": "2016"
+        "Release Date": "2016",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Cassiopeia",
@@ -257,7 +333,11 @@
             "Noxus",
             "Shurima"
         ],
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Cho'gath",
@@ -267,7 +347,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Void",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Corki",
@@ -280,7 +364,11 @@
             "Bandle City",
             "Piltover"
         ],
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Darius",
@@ -290,7 +378,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Noxus",
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Diana",
@@ -306,7 +398,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Targon",
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Dr. Mundo",
@@ -319,7 +415,11 @@
         "Resource": "Health",
         "Range Type": "Melee",
         "Region": "Zaun",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Draven",
@@ -329,7 +429,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Noxus",
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Ekko",
@@ -342,7 +446,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Zaun",
-        "Release Date": "2015"
+        "Release Date": "2015",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Elise",
@@ -361,7 +469,11 @@
             "Noxus",
             "Shadow Isles"
         ],
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Evelynn",
@@ -374,7 +486,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Runeterra",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Ezreal",
@@ -387,7 +503,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Piltover",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Fiddlesticks",
@@ -400,7 +520,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Runeterra",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Fiora",
@@ -410,7 +534,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Demacia",
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Fizz",
@@ -420,7 +548,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Bilgewater",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Galio",
@@ -433,7 +565,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Demacia",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Gangplank",
@@ -443,7 +579,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Bilgewater",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Garen",
@@ -453,7 +593,11 @@
         "Resource": "Manaless",
         "Range Type": "Melee",
         "Region": "Demacia",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Gnar",
@@ -466,7 +610,11 @@
             "Ranged"
         ],
         "Region": "Freljord",
-        "Release Date": "2014"
+        "Release Date": "2014",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Gragas",
@@ -479,7 +627,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Freljord",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Graves",
@@ -489,7 +641,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Bilgewater",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Gwen",
@@ -505,7 +661,11 @@
             "Camavor",
             "Shadow Isles"
         ],
-        "Release Date": "2021"
+        "Release Date": "2021",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Hecarim",
@@ -518,7 +678,11 @@
             "Camavor",
             "Shadow Isles"
         ],
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Heimerdinger",
@@ -531,7 +695,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Piltover",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Illaoi",
@@ -544,7 +712,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Bilgewater",
-        "Release Date": "2015"
+        "Release Date": "2015",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Irelia",
@@ -560,7 +732,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Ionia",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Ivern",
@@ -576,7 +752,11 @@
             "Freljord",
             "Ionia"
         ],
-        "Release Date": "2016"
+        "Release Date": "2016",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Janna",
@@ -592,7 +772,11 @@
             "Shurima",
             "Zaun"
         ],
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Jarvan IV",
@@ -602,7 +786,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Demacia",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Jax",
@@ -619,7 +807,11 @@
             "Runeterra",
             "Shurima"
         ],
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Jayce",
@@ -635,7 +827,11 @@
             "Ranged"
         ],
         "Region": "Piltover",
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Jhin",
@@ -648,7 +844,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Ionia",
-        "Release Date": "2016"
+        "Release Date": "2016",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Jinx",
@@ -661,7 +861,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Zaun",
-        "Release Date": "2013"
+        "Release Date": "2013",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "K'sante",
@@ -671,7 +875,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Shurima",
-        "Release Date": "2022"
+        "Release Date": "2022",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Kai'sa",
@@ -687,7 +895,11 @@
             "Shurima",
             "Void"
         ],
-        "Release Date": "2018"
+        "Release Date": "2018",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Kalista",
@@ -700,7 +912,11 @@
             "Camavor",
             "Shadow Isles"
         ],
-        "Release Date": "2014"
+        "Release Date": "2014",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Karma",
@@ -713,7 +929,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Ionia",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Karthus",
@@ -726,7 +946,11 @@
             "Noxus",
             "Shadow Isles"
         ],
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Kassadin",
@@ -742,7 +966,11 @@
             "Shurima",
             "Void"
         ],
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Katarina",
@@ -752,7 +980,11 @@
         "Resource": "Manaless",
         "Range Type": "Melee",
         "Region": "Noxus",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Kayle",
@@ -772,7 +1004,11 @@
             "Demacia",
             "Targon"
         ],
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Kayn",
@@ -791,7 +1027,11 @@
             "Noxus",
             "Shurima"
         ],
-        "Release Date": "2017"
+        "Release Date": "2017",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Kennen",
@@ -801,7 +1041,11 @@
         "Resource": "Energy",
         "Range Type": "Ranged",
         "Region": "Ionia",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Kha'zix",
@@ -811,7 +1055,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Void",
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Kindred",
@@ -824,7 +1072,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Runeterra",
-        "Release Date": "2015"
+        "Release Date": "2015",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Kled",
@@ -834,7 +1086,11 @@
         "Resource": "Courage",
         "Range Type": "Melee",
         "Region": "Noxus",
-        "Release Date": "2016"
+        "Release Date": "2016",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Kog'maw",
@@ -844,7 +1100,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Void",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "LeBlanc",
@@ -857,7 +1117,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Noxus",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Lee Sin",
@@ -870,7 +1134,11 @@
         "Resource": "Energy",
         "Range Type": "Melee",
         "Region": "Ionia",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Leona",
@@ -883,7 +1151,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Targon",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Lillia",
@@ -896,7 +1168,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Ionia",
-        "Release Date": "2020"
+        "Release Date": "2020",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Lissandra",
@@ -909,7 +1185,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Freljord",
-        "Release Date": "2013"
+        "Release Date": "2013",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Lucian",
@@ -922,7 +1202,11 @@
             "Demacia",
             "Shadow Isles"
         ],
-        "Release Date": "2013"
+        "Release Date": "2013",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Lulu",
@@ -932,7 +1216,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Bandle City",
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Lux",
@@ -948,7 +1236,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Demacia",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Malphite",
@@ -961,7 +1253,11 @@
             "Ixtal",
             "Shurima"
         ],
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Malzahar",
@@ -977,7 +1273,11 @@
             "Shurima",
             "Void"
         ],
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Maokai",
@@ -991,7 +1291,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Shadow Isles",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Master Yi",
@@ -1004,7 +1308,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Ionia",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Milio",
@@ -1017,7 +1325,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Ixtal",
-        "Release Date": "2023"
+        "Release Date": "2023",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Miss Fortune",
@@ -1027,7 +1339,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Bilgewater",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Mordekaiser",
@@ -1037,7 +1353,11 @@
         "Resource": "Shield",
         "Range Type": "Melee",
         "Region": "Noxus",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Morgana",
@@ -1054,7 +1374,11 @@
             "Demacia",
             "Targon"
         ],
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Nami",
@@ -1064,7 +1388,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Runeterra",
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Nasus",
@@ -1074,7 +1402,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Shurima",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Nautilus",
@@ -1084,7 +1416,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Bilgewater",
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Neeko",
@@ -1097,7 +1433,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Ixtal",
-        "Release Date": "2018"
+        "Release Date": "2018",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Nidalee",
@@ -1113,7 +1453,11 @@
             "Ranged"
         ],
         "Region": "Ixtal",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Nilah",
@@ -1126,7 +1470,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Bilgewater",
-        "Release Date": "2022"
+        "Release Date": "2022",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Nocturne",
@@ -1139,7 +1487,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Runeterra",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Nunu & Willump",
@@ -1152,7 +1504,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Freljord",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Olaf",
@@ -1168,7 +1524,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Freljord",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Orianna",
@@ -1178,7 +1538,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Piltover",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Ornn",
@@ -1191,7 +1555,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Freljord",
-        "Release Date": "2017"
+        "Release Date": "2017",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Pantheon",
@@ -1208,7 +1576,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Targon",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Poppy",
@@ -1221,7 +1593,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Demacia",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Pyke",
@@ -1231,7 +1607,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Bilgewater",
-        "Release Date": "2018"
+        "Release Date": "2018",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Qiyana",
@@ -1244,7 +1624,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Ixtal",
-        "Release Date": "2019"
+        "Release Date": "2019",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Quinn",
@@ -1254,7 +1638,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Demacia",
-        "Release Date": "2013"
+        "Release Date": "2013",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Rakan",
@@ -1264,7 +1652,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Ionia",
-        "Release Date": "2017"
+        "Release Date": "2017",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Rammus",
@@ -1274,7 +1666,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Shurima",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Rek'sai",
@@ -1287,7 +1683,11 @@
             "Shurima",
             "Void"
         ],
-        "Release Date": "2014"
+        "Release Date": "2014",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Rell",
@@ -1301,7 +1701,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Noxus",
-        "Release Date": "2020"
+        "Release Date": "2020",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Renata Glasc",
@@ -1314,7 +1718,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Zaun",
-        "Release Date": "2022"
+        "Release Date": "2022",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Renekton",
@@ -1324,7 +1732,11 @@
         "Resource": "Fury",
         "Range Type": "Melee",
         "Region": "Shurima",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Rengar",
@@ -1340,7 +1752,11 @@
             "Ixtal",
             "Shurima"
         ],
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Riven",
@@ -1353,7 +1769,11 @@
             "Ionia",
             "Noxus"
         ],
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Rumble",
@@ -1366,7 +1786,11 @@
         "Resource": "Heat",
         "Range Type": "Melee",
         "Region": "Bandle City",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Ryze",
@@ -1382,7 +1806,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Runeterra",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Samira",
@@ -1395,7 +1823,11 @@
             "Noxus",
             "Shurima"
         ],
-        "Release Date": "2020"
+        "Release Date": "2020",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Sejuani",
@@ -1408,7 +1840,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Freljord",
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Senna",
@@ -1421,7 +1857,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Shadow Isles",
-        "Release Date": "2019"
+        "Release Date": "2019",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Seraphine",
@@ -1437,7 +1877,11 @@
             "Piltover",
             "Zaun"
         ],
-        "Release Date": "2020"
+        "Release Date": "2020",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Sett",
@@ -1450,7 +1894,11 @@
         "Resource": "Grit",
         "Range Type": "Melee",
         "Region": "Ionia",
-        "Release Date": "2020"
+        "Release Date": "2020",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Shaco",
@@ -1460,7 +1908,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Runeterra",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Shen",
@@ -1473,7 +1925,11 @@
         "Resource": "Energy",
         "Range Type": "Melee",
         "Region": "Ionia",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Shyvana",
@@ -1486,7 +1942,11 @@
         "Resource": "Fury",
         "Range Type": "Melee",
         "Region": "Demacia",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Singed",
@@ -1502,7 +1962,11 @@
             "Piltover",
             "Zaun"
         ],
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Sion",
@@ -1512,7 +1976,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Noxus",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Sivir",
@@ -1522,7 +1990,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Shurima",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Skarner",
@@ -1532,7 +2004,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Shurima",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Sona",
@@ -1548,7 +2024,11 @@
             "Demacia",
             "Ionia"
         ],
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Soraka",
@@ -1561,7 +2041,11 @@
             "Ionia",
             "Targon"
         ],
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Swain",
@@ -1577,7 +2061,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Noxus",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Sylas",
@@ -1593,7 +2081,11 @@
             "Demacia",
             "Freljord"
         ],
-        "Release Date": "2019"
+        "Release Date": "2019",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Syndra",
@@ -1606,7 +2098,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Ionia",
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Tahm Kench",
@@ -1625,7 +2121,11 @@
             "Runeterra",
             "Bilgewater"
         ],
-        "Release Date": "2015"
+        "Release Date": "2015",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Taliyah",
@@ -1641,7 +2141,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Shurima",
-        "Release Date": "2016"
+        "Release Date": "2016",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Talon",
@@ -1654,7 +2158,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Noxus",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Taric",
@@ -1670,7 +2178,11 @@
             "Demacia",
             "Targon"
         ],
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Teemo",
@@ -1680,7 +2192,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Bandle City",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Thresh",
@@ -1690,7 +2206,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Shadow Isles",
-        "Release Date": "2013"
+        "Release Date": "2013",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Tristana",
@@ -1700,7 +2220,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Bandle City",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Trundle",
@@ -1716,7 +2240,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Freljord",
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Tryndamere",
@@ -1729,7 +2257,11 @@
         "Resource": "Fury",
         "Range Type": "Melee",
         "Region": "Freljord",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Twisted Fate",
@@ -1742,7 +2274,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Bilgewater",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Twitch",
@@ -1755,7 +2291,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Zaun",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Udyr",
@@ -1774,7 +2314,11 @@
             "Freljord",
             "Ionia"
         ],
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Urgot",
@@ -1791,7 +2335,11 @@
             "Noxus",
             "Zaun"
         ],
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Varus",
@@ -1811,7 +2359,11 @@
             "Ionia",
             "Shurima"
         ],
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Vayne",
@@ -1824,7 +2376,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Demacia",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Veigar",
@@ -1837,7 +2393,11 @@
             "Runeterra",
             "Bandle City"
         ],
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Vel'koz",
@@ -1850,7 +2410,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Void",
-        "Release Date": "2014"
+        "Release Date": "2014",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Vex",
@@ -1863,7 +2427,11 @@
             "Bandle City",
             "Shadow Isles"
         ],
-        "Release Date": "2021"
+        "Release Date": "2021",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Vi",
@@ -1876,7 +2444,11 @@
             "Piltover",
             "Zaun"
         ],
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Viego",
@@ -1889,7 +2461,11 @@
             "Camavor",
             "Shadow Isles"
         ],
-        "Release Date": "2021"
+        "Release Date": "2021",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Viktor",
@@ -1905,7 +2481,11 @@
             "Piltover",
             "Zaun"
         ],
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Vladimir",
@@ -1922,7 +2502,11 @@
             "Noxus",
             "Shadow Isles"
         ],
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Volibear",
@@ -1938,7 +2522,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Freljord",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Warwick",
@@ -1955,7 +2543,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Zaun",
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Wukong",
@@ -1968,7 +2560,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Ionia",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Xayah",
@@ -1978,7 +2574,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Ionia",
-        "Release Date": "2017"
+        "Release Date": "2017",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Xerath",
@@ -1991,7 +2591,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Shurima",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Xin Zhao",
@@ -2005,7 +2609,11 @@
             "Ionia",
             "Noxus"
         ],
-        "Release Date": "2010"
+        "Release Date": "2010",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Yasuo",
@@ -2018,7 +2626,11 @@
         "Resource": "Flow",
         "Range Type": "Melee",
         "Region": "Ionia",
-        "Release Date": "2013"
+        "Release Date": "2013",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Yone",
@@ -2034,7 +2646,11 @@
         "Resource": "Manaless",
         "Range Type": "Melee",
         "Region": "Ionia",
-        "Release Date": "2020"
+        "Release Date": "2020",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Yorick",
@@ -2047,7 +2663,11 @@
         "Resource": "Mana",
         "Range Type": "Melee",
         "Region": "Shadow Isles",
-        "Release Date": "2011"
+        "Release Date": "2011",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Yuumi",
@@ -2060,7 +2680,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Bandle City",
-        "Release Date": "2019"
+        "Release Date": "2019",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Zac",
@@ -2070,7 +2694,11 @@
         "Resource": "Health",
         "Range Type": "Melee",
         "Region": "Zaun",
-        "Release Date": "2013"
+        "Release Date": "2013",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Zed",
@@ -2083,7 +2711,11 @@
         "Resource": "Energy",
         "Range Type": "Melee",
         "Region": "Ionia",
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Zeri",
@@ -2096,7 +2728,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Zaun",
-        "Release Date": "2022"
+        "Release Date": "2022",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Ziggs",
@@ -2109,7 +2745,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Zaun",
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Zilean",
@@ -2126,7 +2766,11 @@
             "Icathia",
             "Shurima"
         ],
-        "Release Date": "2009"
+        "Release Date": "2009",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Zoe",
@@ -2139,7 +2783,11 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Targon",
-        "Release Date": "2017"
+        "Release Date": "2017",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     },
     {
         "Champion": "Zyra",
@@ -2149,6 +2797,10 @@
         "Resource": "Mana",
         "Range Type": "Ranged",
         "Region": "Ixtal",
-        "Release Date": "2012"
+        "Release Date": "2012",
+        "Emoji1": "👹",
+        "Emoji2": "🦇",
+        "Emoji3": "⚔️",
+        "Emoji4": "🩸"
     }
 ]
