@@ -17,7 +17,7 @@ function initializeQuestions() {
                     resource: champion.Resource,
                     rangeType: champion['Range Type'],
                     region: champion.Region,
-                    releaseDate : champion['Release Date']
+                    releaseDate: champion['Release Date']
                 };
             });
 
@@ -52,7 +52,6 @@ function arraysEqual(arr1, arr2) {
     return true;
 }
 
-
 function check() {
     const guess = answerElement.value.trim().toLowerCase();
     const answer = currentChampionName.trim().toLowerCase();
@@ -77,6 +76,8 @@ function check() {
         rows.forEach(row => {
             row.remove();
         });
+        attemptedChampions = [];
+
 
     } else {
         const imageContainer = document.querySelector('.imagecontainer');
@@ -88,7 +89,7 @@ function check() {
         const guessedChampionEntry = championEntries.find(champion => champion.name.toLowerCase() === guess);
         const correctChampionEntry = championEntries.find(champion => champion.name.toLowerCase() === answer);
 
-        if (guessedChampionEntry) {
+        
             // Create and append the champion data boxes
             const categories = Object.keys(guessedChampionEntry);
             for (let i = 0; i < categories.length; i++) {
@@ -119,7 +120,10 @@ function check() {
 
                     if (i === 0) {
                         // Set the background image for the first box in the row
-                        box.style.backgroundImage = `url('../gfx/icons/champion-icons/${answerElement.value}.png')`;
+                        var fileName = answerElement.value.replace("'", "\\'");
+                        var imageUrl = `url('../gfx/icons/champion-icons/${fileName}.png')`;
+                        box.style.backgroundImage = imageUrl;
+
                     }
 
                     const paragraph = document.createElement('p');
@@ -146,7 +150,10 @@ function check() {
 
                     if (i === 0) {
                         // Set the background image for the first box in the row
-                        box.style.backgroundImage = `url('../gfx/icons/champion-icons/${answerElement.value}.png')`;
+                        var fileName = answerElement.value.replace("'", "\\'");
+                        var imageUrl = `url('../gfx/icons/champion-icons/${fileName}.png')`;
+                        box.style.backgroundImage = imageUrl;
+
                     }
 
                     const paragraph = document.createElement('p');
@@ -155,7 +162,7 @@ function check() {
                     row.appendChild(box);
                 }
             }
-        }
+        
 
         // Prepend the new row to the image container to maintain reversed order
         imageContainer.insertBefore(row, imageContainer.firstChild);
@@ -186,5 +193,6 @@ answerElement.addEventListener('keydown', (event) => {
         check();
     }
 });
+
 
 initializeQuestions();

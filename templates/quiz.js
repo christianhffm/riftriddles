@@ -157,7 +157,7 @@ function showFilteredChampions() {
         const championItem = document.createElement('li');
         const championImage = document.createElement('img');
 
-        const imageName = champion.toLowerCase(); // Convert champion name to lowercase and remove spaces
+        const imageName = champion.toLowerCase(); // Convert champion name to lowercase
         const imageUrl = `../gfx/icons/champion-icons/${imageName}.png`; // Update image URL based on the champion's name
         championImage.src = imageUrl;
         championImage.alt = capitalizedChampionName;
@@ -235,15 +235,9 @@ answerElement.addEventListener('input', () => {
 });
 
 answerElement.addEventListener('keydown', (event) => {
-  if (event.key === 'Enter') {
-    checkAnswer();
-  }
-});
-
-answerElement.addEventListener('keydown', (event) => {
   const enteredText = answerElement.value.trim().toLowerCase();
 
-  if (event.key === 'Tab') {
+  if (event.key === 'Tab' && enteredText !== '') {
     // Prevent default tab behavior
     event.preventDefault();
 
@@ -269,6 +263,7 @@ answerElement.addEventListener('keydown', (event) => {
     answerElement.value = selectedChampion;
   }
 });
+
 
 document.addEventListener('click', function (event) {
   const clickedElement = event.target;
