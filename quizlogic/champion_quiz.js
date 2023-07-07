@@ -198,6 +198,7 @@ answerElement.addEventListener('keydown', (event) => {
             answerElement.value = filteredChampions[0].textContent;
         }
         else {
+            answerElement.value = '';
             return;
         }
 
