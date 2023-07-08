@@ -23,35 +23,38 @@ function initializeQuestions() {
         .catch(error => console.log('An error occurred while fetching champion data:', error));
 }
 
-function displayQuestion(){
-
-}
+function displayQuestion(){}
 
 function display() {
     const imageContainer = document.querySelector('.imagecontainer');
     imageContainer.innerHTML = ''; // Clear existing content
-  
+
     const currentChampion = championEntries.find(champion => champion.name.toLowerCase() === currentChampionName.trim().toLowerCase());
-  
+
     console.log('currentChampion:', currentChampion);
     for (let i = 1; i <= 4; i++) {
-      const emoji = currentChampion[`emoji${i}`];
-  
-      const box = document.createElement('div');
-      box.classList.add('box');
-  
-      const unicodeHex = emoji.codePointAt(0).toString(16);
-      console.log(unicodeHex);
-      const imagePath = `../gfx/emojis/emoji_u${unicodeHex}.png`;
-  
-      const image = document.createElement('img');
-      image.src = imagePath;
-  
-      box.appendChild(image);
-      imageContainer.appendChild(box);
+        const emoji = currentChampion[`emoji${i}`];
+        const unicodeHex = getHexUnicode(emoji);
+        const imagePath = `../gfx/emojis/${unicodeHex.replace(/_fe0f/g, '')}.png`;
+
+        const box = document.createElement('div');
+        box.classList.add('box');
+
+        const image = document.createElement('img');
+        image.src = imagePath;
+
+        box.appendChild(image);
+        imageContainer.appendChild(box);
     }
-  }
-  
+}
+
+
+function getHexUnicode(emoji) {
+    const codePoints = Array.from(emoji).map(char => char.codePointAt(0));
+    const hexCodePoints = codePoints.map(codePoint => codePoint.toString(16));
+    return hexCodePoints.join('_');
+}
+
 function selectRandomChampion() {
     const randomIndex = Math.floor(Math.random() * championEntries.length);
     currentChampionName = championEntries[randomIndex].name;
