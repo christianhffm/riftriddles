@@ -25,7 +25,7 @@ function initialize() {
           }
         }
       }
-      shuffleQuestions();
+      shuffle();
       displayQuestion();
     })
     .catch(error => {
@@ -33,7 +33,7 @@ function initialize() {
     });
 }
 
-function shuffleQuestions() {
+function shuffle(){
   for (let i = questions.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [questions[i], questions[j]] = [questions[j], questions[i]];
