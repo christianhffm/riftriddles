@@ -1,0 +1,2806 @@
+[
+  {
+    "Champion": "Aatrox",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": "Darkin",
+    "Resource": "Manaless",
+    "Range Type": "Melee",
+    "Region": [
+      "Runeterra",
+      "Shurima"
+    ],
+    "Release Date": "2013",
+    "Emoji1": "\\u{1f479}",
+    "Emoji2": "\\u{1f987}",
+    "Emoji3": "\\u{2694}\\u{fe0f}",
+    "Emoji4": "\\u{1fa78}"
+  },
+  {
+    "Champion": "Ahri",
+    "Gender": "Female",
+    "Position": "Middle",
+    "Species": "Vastayan",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Ionia",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f469}\\u{1f3fb}",
+    "Emoji2": "\\u{1f98a}",
+    "Emoji3": "\\u{1f525}",
+    "Emoji4": "\\u{2764}\\u{fe0f}"
+  },
+  {
+    "Champion": "Akali",
+    "Gender": "Female",
+    "Position": [
+      "Top",
+      "Middle"
+    ],
+    "Species": "Human",
+    "Resource": "Energy",
+    "Range Type": "Melee",
+    "Region": "Ionia",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f977}",
+    "Emoji2": "\\u{1f636}\\u{200d}\\u{1f32b}\\u{fe0f}",
+    "Emoji3": "\\u{1f5e1}\\u{fe0f}",
+    "Emoji4": "\\u{1f4a8}"
+  },
+  {
+    "Champion": "Akshan",
+    "Gender": "Male",
+    "Position": [
+      "Top",
+      "Middle"
+    ],
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Shurima",
+    "Release Date": "2021",
+    "Emoji1": "\\u{1f9d4}\\u{1f3fd}\\u{200d}\\u{2642}\\u{fe0f}",
+    "Emoji2": "\\u{1f52b}",
+    "Emoji3": "\\u{1fa83}",
+    "Emoji4": "\\u{1f607}"
+  },
+  {
+    "Champion": "Alistar",
+    "Gender": "Male",
+    "Position": "Support",
+    "Species": "Minotaur",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Runeterra",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f402}",
+    "Emoji2": "\\u{1f4aa}",
+    "Emoji3": "\\u{26d3}\\u{fe0f}",
+    "Emoji4": "\\u{1f514}"
+  },
+  {
+    "Champion": "Amumu",
+    "Gender": "Male",
+    "Position": [
+      "Jungle",
+      "Support"
+    ],
+    "Species": [
+      "Undead",
+      "Yordle"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Shurima",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f622}",
+    "Emoji2": "\\u{1f480}",
+    "Emoji3": "\\u{1f9fb}",
+    "Emoji4": "\\u{2764}\\u{fe0f}\\u{200d}\\u{1fa79}"
+  },
+  {
+    "Champion": "Anivia",
+    "Gender": "Female",
+    "Position": "Middle",
+    "Species": [
+      "God",
+      "Spirit"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Freljord",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f426}",
+    "Emoji2": "\\u{2744}\\u{fe0f}",
+    "Emoji3": "\\u{1f95a}",
+    "Emoji4": "\\u{1f328}\\u{fe0f}"
+  },
+  {
+    "Champion": "Annie",
+    "Gender": "Female",
+    "Position": [
+      "Middle",
+      "Support"
+    ],
+    "Species": [
+      "Human",
+      "Magicborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Runeterra",
+      "Noxus"
+    ],
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f467}",
+    "Emoji2": "\\u{1f525}",
+    "Emoji3": "\\u{1f43b}",
+    "Emoji4": "\\u{1f47f}"
+  },
+  {
+    "Champion": "Aphelios",
+    "Gender": "Male",
+    "Position": "Bottom",
+    "Species": [
+      "Human",
+      "Spiritualist"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Targon",
+    "Release Date": "2019",
+    "Emoji1": "\\u{1f313}",
+    "Emoji2": "\\u{1f52b}",
+    "Emoji3": "\\u{1f52b}",
+    "Emoji4": "\\u{1f52b}"
+  },
+  {
+    "Champion": "Ashe",
+    "Gender": "Female",
+    "Position": [
+      "Bottom",
+      "Support"
+    ],
+    "Species": [
+      "Human",
+      "Iceborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Freljord",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f451}",
+    "Emoji2": "\\u{1f469}\\u{1f3fc}",
+    "Emoji3": "\\u{1f3f9}",
+    "Emoji4": "\\u{2744}\\u{fe0f}"
+  },
+  {
+    "Champion": "Aurelion Sol",
+    "Gender": "Male",
+    "Position": "Middle",
+    "Species": [
+      "Celestial",
+      "Dragon"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Runeterra",
+      "Targon"
+    ],
+    "Release Date": "2016",
+    "Emoji1": "\\u{1f409}",
+    "Emoji2": "\\u{1f320}",
+    "Emoji3": "\\u{1fa90}",
+    "Emoji4": "\\u{1f30c}"
+  },
+  {
+    "Champion": "Azir",
+    "Gender": "Male",
+    "Position": "Middle",
+    "Species": "God-Warrior",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Shurima",
+    "Release Date": "2014",
+    "Emoji1": "\\u{1f451}",
+    "Emoji2": "\\u{1f3dc}\\u{fe0f}",
+    "Emoji3": "\\u{2600}\\u{fe0f}",
+    "Emoji4": "\\u{1f482}\\u{200d}\\u{2642}\\u{fe0f}"
+  },
+  {
+    "Champion": "Bard",
+    "Gender": "Male",
+    "Position": "Support",
+    "Species": "Celestial",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Runeterra",
+    "Release Date": "2015",
+    "Emoji1": "\\u{1f514}",
+    "Emoji2": "\\u{1f390}",
+    "Emoji3": "\\u{1f3ad}",
+    "Emoji4": "\\u{1f3b5}"
+  },
+  {
+    "Champion": "Bel'veth",
+    "Gender": "Female",
+    "Position": "Jungle",
+    "Species": "Void-Being",
+    "Resource": "Manaless",
+    "Range Type": "Melee",
+    "Region": "Void",
+    "Release Date": "2022",
+    "Emoji1": "\\u{1f47d}",
+    "Emoji2": "\\u{1f47e}",
+    "Emoji3": "\\u{1f451}",
+    "Emoji4": "\\u{1f7ea}"
+  },
+  {
+    "Champion": "Blitzcrank",
+    "Gender": "Other",
+    "Position": "Support",
+    "Species": "Golem",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Zaun",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f916}",
+    "Emoji2": "\\u{1f9e4}",
+    "Emoji3": "\\u{1f9be}",
+    "Emoji4": "\\u{26a1}"
+  },
+  {
+    "Champion": "Brand",
+    "Gender": "Male",
+    "Position": "Support",
+    "Species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Runeterra",
+      "Freljord"
+    ],
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f525}",
+    "Emoji2": "\\u{1f9df}\\u{200d}\\u{2642}\\u{fe0f}",
+    "Emoji3": "\\u{1f4a2}",
+    "Emoji4": "\\u{1f56f}\\u{fe0f}"
+  },
+  {
+    "Champion": "Braum",
+    "Gender": "Male",
+    "Position": "Support",
+    "Species": [
+      "Human",
+      "Iceborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Freljord",
+    "Release Date": "2014",
+    "Emoji1": "\\u{1f978}",
+    "Emoji2": "\\u{1f6e1}\\u{fe0f}",
+    "Emoji3": "\\u{1f6aa}",
+    "Emoji4": "\\u{2744}\\u{fe0f}"
+  },
+  {
+    "Champion": "Caitlyn",
+    "Gender": "Female",
+    "Position": "Bottom",
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Piltover",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f46e}\\u{200d}\\u{2640}\\u{fe0f}",
+    "Emoji2": "\\u{1f52b}",
+    "Emoji3": "\\u{1f3af}",
+    "Emoji4": "\\u{1f9c1}"
+  },
+  {
+    "Champion": "Camille",
+    "Gender": "Female",
+    "Position": "Top",
+    "Species": [
+      "Human",
+      "Cyborg"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Piltover",
+    "Release Date": "2016",
+    "Emoji1": "\\u{1f9bf}",
+    "Emoji2": "\\u{1f9bf}",
+    "Emoji3": "\\u{2699}\\u{fe0f}",
+    "Emoji4": "\\u{1fa9d}"
+  },
+  {
+    "Champion": "Cassiopeia",
+    "Gender": "Female",
+    "Position": "Middle",
+    "Species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Noxus",
+      "Shurima"
+    ],
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f40d}",
+    "Emoji2": "\\u{2620}\\u{fe0f}",
+    "Emoji3": "\\u{1f9b7}",
+    "Emoji4": "\\u{1f5ff}"
+  },
+  {
+    "Champion": "Cho'gath",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": "Void-Being",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Void",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f47d}",
+    "Emoji2": "\\u{1f996}",
+    "Emoji3": "\\u{1f444}",
+    "Emoji4": "\\u{1f7ea}"
+  },
+  {
+    "Champion": "Corki",
+    "Gender": "Male",
+    "Position": "Middle",
+    "Species": "Yordle",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Bandle City",
+      "Piltover"
+    ],
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f439}",
+    "Emoji2": "\\u{1f468}\\u{200d}\\u{2708}\\u{fe0f}",
+    "Emoji3": "\\u{1f6e9}\\u{fe0f}",
+    "Emoji4": "\\u{1f680}"
+  },
+  {
+    "Champion": "Darius",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Noxus",
+    "Release Date": "2012",
+    "Emoji1": "\\u{1fa93}",
+    "Emoji2": "\\u{1fa78}",
+    "Emoji3": "\\u{1f4aa}",
+    "Emoji4": "\\u{1fa9d}"
+  },
+  {
+    "Champion": "Diana",
+    "Gender": "Female",
+    "Position": [
+      "Jungle",
+      "Middle"
+    ],
+    "Species": [
+      "Human",
+      "Aspect"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Targon",
+    "Release Date": "2012",
+    "Emoji1": "\\u{1f315}",
+    "Emoji2": "\\u{1f319}",
+    "Emoji3": "\\u{1f469}\\u{1f3fb}\\u{200d}\\u{2764}\\u{fe0f}\\u{200d}\\u{1f469}\\u{1f3fb}",
+    "Emoji4": "\\u{1f303}"
+  },
+  {
+    "Champion": "Dr. Mundo",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": [
+      "Human",
+      "Chemically Altered"
+    ],
+    "Resource": "Health",
+    "Range Type": "Melee",
+    "Region": "Zaun",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f9df}",
+    "Emoji2": "\\u{1f489}",
+    "Emoji3": "\\u{1f9ea}",
+    "Emoji4": "\\u{1f4aa}"
+  },
+  {
+    "Champion": "Draven",
+    "Gender": "Male",
+    "Position": "Bottom",
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Noxus",
+    "Release Date": "2012",
+    "Emoji1": "\\u{1fa93}",
+    "Emoji2": "\\u{1f504}",
+    "Emoji3": "\\u{1f3c6}",
+    "Emoji4": "\\u{1fa78}"
+  },
+  {
+    "Champion": "Ekko",
+    "Gender": "Male",
+    "Position": [
+      "Jungle",
+      "Middle"
+    ],
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Zaun",
+    "Release Date": "2015",
+    "Emoji1": "\\u{1f468}\\u{1f3ff}",
+    "Emoji2": "\\u{23f3}",
+    "Emoji3": "\\u{231a}",
+    "Emoji4": "\\u{2699}\\u{fe0f}"
+  },
+  {
+    "Champion": "Elise",
+    "Gender": "Female",
+    "Position": "Jungle",
+    "Species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": [
+      "Melee",
+      "Ranged"
+    ],
+    "Region": [
+      "Noxus",
+      "Shadow Isles"
+    ],
+    "Release Date": "2012",
+    "Emoji1": "\\u{1f577}\\u{fe0f}",
+    "Emoji2": "\\u{1f578}\\u{fe0f}",
+    "Emoji3": "\\u{1f935}\\u{1f3fb}\\u{200d}\\u{2640}\\u{fe0f}",
+    "Emoji4": "\\u{1f9b7}"
+  },
+  {
+    "Champion": "Evelynn",
+    "Gender": "Female",
+    "Position": "Jungle",
+    "Species": [
+      "Demon",
+      "Spirit"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Runeterra",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f48b}",
+    "Emoji2": "\\u{1f494}",
+    "Emoji3": "\\u{1f47f}",
+    "Emoji4": "\\u{1f462}"
+  },
+  {
+    "Champion": "Ezreal",
+    "Gender": "Male",
+    "Position": "Bottom",
+    "Species": [
+      "Human",
+      "Magicborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Piltover",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f471}\\u{200d}\\u{2642}\\u{fe0f}",
+    "Emoji2": "\\u{1f5fa}\\u{fe0f}",
+    "Emoji3": "\\u{1f9e4}",
+    "Emoji4": "\\u{26a1}"
+  },
+  {
+    "Champion": "Fiddlesticks",
+    "Gender": "Other",
+    "Position": "Jungle",
+    "Species": [
+      "Demon",
+      "Spirit"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Runeterra",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f426}",
+    "Emoji2": "\\u{1f383}",
+    "Emoji3": "\\u{1f628}",
+    "Emoji4": "\\u{1f47b}"
+  },
+  {
+    "Champion": "Fiora",
+    "Gender": "Female",
+    "Position": "Top",
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Demacia",
+    "Release Date": "2012",
+    "Emoji1": "\\u{1f93a}",
+    "Emoji2": "\\u{2694}\\u{fe0f}",
+    "Emoji3": "\\u{1f3f0}",
+    "Emoji4": "\\u{1f469}"
+  },
+  {
+    "Champion": "Fizz",
+    "Gender": "Male",
+    "Position": "Middle",
+    "Species": "Yordle",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Bilgewater",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f41f}",
+    "Emoji2": "\\u{1f531}",
+    "Emoji3": "\\u{1f988}",
+    "Emoji4": "\\u{1f3a3}"
+  },
+  {
+    "Champion": "Galio",
+    "Gender": "Male",
+    "Position": [
+      "Middle",
+      "Support"
+    ],
+    "Species": "Golem",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Demacia",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f5fd}",
+    "Emoji2": "\\u{1f6ab}",
+    "Emoji3": "\\u{1fa84}",
+    "Emoji4": "\\u{1f432}"
+  },
+  {
+    "Champion": "Gangplank",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Bilgewater",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f3f4}\\u{200d}\\u{2620}\\u{fe0f}",
+    "Emoji2": "\\u{1f6e2}\\u{fe0f}",
+    "Emoji3": "\\u{26f5}",
+    "Emoji4": "\\u{1f34a}"
+  },
+  {
+    "Champion": "Garen",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": "Human",
+    "Resource": "Manaless",
+    "Range Type": "Melee",
+    "Region": "Demacia",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f468}",
+    "Emoji2": "\\u{2694}\\u{fe0f}",
+    "Emoji3": "\\u{1f3f0}",
+    "Emoji4": "\\u{2728}"
+  },
+  {
+    "Champion": "Gnar",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": "Yordle",
+    "Resource": "Rage",
+    "Range Type": [
+      "Melee",
+      "Ranged"
+    ],
+    "Region": "Freljord",
+    "Release Date": "2014",
+    "Emoji1": "\\u{1f439}",
+    "Emoji2": "\\u{1fa83}",
+    "Emoji3": "\\u{1f98d}",
+    "Emoji4": "\\u{1faa8}"
+  },
+  {
+    "Champion": "Gragas",
+    "Gender": "Male",
+    "Position": [
+      "Top",
+      "Jungle"
+    ],
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Freljord",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f468}\\u{200d}\\u{1f33e}",
+    "Emoji2": "\\u{1f377}",
+    "Emoji3": "\\u{1f37a}",
+    "Emoji4": "\\u{1f6e2}\\u{fe0f}"
+  },
+  {
+    "Champion": "Graves",
+    "Gender": "Male",
+    "Position": "Jungle",
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Bilgewater",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f9d4}\\u{200d}\\u{2642}\\u{fe0f}",
+    "Emoji2": "\\u{1f52b}",
+    "Emoji3": "\\u{1f6ac}",
+    "Emoji4": "\\u{2601}\\u{fe0f}"
+  },
+  {
+    "Champion": "Gwen",
+    "Gender": "Female",
+    "Position": "Top",
+    "Species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": [
+      "Camavor",
+      "Shadow Isles"
+    ],
+    "Release Date": "2021",
+    "Emoji1": "\\u{1f467}",
+    "Emoji2": "\\u{2702}\\u{fe0f}",
+    "Emoji3": "\\u{1f9f5}",
+    "Emoji4": "\\u{1f539}"
+  },
+  {
+    "Champion": "Hecarim",
+    "Gender": "Male",
+    "Position": "Jungle",
+    "Species": "Undead",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": [
+      "Camavor",
+      "Shadow Isles"
+    ],
+    "Release Date": "2012",
+    "Emoji1": "\\u{1f47b}",
+    "Emoji2": "\\u{1f40e}",
+    "Emoji3": "\\u{1f3c3}\\u{200d}\\u{2642}\\u{fe0f}",
+    "Emoji4": "\\u{1fa7b}"
+  },
+  {
+    "Champion": "Heimerdinger",
+    "Gender": "Male",
+    "Position": [
+      "Middle",
+      "Support"
+    ],
+    "Species": "Yordle",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Piltover",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f439}",
+    "Emoji2": "\\u{1f97c}",
+    "Emoji3": "\\u{1f6e0}\\u{fe0f}",
+    "Emoji4": "\\u{2699}\\u{fe0f}"
+  },
+  {
+    "Champion": "Illaoi",
+    "Gender": "Female",
+    "Position": "Top",
+    "Species": [
+      "Human",
+      "Spiritualist"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Bilgewater",
+    "Release Date": "2015",
+    "Emoji1": "\\u{1f419}",
+    "Emoji2": "\\u{1f4aa}",
+    "Emoji3": "\\u{1f30a}",
+    "Emoji4": "\\u{1f92c}"
+  },
+  {
+    "Champion": "Irelia",
+    "Gender": "Female",
+    "Position": [
+      "Top",
+      "Middle"
+    ],
+    "Species": [
+      "Human",
+      "Spiritualist"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Ionia",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f64d}\\u{1f3fb}\\u{200d}\\u{2640}\\u{fe0f}",
+    "Emoji2": "\\u{2694}\\u{fe0f}",
+    "Emoji3": "\\u{1f483}",
+    "Emoji4": "\\u{1f94b}"
+  },
+  {
+    "Champion": "Ivern",
+    "Gender": "Male",
+    "Position": "Jungle",
+    "Species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Freljord",
+      "Ionia"
+    ],
+    "Release Date": "2016",
+    "Emoji1": "\\u{1f331}",
+    "Emoji2": "\\u{1f333}",
+    "Emoji3": "\\u{1faa8}",
+    "Emoji4": "\\u{1f33c}"
+  },
+  {
+    "Champion": "Janna",
+    "Gender": "Female",
+    "Position": "Support",
+    "Species": [
+      "God",
+      "Spirit"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Shurima",
+      "Zaun"
+    ],
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f9da}\\u{1f3fc}\\u{200d}\\u{2640}\\u{fe0f}",
+    "Emoji2": "\\u{1f32a}\\u{fe0f}",
+    "Emoji3": "\\u{1f300}",
+    "Emoji4": "\\u{1f691}"
+  },
+  {
+    "Champion": "Jarvan IV",
+    "Gender": "Male",
+    "Position": "Jungle",
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Demacia",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f451}",
+    "Emoji2": "\\u{1f6a9}",
+    "Emoji3": "\\u{1f3f0}",
+    "Emoji4": "\\u{26f0}\\u{fe0f}"
+  },
+  {
+    "Champion": "Jax",
+    "Gender": "Male",
+    "Position": [
+      "Top",
+      "Jungle"
+    ],
+    "Species": "Unknown",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": [
+      "Icathia",
+      "Runeterra",
+      "Shurima"
+    ],
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f93a}",
+    "Emoji2": "\\u{1f3ad}",
+    "Emoji3": "\\u{1f3ee}",
+    "Emoji4": "🤻"
+  },
+  {
+    "Champion": "Jayce",
+    "Gender": "Male",
+    "Position": [
+      "Top",
+      "Middle"
+    ],
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": [
+      "Melee",
+      "Ranged"
+    ],
+    "Region": "Piltover",
+    "Release Date": "2012",
+    "Emoji1": "\\u{1f468}\\u{1f3fd}\\u{200d}\\u{1f52c}",
+    "Emoji2": "\\u{1f528}",
+    "Emoji3": "\\u{1f52b}",
+    "Emoji4": "\\u{2699}\\u{fe0f}"
+  },
+  {
+    "Champion": "Jhin",
+    "Gender": "Male",
+    "Position": "Bottom",
+    "Species": [
+      "Human",
+      "Spiritualist"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Ionia",
+    "Release Date": "2016",
+    "Emoji1": "\\u{1f3ad}",
+    "Emoji2": "\\u{1f52b}",
+    "Emoji3": "\\u{1f338}",
+    "Emoji4": "\\u{34}\\u{fe0f}\\u{20e3}"
+  },
+  {
+    "Champion": "Jinx",
+    "Gender": "Female",
+    "Position": "Bottom",
+    "Species": [
+      "Human",
+      "Chemically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Zaun",
+    "Release Date": "2013",
+    "Emoji1": "\\u{1f52b}",
+    "Emoji2": "\\u{1f988}",
+    "Emoji3": "\\u{1f680}",
+    "Emoji4": "\\u{1f4a5}"
+  },
+  {
+    "Champion": "K'sante",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Shurima",
+    "Release Date": "2022",
+    "Emoji1": "\\u{1f9d4}\\u{1f3ff}\\u{200d}\\u{2642}\\u{fe0f}",
+    "Emoji2": "\\u{1f3dc}\\u{fe0f}",
+    "Emoji3": "\\u{2694}\\u{fe0f}",
+    "Emoji4": "\\u{1f6e1}\\u{fe0f}"
+  },
+  {
+    "Champion": "Kai'sa",
+    "Gender": "Female",
+    "Position": "Bottom",
+    "Species": [
+      "Human",
+      "Void-Being"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Shurima",
+      "Void"
+    ],
+    "Release Date": "2018",
+    "Emoji1": "\\u{1f64d}\\u{1f3fb}\\u{200d}\\u{2640}\\u{fe0f}",
+    "Emoji2": "\\u{1f98b}",
+    "Emoji3": "\\u{1f47d}",
+    "Emoji4": "\\u{1f9ec}"
+  },
+  {
+    "Champion": "Kalista",
+    "Gender": "Female",
+    "Position": "Bottom",
+    "Species": "Undead",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Camavor",
+      "Shadow Isles"
+    ],
+    "Release Date": "2014",
+    "Emoji1": "\\u{1f9df}\\u{200d}\\u{2640}\\u{fe0f}",
+    "Emoji2": "\\u{1f47b}",
+    "Emoji3": "\\u{27a1}\\u{fe0f}",
+    "Emoji4": "\\u{1f4a8}"
+  },
+  {
+    "Champion": "Karma",
+    "Gender": "Female",
+    "Position": "Support",
+    "Species": [
+      "Human",
+      "Spiritualist"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Ionia",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f9d8}",
+    "Emoji2": "\\u{1fab7}",
+    "Emoji3": "\\u{1f91d}\\u{1f3fd}",
+    "Emoji4": "\\u{2638}\\u{fe0f}"
+  },
+  {
+    "Champion": "Karthus",
+    "Gender": "Male",
+    "Position": "Jungle",
+    "Species": "Undead",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Noxus",
+      "Shadow Isles"
+    ],
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f47b}",
+    "Emoji2": "\\u{1faa6}",
+    "Emoji3": "\\u{1f480}",
+    "Emoji4": "\\u{1f3b5}"
+  },
+  {
+    "Champion": "Kassadin",
+    "Gender": "Male",
+    "Position": "Middle",
+    "Species": [
+      "Human",
+      "Void-Being"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": [
+      "Shurima",
+      "Void"
+    ],
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f7ea}",
+    "Emoji2": "\\u{1f468}",
+    "Emoji3": "\\u{1f300}",
+    "Emoji4": "\\u{1f30c}"
+  },
+  {
+    "Champion": "Katarina",
+    "Gender": "Female",
+    "Position": "Middle",
+    "Species": "Human",
+    "Resource": "Manaless",
+    "Range Type": "Melee",
+    "Region": "Noxus",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f469}\\u{200d}\\u{1f9b0}",
+    "Emoji2": "\\u{1f5e1}\\u{fe0f}",
+    "Emoji3": "\\u{1f4a8}",
+    "Emoji4": "\\u{1f300}"
+  },
+  {
+    "Champion": "Kayle",
+    "Gender": "Female",
+    "Position": "Top",
+    "Species": [
+      "Human",
+      "Aspect",
+      "Magically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": [
+      "Melee",
+      "Ranged"
+    ],
+    "Region": [
+      "Demacia",
+      "Targon"
+    ],
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f607}",
+    "Emoji2": "\\u{1fabd}",
+    "Emoji3": "\\u{2694}\\u{fe0f}",
+    "Emoji4": "\\u{1f525}"
+  },
+  {
+    "Champion": "Kayn",
+    "Gender": "Male",
+    "Position": "Jungle",
+    "Species": [
+      "Human",
+      "Darkin",
+      "Magically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": [
+      "Runeterra",
+      "Ionia",
+      "Noxus",
+      "Shurima"
+    ],
+    "Release Date": "2017",
+    "Emoji1": "\\u{1f977}",
+    "Emoji2": "\\u{1f479}",
+    "Emoji3": "\\u{1f52a}",
+    "Emoji4": "\\u{1f468}\\u{1f3fd}\\u{200d}\\u{2764}\\u{fe0f}\\u{200d}\\u{1f468}\\u{1f3fd}"
+  },
+  {
+    "Champion": "Kennen",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": "Yordle",
+    "Resource": "Energy",
+    "Range Type": "Ranged",
+    "Region": "Ionia",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f439}",
+    "Emoji2": "\\u{1f977}",
+    "Emoji3": "\\u{26a1}",
+    "Emoji4": "\\u{1f32a}\\u{fe0f}"
+  },
+  {
+    "Champion": "Kha'zix",
+    "Gender": "Male",
+    "Position": "Jungle",
+    "Species": "Void-Being",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Void",
+    "Release Date": "2012",
+    "Emoji1": "\\u{1f7ea}",
+    "Emoji2": "\\u{1f997}",
+    "Emoji3": "\\u{1f47d}",
+    "Emoji4": "\\u{1fab0}"
+  },
+  {
+    "Champion": "Kindred",
+    "Gender": "Other",
+    "Position": "Jungle",
+    "Species": [
+      "God",
+      "Spirit"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Runeterra",
+    "Release Date": "2015",
+    "Emoji1": "\\u{1f40f}",
+    "Emoji2": "\\u{1f43a}",
+    "Emoji3": "\\u{1f3f9}",
+    "Emoji4": "\\u{1f9ff}"
+  },
+  {
+    "Champion": "Kled",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": "Yordle",
+    "Resource": "Courage",
+    "Range Type": "Melee",
+    "Region": "Noxus",
+    "Release Date": "2016",
+    "Emoji1": "\\u{1f3c7}",
+    "Emoji2": "\\u{1f439}",
+    "Emoji3": "\\u{1f98e}",
+    "Emoji4": "\\u{2694}\\u{fe0f}"
+  },
+  {
+    "Champion": "Kog'maw",
+    "Gender": "Male",
+    "Position": "Bottom",
+    "Species": "Void-Being",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Void",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f47d}",
+    "Emoji2": "\\u{1f41b}",
+    "Emoji3": "\\u{1fab3}",
+    "Emoji4": "\\u{1f92e}"
+  },
+  {
+    "Champion": "LeBlanc",
+    "Gender": "Female",
+    "Position": "Middle",
+    "Species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Noxus",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f469}\\u{1f3fb}",
+    "Emoji2": "\\u{1fa9e}",
+    "Emoji3": "\\u{1f465}",
+    "Emoji4": "\\u{1f3ad}"
+  },
+  {
+    "Champion": "Lee Sin",
+    "Gender": "Male",
+    "Position": "Jungle",
+    "Species": [
+      "Human",
+      "Spiritualist"
+    ],
+    "Resource": "Energy",
+    "Range Type": "Melee",
+    "Region": "Ionia",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f468}\\u{1f3fc}\\u{200d}\\u{1f9b2}",
+    "Emoji2": "\\u{1f468}\\u{200d}\\u{1f9af}",
+    "Emoji3": "\\u{1f9b5}\\u{1f3fc}",
+    "Emoji4": "\\u{1f94b}"
+  },
+  {
+    "Champion": "Leona",
+    "Gender": "Female",
+    "Position": "Support",
+    "Species": [
+      "Human",
+      "Aspect"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Targon",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f469}\\u{1f3fc}\\u{200d}\\u{1f9b0}",
+    "Emoji2": "\\u{2600}\\u{fe0f}",
+    "Emoji3": "\\u{1f6e1}\\u{fe0f}",
+    "Emoji4": "\\u{1f3db}\\u{fe0f}"
+  },
+  {
+    "Champion": "Lillia",
+    "Gender": "Female",
+    "Position": [
+      "Top",
+      "Jungle"
+    ],
+    "Species": "Spirit",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Ionia",
+    "Release Date": "2020",
+    "Emoji1": "\\u{1f98c}",
+    "Emoji2": "\\u{1f338}",
+    "Emoji3": "\\u{1f3b3}",
+    "Emoji4": "\\u{1f634}"
+  },
+  {
+    "Champion": "Lissandra",
+    "Gender": "Female",
+    "Position": "Middle",
+    "Species": [
+      "Human",
+      "Iceborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Freljord",
+    "Release Date": "2013",
+    "Emoji1": "\\u{1f451}",
+    "Emoji2": "\\u{1f9d9}\\u{200d}\\u{2640}\\u{fe0f}",
+    "Emoji3": "\\u{2744}\\u{fe0f}",
+    "Emoji4": "\\u{1f9ca}"
+  },
+  {
+    "Champion": "Lucian",
+    "Gender": "Male",
+    "Position": "Bottom",
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Demacia",
+      "Shadow Isles"
+    ],
+    "Release Date": "2013",
+    "Emoji1": "\\u{1f468}\\u{1f3ff}",
+    "Emoji2": "\\u{1f52b}",
+    "Emoji3": "\\u{1f52b}",
+    "Emoji4": "\\u{2728}"
+  },
+  {
+    "Champion": "Lulu",
+    "Gender": "Female",
+    "Position": "Support",
+    "Species": "Yordle",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Bandle City",
+    "Release Date": "2012",
+    "Emoji1": "\\u{1f9da}",
+    "Emoji2": "\\u{1f439}",
+    "Emoji3": "\\u{1f98b}",
+    "Emoji4": "\\u{1fa84}"
+  },
+  {
+    "Champion": "Lux",
+    "Gender": "Female",
+    "Position": [
+      "Middle",
+      "Support"
+    ],
+    "Species": [
+      "Human",
+      "Magicborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Demacia",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f469}\\u{1f3fc}",
+    "Emoji2": "\\u{1fa84}",
+    "Emoji3": "\\u{2728}",
+    "Emoji4": "\\u{1f506}"
+  },
+  {
+    "Champion": "Malphite",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": "Golem",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": [
+      "Ixtal",
+      "Shurima"
+    ],
+    "Release Date": "2009",
+    "Emoji1": "\\u{1faa8}",
+    "Emoji2": "\\u{1f44a}",
+    "Emoji3": "\\u{1f6de}",
+    "Emoji4": "\\u{26f0}\\u{fe0f}"
+  },
+  {
+    "Champion": "Malzahar",
+    "Gender": "Male",
+    "Position": "Middle",
+    "Species": [
+      "Human",
+      "Void-Being"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Shurima",
+      "Void"
+    ],
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f7ea}",
+    "Emoji2": "\\u{1f30c}",
+    "Emoji3": "\\u{1f47e}",
+    "Emoji4": "\\u{1fab2}"
+  },
+  {
+    "Champion": "Maokai",
+    "Gender": "Male",
+    "Position": [
+      "Top",
+      "Jungle",
+      "Support"
+    ],
+    "Species": "Spirit",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Shadow Isles",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f333}",
+    "Emoji2": "\\u{1f331}",
+    "Emoji3": "\\u{1f47b}",
+    "Emoji4": "\\u{1f343}"
+  },
+  {
+    "Champion": "Master Yi",
+    "Gender": "Male",
+    "Position": "Jungle",
+    "Species": [
+      "Human",
+      "Spiritualist"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Ionia",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f9d4}\\u{1f3fb}\\u{200d}\\u{2642}\\u{fe0f}",
+    "Emoji2": "\\u{2694}\\u{fe0f}",
+    "Emoji3": "\\u{1f94b}",
+    "Emoji4": "\\u{26a1}"
+  },
+  {
+    "Champion": "Milio",
+    "Gender": "Male",
+    "Position": "Support",
+    "Species": [
+      "Human",
+      "Magicborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Ixtal",
+    "Release Date": "2023",
+    "Emoji1": "\\u{1f9d2}\\u{1f3fe}",
+    "Emoji2": "\\u{2764}\\u{fe0f}\\u{200d}\\u{1f525}",
+    "Emoji3": "\\u{1f525}",
+    "Emoji4": "\\u{1f31e}"
+  },
+  {
+    "Champion": "Miss Fortune",
+    "Gender": "Female",
+    "Position": "Bottom",
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Bilgewater",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f469}\\u{200d}\\u{1f9b0}",
+    "Emoji2": "\\u{1f52b}",
+    "Emoji3": "\\u{1f4b0}",
+    "Emoji4": "\\u{1f3f4}\\u{200d}\\u{2620}\\u{fe0f}"
+  },
+  {
+    "Champion": "Mordekaiser",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": "Revenant",
+    "Resource": "Shield",
+    "Range Type": "Melee",
+    "Region": "Noxus",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f480}",
+    "Emoji2": "\\u{1f3f0}",
+    "Emoji3": "\\u{1f47b}",
+    "Emoji4": "\\u{2663}\\u{fe0f}"
+  },
+  {
+    "Champion": "Morgana",
+    "Gender": "Female",
+    "Position": "Support",
+    "Species": [
+      "Human",
+      "Aspect",
+      "Magically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Demacia",
+      "Targon"
+    ],
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f9d9}\\u{200d}\\u{2640}\\u{fe0f}",
+    "Emoji2": "\\u{1f47f}",
+    "Emoji3": "\\u{1fabd}",
+    "Emoji4": "\\u{26d3}\\u{fe0f}"
+  },
+  {
+    "Champion": "Nami",
+    "Gender": "Female",
+    "Position": "Support",
+    "Species": "Vastayan",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Runeterra",
+    "Release Date": "2012",
+    "Emoji1": "\\u{1f9dc}\\u{200d}\\u{2640}\\u{fe0f}",
+    "Emoji2": "\\u{1fae7}",
+    "Emoji3": "\\u{1f30a}",
+    "Emoji4": "\\u{1f420}"
+  },
+  {
+    "Champion": "Nasus",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": "God-Warrior",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Shurima",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f436}",
+    "Emoji2": "\\u{1f3dc}\\u{fe0f}",
+    "Emoji3": "\\u{1fa93}",
+    "Emoji4": "\\u{26b0}\\u{fe0f}"
+  },
+  {
+    "Champion": "Nautilus",
+    "Gender": "Male",
+    "Position": "Support",
+    "Species": "Revenant",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Bilgewater",
+    "Release Date": "2012",
+    "Emoji1": "\\u{1f93f}",
+    "Emoji2": "\\u{2693}",
+    "Emoji3": "\\u{1f30a}",
+    "Emoji4": "\\u{1f512}"
+  },
+  {
+    "Champion": "Neeko",
+    "Gender": "Female",
+    "Position": [
+      "Middle",
+      "Support"
+    ],
+    "Species": "Vastayan",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Ixtal",
+    "Release Date": "2018",
+    "Emoji1": "\\u{1f98e}",
+    "Emoji2": "\\u{1f3ad}",
+    "Emoji3": "\\u{1f9d1}\\u{200d}\\u{1f91d}\\u{200d}\\u{1f9d1}",
+    "Emoji4": "\\u{1f332}"
+  },
+  {
+    "Champion": "Nidalee",
+    "Gender": "Female",
+    "Position": "Jungle",
+    "Species": [
+      "Human",
+      "Spiritualist"
+    ],
+    "Resource": "Mana",
+    "Range Type": [
+      "Melee",
+      "Ranged"
+    ],
+    "Region": "Ixtal",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f469}",
+    "Emoji2": "\\u{1f405}",
+    "Emoji3": "\\u{1f504}",
+    "Emoji4": "\\u{1f334}"
+  },
+  {
+    "Champion": "Nilah",
+    "Gender": "Female",
+    "Position": "Bottom",
+    "Species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Bilgewater",
+    "Release Date": "2022",
+    "Emoji1": "\\u{1f469}",
+    "Emoji2": "\\u{1fa79}",
+    "Emoji3": "\\u{1f9f2}",
+    "Emoji4": "\\u{2694}\\u{fe0f}"
+  },
+  {
+    "Champion": "Nocturne",
+    "Gender": "Male",
+    "Position": "Jungle",
+    "Species": [
+      "Demon",
+      "Spirit"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Runeterra",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f464}",
+    "Emoji2": "\\u{1f47b}",
+    "Emoji3": "\\u{1f303}",
+    "Emoji4": "\\u{2b1b}"
+  },
+  {
+    "Champion": "Nunu & Willump",
+    "Gender": "Male",
+    "Position": "Jungle",
+    "Species": [
+      "Human",
+      "Yeti"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Freljord",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f9d2}\\u{1f3fd}",
+    "Emoji2": "\\u{1f98d}",
+    "Emoji3": "\\u{2744}\\u{fe0f}",
+    "Emoji4": "\\u{2603}\\u{fe0f}"
+  },
+  {
+    "Champion": "Olaf",
+    "Gender": "Male",
+    "Position": [
+      "Top",
+      "Jungle"
+    ],
+    "Species": [
+      "Human",
+      "Iceborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Freljord",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f9d4}",
+    "Emoji2": "\\u{1fa93}",
+    "Emoji3": "\\u{1fa93}",
+    "Emoji4": "\\u{1f621}"
+  },
+  {
+    "Champion": "Orianna",
+    "Gender": "Female",
+    "Position": "Middle",
+    "Species": "Golem",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Piltover",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1fa86}",
+    "Emoji2": "\\u{1f916}",
+    "Emoji3": "\\u{26aa}",
+    "Emoji4": "\\u{1f9f2}"
+  },
+  {
+    "Champion": "Ornn",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": [
+      "God",
+      "Spirit"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Freljord",
+    "Release Date": "2017",
+    "Emoji1": "\\u{1f40f}",
+    "Emoji2": "\\u{1f30b}",
+    "Emoji3": "\\u{1f525}",
+    "Emoji4": "\\u{1f528}"
+  },
+  {
+    "Champion": "Pantheon",
+    "Gender": "Male",
+    "Position": [
+      "Jungle",
+      "Middle",
+      "Support"
+    ],
+    "Species": [
+      "Human",
+      "Aspect"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Targon",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f3db}\\u{fe0f}",
+    "Emoji2": "\\u{1f6e1}\\u{fe0f}",
+    "Emoji3": "\\u{2694}\\u{fe0f}",
+    "Emoji4": "\\u{1f6a9}"
+  },
+  {
+    "Champion": "Poppy",
+    "Gender": "Female",
+    "Position": [
+      "Top",
+      "Jungle"
+    ],
+    "Species": "Yordle",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Demacia",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f439}",
+    "Emoji2": "\\u{1f528}",
+    "Emoji3": "\\u{1f6e1}\\u{fe0f}",
+    "Emoji4": "\\u{2696}\\u{fe0f}"
+  },
+  {
+    "Champion": "Pyke",
+    "Gender": "Male",
+    "Position": "Support",
+    "Species": "Revenant",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Bilgewater",
+    "Release Date": "2018",
+    "Emoji1": "\\u{1fa9d}",
+    "Emoji2": "\\u{1f47b}",
+    "Emoji3": "\\u{274c}",
+    "Emoji4": "\\u{1f30a}"
+  },
+  {
+    "Champion": "Qiyana",
+    "Gender": "Female",
+    "Position": "Middle",
+    "Species": [
+      "Human",
+      "Magicborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Ixtal",
+    "Release Date": "2019",
+    "Emoji1": "\\u{1f451}",
+    "Emoji2": "\\u{1f331}",
+    "Emoji3": "\\u{1f525}",
+    "Emoji4": "\\u{1f4a7}"
+  },
+  {
+    "Champion": "Quinn",
+    "Gender": "Female",
+    "Position": "Top",
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Demacia",
+    "Release Date": "2013",
+    "Emoji1": "\\u{1f3f9}",
+    "Emoji2": "\\u{1f469}",
+    "Emoji3": "\\u{1f985}",
+    "Emoji4": "\\u{1f3af}"
+  },
+  {
+    "Champion": "Rakan",
+    "Gender": "Male",
+    "Position": "Support",
+    "Species": "Vastayan",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Ionia",
+    "Release Date": "2017",
+    "Emoji1": "\\u{1f468}",
+    "Emoji2": "\\u{1fab6}",
+    "Emoji3": "\\u{1f491}",
+    "Emoji4": "\\u{1f334}"
+  },
+  {
+    "Champion": "Rammus",
+    "Gender": "Male",
+    "Position": "Jungle",
+    "Species": "God-Warrior",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Shurima",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f422}",
+    "Emoji2": "\\u{1f6de}",
+    "Emoji3": "\\u{1f4a8}",
+    "Emoji4": "\\u{1f197}"
+  },
+  {
+    "Champion": "Rek'sai",
+    "Gender": "Female",
+    "Position": "Jungle",
+    "Species": "Void-Being",
+    "Resource": "Rage",
+    "Range Type": "Melee",
+    "Region": [
+      "Shurima",
+      "Void"
+    ],
+    "Release Date": "2014",
+    "Emoji1": "\\u{1f3dc}\\u{fe0f}",
+    "Emoji2": "\\u{1f7ea}",
+    "Emoji3": "\\u{1f988}",
+    "Emoji4": "\\u{1faa8}"
+  },
+  {
+    "Champion": "Rell",
+    "Gender": "Female",
+    "Position": "Support",
+    "Species": [
+      "Human",
+      "Magicborn",
+      "Magically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Noxus",
+    "Release Date": "2020",
+    "Emoji1": "\\u{1f3c7}",
+    "Emoji2": "\\u{1f9f2}",
+    "Emoji3": "\\u{1f6e1}\\u{fe0f}",
+    "Emoji4": "\\u{1f469}"
+  },
+  {
+    "Champion": "Renata Glasc",
+    "Gender": "Female",
+    "Position": "Support",
+    "Species": [
+      "Human",
+      "Chemically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Zaun",
+    "Release Date": "2022",
+    "Emoji1": "\\u{1f469}\\u{200d}\\u{1f4bc}",
+    "Emoji2": "\\u{1f462}",
+    "Emoji3": "\\u{1f9ea}",
+    "Emoji4": "\\u{1f4b8}"
+  },
+  {
+    "Champion": "Renekton",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": "God-Warrior",
+    "Resource": "Fury",
+    "Range Type": "Melee",
+    "Region": "Shurima",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f40a}",
+    "Emoji2": "\\u{1f3dc}\\u{fe0f}",
+    "Emoji3": "\\u{1f621}",
+    "Emoji4": "\\u{1fa93}"
+  },
+  {
+    "Champion": "Rengar",
+    "Gender": "Male",
+    "Position": [
+      "Top",
+      "Jungle"
+    ],
+    "Species": "Vastayan",
+    "Resource": "Ferocity",
+    "Range Type": "Melee",
+    "Region": [
+      "Ixtal",
+      "Shurima"
+    ],
+    "Release Date": "2012",
+    "Emoji1": "\\u{1f981}",
+    "Emoji2": "\\u{1f9b7}",
+    "Emoji3": "\\u{1f5e1}\\u{fe0f}",
+    "Emoji4": "\\u{1f334}"
+  },
+  {
+    "Champion": "Riven",
+    "Gender": "Female",
+    "Position": "Top",
+    "Species": "Human",
+    "Resource": "Manaless",
+    "Range Type": "Melee",
+    "Region": [
+      "Ionia",
+      "Noxus"
+    ],
+    "Release Date": "2011",
+    "Emoji1": "\\u{2694}\\u{fe0f}",
+    "Emoji2": "\\u{1f004}",
+    "Emoji3": "\\u{1f5e1}\\u{fe0f}",
+    "Emoji4": "\\u{1f32a}\\u{fe0f}"
+  },
+  {
+    "Champion": "Rumble",
+    "Gender": "Male",
+    "Position": [
+      "Top",
+      "Middle"
+    ],
+    "Species": "Yordle",
+    "Resource": "Heat",
+    "Range Type": "Melee",
+    "Region": "Bandle City",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f439}",
+    "Emoji2": "\\u{1f916}",
+    "Emoji3": "\\u{1f975}",
+    "Emoji4": "\\u{1f680}"
+  },
+  {
+    "Champion": "Ryze",
+    "Gender": "Male",
+    "Position": [
+      "Top",
+      "Middle"
+    ],
+    "Species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Runeterra",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f9d9}\\u{200d}\\u{2642}\\u{fe0f}",
+    "Emoji2": "\\u{1f4dc}",
+    "Emoji3": "\\u{1f4a7}",
+    "Emoji4": "\\u{1f4da}"
+  },
+  {
+    "Champion": "Samira",
+    "Gender": "Female",
+    "Position": "Bottom",
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Noxus",
+      "Shurima"
+    ],
+    "Release Date": "2020",
+    "Emoji1": "\\u{1f469}\\u{1f3fd}",
+    "Emoji2": "\\u{1f52b}",
+    "Emoji3": "\\u{1f52b}",
+    "Emoji4": "\\u{1f5e1}\\u{fe0f}"
+  },
+  {
+    "Champion": "Sejuani",
+    "Gender": "Female",
+    "Position": "Jungle",
+    "Species": [
+      "Human",
+      "Iceborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Freljord",
+    "Release Date": "2012",
+    "Emoji1": "\\u{1f469}\\u{1f3fc}",
+    "Emoji2": "\\u{1f417}",
+    "Emoji3": "\\u{1f3c7}",
+    "Emoji4": "\\u{2744}\\u{fe0f}"
+  },
+  {
+    "Champion": "Senna",
+    "Gender": "Female",
+    "Position": "Support",
+    "Species": [
+      "Human",
+      "Undead"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Shadow Isles",
+    "Release Date": "2019",
+    "Emoji1": "\\u{1f469}\\u{1f3fe}",
+    "Emoji2": "\\u{1f52b}",
+    "Emoji3": "\\u{2695}\\u{fe0f}",
+    "Emoji4": "\\u{1f47b}"
+  },
+  {
+    "Champion": "Seraphine",
+    "Gender": "Female",
+    "Position": "Support",
+    "Species": [
+      "Human",
+      "Magicborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Piltover",
+      "Zaun"
+    ],
+    "Release Date": "2020",
+    "Emoji1": "\\u{1f469}\\u{1f3fc}",
+    "Emoji2": "\\u{1f3bc}",
+    "Emoji3": "\\u{1f3b5}",
+    "Emoji4": "\\u{1f3a4}"
+  },
+  {
+    "Champion": "Sett",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": [
+      "Human",
+      "Vastayan"
+    ],
+    "Resource": "Grit",
+    "Range Type": "Melee",
+    "Region": "Ionia",
+    "Release Date": "2020",
+    "Emoji1": "\\u{1f44a}",
+    "Emoji2": "\\u{1f4aa}",
+    "Emoji3": "\\u{1f3c6}",
+    "Emoji4": "\\u{1f947}"
+  },
+  {
+    "Champion": "Shaco",
+    "Gender": "Male",
+    "Position": "Jungle",
+    "Species": "Spirit",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Runeterra",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f0cf}",
+    "Emoji2": "\\u{1f921}",
+    "Emoji3": "\\u{1f608}",
+    "Emoji4": "\\u{1f381}"
+  },
+  {
+    "Champion": "Shen",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": [
+      "Human",
+      "Spiritualist"
+    ],
+    "Resource": "Energy",
+    "Range Type": "Melee",
+    "Region": "Ionia",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f977}\\u{1f3ff}",
+    "Emoji2": "\\u{1f6e1}\\u{fe0f}",
+    "Emoji3": "\\u{1f5e1}\\u{fe0f}",
+    "Emoji4": "\\u{262f}\\u{fe0f}"
+  },
+  {
+    "Champion": "Shyvana",
+    "Gender": "Female",
+    "Position": "Jungle",
+    "Species": [
+      "Dragon",
+      "Magically Altered"
+    ],
+    "Resource": "Fury",
+    "Range Type": "Melee",
+    "Region": "Demacia",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f469}\\u{1f3fd}",
+    "Emoji2": "\\u{1f432}",
+    "Emoji3": "\\u{1f504}",
+    "Emoji4": "\\u{1f525}"
+  },
+  {
+    "Champion": "Singed",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": [
+      "Human",
+      "Chemically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": [
+      "Piltover",
+      "Zaun"
+    ],
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f37e}",
+    "Emoji2": "\\u{2623}\\u{fe0f}",
+    "Emoji3": "\\u{1f3c3}\\u{200d}\\u{2642}\\u{fe0f}",
+    "Emoji4": "\\u{1f92a}"
+  },
+  {
+    "Champion": "Sion",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": "Revenant",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Noxus",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f9df}\\u{200d}\\u{2642}\\u{fe0f}",
+    "Emoji2": "\\u{1fa93}",
+    "Emoji3": "\\u{2620}\\u{fe0f}",
+    "Emoji4": "\\u{1f684}"
+  },
+  {
+    "Champion": "Sivir",
+    "Gender": "Female",
+    "Position": "Bottom",
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Shurima",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1fa83}",
+    "Emoji2": "\\u{1f3dc}\\u{fe0f}",
+    "Emoji3": "\\u{1faa6}",
+    "Emoji4": "\\u{1f4b0}"
+  },
+  {
+    "Champion": "Skarner",
+    "Gender": "Male",
+    "Position": "Jungle",
+    "Species": "Brackern",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Shurima",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f982}",
+    "Emoji2": "\\u{1faa8}",
+    "Emoji3": "\\u{1f48e}",
+    "Emoji4": "\\u{1f320}"
+  },
+  {
+    "Champion": "Sona",
+    "Gender": "Female",
+    "Position": "Support",
+    "Species": [
+      "Human",
+      "Magicborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Demacia",
+      "Ionia"
+    ],
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f3bc}",
+    "Emoji2": "\\u{1f3b5}",
+    "Emoji3": "\\u{1f515}",
+    "Emoji4": "\\u{1f3b9}"
+  },
+  {
+    "Champion": "Soraka",
+    "Gender": "Female",
+    "Position": "Support",
+    "Species": "Celestial",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Ionia",
+      "Targon"
+    ],
+    "Release Date": "2009",
+    "Emoji1": "\\u{2695}\\u{fe0f}",
+    "Emoji2": "\\u{1f31f}",
+    "Emoji3": "\\u{1f691}",
+    "Emoji4": "\\u{1f4ab}"
+  },
+  {
+    "Champion": "Swain",
+    "Gender": "Male",
+    "Position": [
+      "Middle",
+      "Support"
+    ],
+    "Species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Noxus",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f608}",
+    "Emoji2": "\\u{1f468}\\u{200d}\\u{1f9af}",
+    "Emoji3": "\\u{1f426}\\u{200d}\\u{2b1b}",
+    "Emoji4": "\\u{1f441}\\u{fe0f}"
+  },
+  {
+    "Champion": "Sylas",
+    "Gender": "Male",
+    "Position": "Middle",
+    "Species": [
+      "Human",
+      "Magicborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": [
+      "Demacia",
+      "Freljord"
+    ],
+    "Release Date": "2019",
+    "Emoji1": "\\u{26d3}\\u{fe0f}",
+    "Emoji2": "\\u{1f9d9}",
+    "Emoji3": "\\u{1fa84}",
+    "Emoji4": "\\u{1f504}"
+  },
+  {
+    "Champion": "Syndra",
+    "Gender": "Female",
+    "Position": "Middle",
+    "Species": [
+      "Human",
+      "Magicborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Ionia",
+    "Release Date": "2012",
+    "Emoji1": "\\u{1f9d9}\\u{200d}\\u{2640}\\u{fe0f}",
+    "Emoji2": "\\u{26ab}",
+    "Emoji3": "\\u{26ab}",
+    "Emoji4": "\\u{26ab}"
+  },
+  {
+    "Champion": "Tahm Kench",
+    "Gender": "Male",
+    "Position": [
+      "Top",
+      "Support"
+    ],
+    "Species": [
+      "Demon",
+      "Spirit"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": [
+      "Runeterra",
+      "Bilgewater"
+    ],
+    "Release Date": "2015",
+    "Emoji1": "\\u{1f438}",
+    "Emoji2": "\\u{1f468}\\u{200d}\\u{1f373}",
+    "Emoji3": "\\u{1f445}",
+    "Emoji4": "\\u{1f3a9}"
+  },
+  {
+    "Champion": "Taliyah",
+    "Gender": "Female",
+    "Position": [
+      "Jungle",
+      "Middle"
+    ],
+    "Species": [
+      "Human",
+      "Magicborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Shurima",
+    "Release Date": "2016",
+    "Emoji1": "\\u{1f467}\\u{1f3fd}",
+    "Emoji2": "\\u{1f3c4}\\u{200d}\\u{2640}\\u{fe0f}",
+    "Emoji3": "\\u{1faa8}",
+    "Emoji4": "\\u{26f0}\\u{fe0f}"
+  },
+  {
+    "Champion": "Talon",
+    "Gender": "Male",
+    "Position": [
+      "Jungle",
+      "Middle"
+    ],
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Noxus",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f5e1}\\u{fe0f}",
+    "Emoji2": "\\u{1f465}",
+    "Emoji3": "\\u{1fa78}",
+    "Emoji4": "\\u{1f977}"
+  },
+  {
+    "Champion": "Taric",
+    "Gender": "Male",
+    "Position": "Support",
+    "Species": [
+      "Human",
+      "Aspect"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": [
+      "Demacia",
+      "Targon"
+    ],
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f48e}",
+    "Emoji2": "\\u{1f6e1}\\u{fe0f}",
+    "Emoji3": "\\u{2728}",
+    "Emoji4": "\\u{1f468}\\u{1f3fd}\\u{200d}\\u{2764}\\u{fe0f}\\u{200d}\\u{1f468}\\u{1f3fd}"
+  },
+  {
+    "Champion": "Teemo",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": "Yordle",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Bandle City",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f439}",
+    "Emoji2": "\\u{1fae5}",
+    "Emoji3": "\\u{1fa96}",
+    "Emoji4": "\\u{1f344}"
+  },
+  {
+    "Champion": "Thresh",
+    "Gender": "Male",
+    "Position": "Support",
+    "Species": "Undead",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Shadow Isles",
+    "Release Date": "2013",
+    "Emoji1": "\\u{1f47b}",
+    "Emoji2": "\\u{1fa9d}",
+    "Emoji3": "\\u{26d3}\\u{fe0f}",
+    "Emoji4": "\\u{1f3ee}"
+  },
+  {
+    "Champion": "Tristana",
+    "Gender": "Female",
+    "Position": "Bottom",
+    "Species": "Yordle",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Bandle City",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f439}",
+    "Emoji2": "\\u{1f52b}",
+    "Emoji3": "\\u{1f4a3}",
+    "Emoji4": "\\u{1f4a5}"
+  },
+  {
+    "Champion": "Trundle",
+    "Gender": "Male",
+    "Position": [
+      "Top",
+      "Jungle"
+    ],
+    "Species": [
+      "Troll",
+      "Iceborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Freljord",
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f9cc}",
+    "Emoji2": "\\u{1f451}",
+    "Emoji3": "\\u{2744}\\u{fe0f}",
+    "Emoji4": "\\u{1f9ca}"
+  },
+  {
+    "Champion": "Tryndamere",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "Resource": "Fury",
+    "Range Type": "Melee",
+    "Region": "Freljord",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f9d4}\\u{1f3fb}\\u{200d}\\u{2642}\\u{fe0f}",
+    "Emoji2": "\\u{2694}\\u{fe0f}",
+    "Emoji3": "\\u{1f6ab}",
+    "Emoji4": "\\u{1f92c}"
+  },
+  {
+    "Champion": "Twisted Fate",
+    "Gender": "Male",
+    "Position": "Middle",
+    "Species": [
+      "Human",
+      "Magicborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Bilgewater",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f9d9}\\u{200d}\\u{2642}\\u{fe0f}",
+    "Emoji2": "\\u{1f441}\\u{fe0f}",
+    "Emoji3": "\\u{1f0cf}",
+    "Emoji4": "\\u{1fa99}"
+  },
+  {
+    "Champion": "Twitch",
+    "Gender": "Male",
+    "Position": "Bottom",
+    "Species": [
+      "Rat",
+      "Chemically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Zaun",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f400}",
+    "Emoji2": "\\u{2623}\\u{fe0f}",
+    "Emoji3": "\\u{1f3f9}",
+    "Emoji4": "\\u{1f5d1}\\u{fe0f}"
+  },
+  {
+    "Champion": "Udyr",
+    "Gender": "Male",
+    "Position": [
+      "Top",
+      "Jungle"
+    ],
+    "Species": [
+      "Human",
+      "Spiritualist"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": [
+      "Freljord",
+      "Ionia"
+    ],
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f43b}",
+    "Emoji2": "\\u{1f417}",
+    "Emoji3": "\\u{1f40f}",
+    "Emoji4": "\\u{1f426}"
+  },
+  {
+    "Champion": "Urgot",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": [
+      "Human",
+      "Cyborg",
+      "Chemically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Noxus",
+      "Zaun"
+    ],
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f980}",
+    "Emoji2": "\\u{2623}\\u{fe0f}",
+    "Emoji3": "\\u{26d3}\\u{fe0f}",
+    "Emoji4": "\\u{1f3af}"
+  },
+  {
+    "Champion": "Varus",
+    "Gender": "Male",
+    "Position": [
+      "Middle",
+      "Bottom"
+    ],
+    "Species": [
+      "Human",
+      "Darkin"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Runeterra",
+      "Ionia",
+      "Shurima"
+    ],
+    "Release Date": "2012",
+    "Emoji1": "\\u{1f3f9}",
+    "Emoji2": "\\u{27a1}\\u{fe0f}",
+    "Emoji3": "\\u{1f608}",
+    "Emoji4": "\\u{1f9d1}\\u{200d}\\u{1f91d}\\u{200d}\\u{1f9d1}"
+  },
+  {
+    "Champion": "Vayne",
+    "Gender": "Female",
+    "Position": [
+      "Top",
+      "Bottom"
+    ],
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Demacia",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f469}\\u{1f3fb}",
+    "Emoji2": "\\u{1f3f9}",
+    "Emoji3": "\\u{1f453}",
+    "Emoji4": "\\u{1f303}"
+  },
+  {
+    "Champion": "Veigar",
+    "Gender": "Male",
+    "Position": "Middle",
+    "Species": "Yordle",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Runeterra",
+      "Bandle City"
+    ],
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f439}",
+    "Emoji2": "\\u{1f9d9}",
+    "Emoji3": "\\u{1fa84}",
+    "Emoji4": "\\u{1f300}"
+  },
+  {
+    "Champion": "Vel'koz",
+    "Gender": "Male",
+    "Position": [
+      "Middle",
+      "Support"
+    ],
+    "Species": "Void-Being",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Void",
+    "Release Date": "2014",
+    "Emoji1": "\\u{1f47d}",
+    "Emoji2": "\\u{1f7ea}",
+    "Emoji3": "\\u{1f419}",
+    "Emoji4": "\\u{1f9ff}"
+  },
+  {
+    "Champion": "Vex",
+    "Gender": "Female",
+    "Position": "Middle",
+    "Species": "Yordle",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Bandle City",
+      "Shadow Isles"
+    ],
+    "Release Date": "2021",
+    "Emoji1": "\\u{1f439}",
+    "Emoji2": "\\u{1f7ea}",
+    "Emoji3": "\\u{2639}\\u{fe0f}",
+    "Emoji4": "\\u{1f47b}"
+  },
+  {
+    "Champion": "Vi",
+    "Gender": "Female",
+    "Position": "Jungle",
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": [
+      "Piltover",
+      "Zaun"
+    ],
+    "Release Date": "2012",
+    "Emoji1": "\\u{1f46e}\\u{200d}\\u{2640}\\u{fe0f}",
+    "Emoji2": "\\u{1f94a}",
+    "Emoji3": "\\u{1f94a}",
+    "Emoji4": "\\u{1f44a}"
+  },
+  {
+    "Champion": "Viego",
+    "Gender": "Male",
+    "Position": "Jungle",
+    "Species": "Undead",
+    "Resource": "Manaless",
+    "Range Type": "Melee",
+    "Region": [
+      "Camavor",
+      "Shadow Isles"
+    ],
+    "Release Date": "2021",
+    "Emoji1": "\\u{1f451}",
+    "Emoji2": "\\u{1f47b}",
+    "Emoji3": "\\u{1f468}\\u{1f3fc}",
+    "Emoji4": "\\u{2694}\\u{fe0f}"
+  },
+  {
+    "Champion": "Viktor",
+    "Gender": "Male",
+    "Position": "Middle",
+    "Species": [
+      "Human",
+      "Cyborg"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Piltover",
+      "Zaun"
+    ],
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f916}",
+    "Emoji2": "\\u{1f9be}",
+    "Emoji3": "\\u{1f9bf}",
+    "Emoji4": "\\u{26a1}"
+  },
+  {
+    "Champion": "Vladimir",
+    "Gender": "Male",
+    "Position": "Middle",
+    "Species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "Resource": "Bloodthirst",
+    "Range Type": "Ranged",
+    "Region": [
+      "Camavor",
+      "Noxus",
+      "Shadow Isles"
+    ],
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f9db}",
+    "Emoji2": "\\u{1fa78}",
+    "Emoji3": "\\u{1f377}",
+    "Emoji4": "\\u{1fae6}"
+  },
+  {
+    "Champion": "Volibear",
+    "Gender": "Male",
+    "Position": [
+      "Top",
+      "Jungle"
+    ],
+    "Species": [
+      "God",
+      "Spirit"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Freljord",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f43b}",
+    "Emoji2": "\\u{1f329}\\u{fe0f}",
+    "Emoji3": "\\u{26a1}",
+    "Emoji4": "\\u{1f328}\\u{fe0f}"
+  },
+  {
+    "Champion": "Warwick",
+    "Gender": "Male",
+    "Position": [
+      "Top",
+      "Jungle"
+    ],
+    "Species": [
+      "Human",
+      "Cyborg",
+      "Chemically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Zaun",
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f43a}",
+    "Emoji2": "\\u{1f443}",
+    "Emoji3": "\\u{1fa78}",
+    "Emoji4": "\\u{1f3c3}\\u{200d}\\u{2642}\\u{fe0f}"
+  },
+  {
+    "Champion": "Wukong",
+    "Gender": "Male",
+    "Position": [
+      "Top",
+      "Jungle"
+    ],
+    "Species": "Vastayan",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Ionia",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f435}",
+    "Emoji2": "\\u{2601}\\u{fe0f}",
+    "Emoji3": "\\u{1f465}",
+    "Emoji4": "\\u{1f6de}"
+  },
+  {
+    "Champion": "Xayah",
+    "Gender": "Female",
+    "Position": "Bottom",
+    "Species": "Vastayan",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Ionia",
+    "Release Date": "2017",
+    "Emoji1": "\\u{1f469}",
+    "Emoji2": "\\u{1f426}",
+    "Emoji3": "\\u{1fab6}",
+    "Emoji4": "\\u{1f491}"
+  },
+  {
+    "Champion": "Xerath",
+    "Gender": "Male",
+    "Position": [
+      "Middle",
+      "Support"
+    ],
+    "Species": "God-Warrior",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Shurima",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f9d9}",
+    "Emoji2": "\\u{1f53c}",
+    "Emoji3": "\\u{1f320}",
+    "Emoji4": "\\u{1f4ab}"
+  },
+  {
+    "Champion": "Xin Zhao",
+    "Gender": "Male",
+    "Position": "Jungle",
+    "Species": "Human",
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": [
+      "Demacia",
+      "Ionia",
+      "Noxus"
+    ],
+    "Release Date": "2010",
+    "Emoji1": "\\u{1f468}",
+    "Emoji2": "\\u{1f3f0}",
+    "Emoji3": "\\u{2694}\\u{fe0f}",
+    "Emoji4": "\\u{1f396}\\u{fe0f}"
+  },
+  {
+    "Champion": "Yasuo",
+    "Gender": "Male",
+    "Position": "Middle",
+    "Species": [
+      "Human",
+      "Magicborn"
+    ],
+    "Resource": "Flow",
+    "Range Type": "Melee",
+    "Region": "Ionia",
+    "Release Date": "2013",
+    "Emoji1": "\\u{1f5fe}",
+    "Emoji2": "\\u{2694}\\u{fe0f}",
+    "Emoji3": "\\u{1f32a}\\u{fe0f}",
+    "Emoji4": "\\u{1f300}"
+  },
+  {
+    "Champion": "Yone",
+    "Gender": "Male",
+    "Position": [
+      "Top",
+      "Middle"
+    ],
+    "Species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "Resource": "Manaless",
+    "Range Type": "Melee",
+    "Region": "Ionia",
+    "Release Date": "2020",
+    "Emoji1": "\\u{1f5fe}",
+    "Emoji2": "\\u{2694}\\u{fe0f}",
+    "Emoji3": "\\u{1f47b}",
+    "Emoji4": "\\u{1f465}"
+  },
+  {
+    "Champion": "Yorick",
+    "Gender": "Male",
+    "Position": "Top",
+    "Species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Melee",
+    "Region": "Shadow Isles",
+    "Release Date": "2011",
+    "Emoji1": "\\u{1f9df}\\u{200d}\\u{2642}\\u{fe0f}",
+    "Emoji2": "\\u{1faa6}",
+    "Emoji3": "\\u{1f480}",
+    "Emoji4": "\\u{1f47b}"
+  },
+  {
+    "Champion": "Yuumi",
+    "Gender": "Female",
+    "Position": "Support",
+    "Species": [
+      "Cat",
+      "Magically Altered"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Bandle City",
+    "Release Date": "2019",
+    "Emoji1": "\\u{1f431}",
+    "Emoji2": "\\u{1f4d6}",
+    "Emoji3": "\\u{2728}",
+    "Emoji4": "\\u{1f320}"
+  },
+  {
+    "Champion": "Zac",
+    "Gender": "Male",
+    "Position": "Jungle",
+    "Species": "Golem",
+    "Resource": "Health",
+    "Range Type": "Melee",
+    "Region": "Zaun",
+    "Release Date": "2013",
+    "Emoji1": "\\u{1f922}",
+    "Emoji2": "\\u{1f9ea}",
+    "Emoji3": "\\u{1fae0}",
+    "Emoji4": "\\u{1f49a}"
+  },
+  {
+    "Champion": "Zed",
+    "Gender": "Male",
+    "Position": "Middle",
+    "Species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "Resource": "Energy",
+    "Range Type": "Melee",
+    "Region": "Ionia",
+    "Release Date": "2012",
+    "Emoji1": "\\u{1f977}\\u{1f3ff}",
+    "Emoji2": "\\u{1f5e1}\\u{fe0f}",
+    "Emoji3": "\\u{1f465}",
+    "Emoji4": "\\u{1f465}"
+  },
+  {
+    "Champion": "Zeri",
+    "Gender": "Female",
+    "Position": "Bottom",
+    "Species": [
+      "Human",
+      "Magicborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Zaun",
+    "Release Date": "2022",
+    "Emoji1": "\\u{1f52b}",
+    "Emoji2": "\\u{26a1}",
+    "Emoji3": "\\u{1f50b}",
+    "Emoji4": "\\u{1f998}"
+  },
+  {
+    "Champion": "Ziggs",
+    "Gender": "Male",
+    "Position": [
+      "Middle",
+      "Bottom"
+    ],
+    "Species": "Yordle",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Zaun",
+    "Release Date": "2012",
+    "Emoji1": "\\u{1f439}",
+    "Emoji2": "\\u{1f9e8}",
+    "Emoji3": "\\u{1f4a3}",
+    "Emoji4": "\\u{1f4a5}"
+  },
+  {
+    "Champion": "Zilean",
+    "Gender": "Male",
+    "Position": "Support",
+    "Species": [
+      "Human",
+      "Magicborn"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": [
+      "Runeterra",
+      "Icathia",
+      "Shurima"
+    ],
+    "Release Date": "2009",
+    "Emoji1": "\\u{1f9d9}\\u{200d}\\u{2642}\\u{fe0f}",
+    "Emoji2": "\\u{1f570}\\u{fe0f}",
+    "Emoji3": "\\u{231b}",
+    "Emoji4": "\\u{1f4a3}"
+  },
+  {
+    "Champion": "Zoe",
+    "Gender": "Female",
+    "Position": "Middle",
+    "Species": [
+      "Human",
+      "Aspect"
+    ],
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Targon",
+    "Release Date": "2017",
+    "Emoji1": "\\u{1f467}",
+    "Emoji2": "\\u{1f307}",
+    "Emoji3": "\\u{1f320}",
+    "Emoji4": "\\u{1f634}"
+  },
+  {
+    "Champion": "Zyra",
+    "Gender": "Female",
+    "Position": "Support",
+    "Species": "Unknown",
+    "Resource": "Mana",
+    "Range Type": "Ranged",
+    "Region": "Ixtal",
+    "Release Date": "2012",
+    "Emoji1": "\\u{1f469}\\u{200d}\\u{1f9b0}",
+    "Emoji2": "\\u{1f331}",
+    "Emoji3": "\\u{1f33f}",
+    "Emoji4": "\\u{1f339}"
+  }
+]
