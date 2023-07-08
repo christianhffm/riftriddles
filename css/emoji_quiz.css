@@ -94,6 +94,11 @@
     font-size: 6vh;
 }
 
+.box img{
+    height: 80%;
+    aspect-ratio: 1;
+}
+
 .subrow {
     position: relative;
     margin: 0 0 2vh 0;

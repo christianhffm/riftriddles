@@ -30,7 +30,7 @@ function displayQuestion(){
 function display() {
     const imageContainer = document.querySelector('.imagecontainer');
     imageContainer.innerHTML = ''; // Clear existing content
-   
+  
     const currentChampion = championEntries.find(champion => champion.name.toLowerCase() === currentChampionName.trim().toLowerCase());
   
     console.log('currentChampion:', currentChampion);
@@ -39,8 +39,15 @@ function display() {
   
       const box = document.createElement('div');
       box.classList.add('box');
-      box.textContent = emoji;
   
+      const unicodeHex = emoji.codePointAt(0).toString(16);
+      console.log(unicodeHex);
+      const imagePath = `../gfx/emojis/emoji_u${unicodeHex}.png`;
+  
+      const image = document.createElement('img');
+      image.src = imagePath;
+  
+      box.appendChild(image);
       imageContainer.appendChild(box);
     }
   }
