@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "chokidar": "^3.5.3",
-    "fs": "^0.0.1-security",
-    "xlsx": "^0.18.5"
-  }
-}
