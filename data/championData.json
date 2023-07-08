@@ -1456,7 +1456,7 @@
         "Release Date": "2009",
         "Emoji1": "👩",
         "Emoji2": "🐅",
-        "Emoji3": "🪤",
+        "Emoji3": "🔄",
         "Emoji4": "🌴"
     },
     {
@@ -1640,6 +1640,7 @@
         "Region": "Demacia",
         "Release Date": "2013",
         "Emoji1": "🏹",
+        "Emoji2": "👩",
         "Emoji3": "🦅",
         "Emoji4": "🎯"
     },
@@ -1719,7 +1720,7 @@
         "Region": "Zaun",
         "Release Date": "2022",
         "Emoji1": "👩‍💼",
-        "Emoji2": "🤿",
+        "Emoji2": "👢",
         "Emoji3": "🧪",
         "Emoji4": "💸"
     },
@@ -1944,8 +1945,8 @@
         "Release Date": "2011",
         "Emoji1": "👩🏽",
         "Emoji2": "🐲",
-        "Emoji3": "🔥",
-        "Emoji4": "🐉"
+        "Emoji3": "🔄",
+        "Emoji4": "🔥"
     },
     {
         "Champion": "Singed",
@@ -2260,7 +2261,7 @@
         "Emoji1": "🧔🏻‍♂️",
         "Emoji2": "⚔️",
         "Emoji3": "🚫",
-        "Emoji4": "☠️"
+        "Emoji4": "🤬"
     },
     {
         "Champion": "Twisted Fate",
